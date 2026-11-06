@@ -5612,6 +5612,28 @@
    "pt-PT": "Avisos",
    "ru-RU": "Объявления"
   },
+  "Approximate on some screens. Free resizing within 60 days.": {
+   "fr-FR": "Approximatif sur certains écrans. Mise à taille gratuite sous 60 jours.",
+   "es-ES": "Aproximado en algunas pantallas. Ajuste de talla gratis en 60 días.",
+   "it-IT": "Approssimativo su alcuni schermi. Adattamento gratuito entro 60 giorni.",
+   "pl-PL": "Przybliżone na niektórych ekranach. Bezpłatna zmiana rozmiaru w ciągu 60 dni.",
+   "de-DE": "Auf manchen Bildschirmen ungefähr. Kostenlose Größenanpassung innerhalb von 60 Tagen.",
+   "cs-CZ": "Na některých obrazovkách přibližné. Úprava velikosti zdarma do 60 dnů.",
+   "nl-NL": "Bij benadering op sommige schermen. Gratis maat aanpassen binnen 60 dagen.",
+   "pt-PT": "Aproximado em alguns ecrãs. Ajuste de tamanho grátis em 60 dias.",
+   "ru-RU": "На некоторых экранах приблизительно. Бесплатная подгонка размера в течение 60 дней."
+  },
+  "Arrives in our gift box, with a card written by hand.": {
+   "fr-FR": "Livré dans notre écrin, avec une carte écrite à la main.",
+   "es-ES": "Llega en nuestro estuche, con una tarjeta escrita a mano.",
+   "it-IT": "Arriva nella nostra scatola regalo, con un biglietto scritto a mano.",
+   "pl-PL": "Dociera w naszym pudełku prezentowym, z kartką pisaną ręcznie.",
+   "de-DE": "Kommt in unserer Geschenkbox, mit einer handgeschriebenen Karte.",
+   "cs-CZ": "Dorazí v naší dárkové krabičce s ručně psaným přáníčkem.",
+   "nl-NL": "Komt in onze geschenkdoos, met een met de hand geschreven kaartje.",
+   "pt-PT": "Chega na nossa caixa de oferta, com um cartão escrito à mão.",
+   "ru-RU": "Приходит в нашей подарочной коробке с открыткой, написанной от руки."
+  },
   "Bag": {
    "fr-FR": "Sac",
    "es-ES": "Bolsa",
@@ -5622,6 +5644,17 @@
    "nl-NL": "Tas",
    "pt-PT": "Saco",
    "ru-RU": "Сумка"
+  },
+  "Between two sizes, choose the larger one. We resize rings for free within 60 days.": {
+   "fr-FR": "Entre deux tailles, choisissez la plus grande. Nous mettons les bagues à taille gratuitement sous 60 jours.",
+   "es-ES": "Entre dos tallas, elige la mayor. Ajustamos los anillos gratis en 60 días.",
+   "it-IT": "Tra due misure, scegli la più grande. Adattiamo gli anelli gratis entro 60 giorni.",
+   "pl-PL": "Między dwoma rozmiarami wybierz większy. Rozmiar pierścionka zmieniamy bezpłatnie w ciągu 60 dni.",
+   "de-DE": "Zwischen zwei Größen wählen Sie die größere. Wir passen Ringe innerhalb von 60 Tagen kostenlos an.",
+   "cs-CZ": "Mezi dvěma velikostmi zvolte větší. Prsteny upravíme zdarma do 60 dnů.",
+   "nl-NL": "Twijfel je tussen twee maten, kies dan de grotere. We passen ringen binnen 60 dagen gratis aan.",
+   "pt-PT": "Entre dois tamanhos, escolha o maior. Ajustamos os anéis gratuitamente em 60 dias.",
+   "ru-RU": "Если сомневаетесь между двумя размерами, выбирайте больший. Мы бесплатно подгоняем кольца в течение 60 дней."
   },
   "Categories": {
    "fr-FR": "Catégories",
@@ -5644,6 +5677,17 @@
    "nl-NL": "Afrekenen",
    "pt-PT": "Finalizar compra",
    "ru-RU": "Оформить заказ"
+  },
+  "Choose sizes until the circle meets the inside of your ring.": {
+   "fr-FR": "Changez de taille jusqu'à ce que le cercle touche l'intérieur de votre bague.",
+   "es-ES": "Cambia de talla hasta que el círculo toque el interior de tu anillo.",
+   "it-IT": "Cambia misura finché il cerchio tocca l'interno del tuo anello.",
+   "pl-PL": "Zmieniaj rozmiar, aż okrąg dotknie wnętrza pierścionka.",
+   "de-DE": "Wechseln Sie die Größe, bis der Kreis die Innenseite Ihres Rings trifft.",
+   "cs-CZ": "Měňte velikost, dokud se kruh nedotkne vnitřku prstenu.",
+   "nl-NL": "Wissel van maat tot de cirkel de binnenkant van je ring raakt.",
+   "pt-PT": "Mude de tamanho até o círculo tocar o interior do seu anel.",
+   "ru-RU": "Меняйте размер, пока круг не совпадёт с внутренней стороной кольца."
   },
   "Close": {
    "fr-FR": "Fermer",
@@ -5711,6 +5755,17 @@
    "pt-PT": "Entrega e devoluções",
    "ru-RU": "Доставка и возврат"
   },
+  "Discover %brand% at %shop%: %products% and more.": {
+   "fr-FR": "Découvrez %brand% chez %shop% : %products% et plus encore.",
+   "es-ES": "Descubre %brand% en %shop%: %products% y mucho más.",
+   "it-IT": "Scopri %brand% da %shop%: %products% e molto altro.",
+   "pl-PL": "Odkryj %brand% w %shop%: %products% i nie tylko.",
+   "de-DE": "Entdecken Sie %brand% bei %shop%: %products% und mehr.",
+   "cs-CZ": "Objevte %brand% v %shop%: %products% a další.",
+   "nl-NL": "Ontdek %brand% bij %shop%: %products% en meer.",
+   "pt-PT": "Descubra %brand% na %shop%: %products% e muito mais.",
+   "ru-RU": "Откройте для себя %brand% в %shop%: %products% и не только."
+  },
   "Discover more": {
    "fr-FR": "En savoir plus",
    "es-ES": "Descubrir más",
@@ -5721,6 +5776,17 @@
    "nl-NL": "Meer ontdekken",
    "pt-PT": "Descobrir mais",
    "ru-RU": "Узнать больше"
+  },
+  "Every piece arrives in our gift box. Add a card message at checkout.": {
+   "fr-FR": "Chaque pièce arrive dans notre écrin. Ajoutez un message pour la carte au moment de commander.",
+   "es-ES": "Cada pieza llega en nuestro estuche. Añade un mensaje para la tarjeta al pagar.",
+   "it-IT": "Ogni pezzo arriva nella nostra scatola regalo. Aggiungi un messaggio per il biglietto al checkout.",
+   "pl-PL": "Każdy egzemplarz dociera w naszym pudełku prezentowym. Dodaj wiadomość na kartkę przy zamówieniu.",
+   "de-DE": "Jedes Stück kommt in unserer Geschenkbox. Fügen Sie an der Kasse eine Nachricht für die Karte hinzu.",
+   "cs-CZ": "Každý kus dorazí v naší dárkové krabičce. Vzkaz na přáníčko přidáte při objednávce.",
+   "nl-NL": "Elk stuk komt in onze geschenkdoos. Voeg bij het afrekenen een bericht voor het kaartje toe.",
+   "pt-PT": "Cada peça chega na nossa caixa de oferta. Acrescente uma mensagem para o cartão ao finalizar a compra.",
+   "ru-RU": "Каждое украшение приходит в нашей подарочной коробке. Добавьте текст открытки при оформлении заказа."
   },
   "Fabric and care": {
    "fr-FR": "Tissu et entretien",
@@ -5754,6 +5820,17 @@
    "nl-NL": "Vind iets moois, het wacht hier op je.",
    "pt-PT": "Encontre algo de que goste e ficará aqui à sua espera.",
    "ru-RU": "Выберите то, что нравится, — оно будет ждать здесь."
+  },
+  "Find your size": {
+   "fr-FR": "Trouver sa taille",
+   "es-ES": "Encuentra tu talla",
+   "it-IT": "Trova la tua misura",
+   "pl-PL": "Znajdź swój rozmiar",
+   "de-DE": "Größe finden",
+   "cs-CZ": "Najít velikost",
+   "nl-NL": "Vind je maat",
+   "pt-PT": "Encontrar o tamanho",
+   "ru-RU": "Узнать размер"
   },
   "free": {
    "fr-FR": "offert",
@@ -5820,6 +5897,39 @@
    "nl-NL": "Aantal verhogen",
    "pt-PT": "Aumentar quantidade",
    "ru-RU": "Увеличить количество"
+  },
+  "Inside": {
+   "fr-FR": "Intérieur",
+   "es-ES": "Interior",
+   "it-IT": "Interno",
+   "pl-PL": "Wewnątrz",
+   "de-DE": "Innen",
+   "cs-CZ": "Uvnitř",
+   "nl-NL": "Binnenkant",
+   "pt-PT": "Interior",
+   "ru-RU": "Внутри"
+  },
+  "Jewellery care": {
+   "fr-FR": "Entretien des bijoux",
+   "es-ES": "Cuidado de las joyas",
+   "it-IT": "Cura dei gioielli",
+   "pl-PL": "Pielęgnacja biżuterii",
+   "de-DE": "Schmuckpflege",
+   "cs-CZ": "Péče o šperky",
+   "nl-NL": "Sieradenverzorging",
+   "pt-PT": "Cuidados com as joias",
+   "ru-RU": "Уход за украшениями"
+  },
+  "Lay a ring you own on the circle": {
+   "fr-FR": "Posez une bague sur le cercle",
+   "es-ES": "Coloca un anillo tuyo sobre el círculo",
+   "it-IT": "Appoggia un anello sul cerchio",
+   "pl-PL": "Połóż swój pierścionek na okręgu",
+   "de-DE": "Legen Sie einen Ring auf den Kreis",
+   "cs-CZ": "Položte svůj prsten na kruh",
+   "nl-NL": "Leg een eigen ring op de cirkel",
+   "pt-PT": "Pouse um anel seu sobre o círculo",
+   "ru-RU": "Положите своё кольцо на круг"
   },
   "Leather care": {
    "fr-FR": "Entretien du cuir",
@@ -5986,6 +6096,17 @@
    "pt-PT": "Sola trocável na nossa oficina",
    "ru-RU": "Замена подошвы в нашей мастерской"
   },
+  "Ring size and resizing": {
+   "fr-FR": "Taille et mise à taille",
+   "es-ES": "Talla y ajuste",
+   "it-IT": "Misura e adattamento",
+   "pl-PL": "Rozmiar i jego zmiana",
+   "de-DE": "Ringgröße und Anpassung",
+   "cs-CZ": "Velikost a její úprava",
+   "nl-NL": "Ringmaat en aanpassen",
+   "pt-PT": "Tamanho e ajuste",
+   "ru-RU": "Размер и подгонка"
+  },
   "Search": {
    "fr-FR": "Rechercher",
    "es-ES": "Buscar",
@@ -6052,6 +6173,28 @@
    "pt-PT": "Subscrever",
    "ru-RU": "Подписаться"
   },
+  "Size": {
+   "fr-FR": "Taille",
+   "es-ES": "Talla",
+   "it-IT": "Misura",
+   "pl-PL": "Rozmiar",
+   "de-DE": "Größe",
+   "cs-CZ": "Velikost",
+   "nl-NL": "Maat",
+   "pt-PT": "Tamanho",
+   "ru-RU": "Размер"
+  },
+  "Size [1] is UK [2], US [3].": {
+   "fr-FR": "La taille [1] correspond au UK [2], US [3].",
+   "es-ES": "La talla [1] equivale a UK [2], US [3].",
+   "it-IT": "La misura [1] corrisponde a UK [2], US [3].",
+   "pl-PL": "Rozmiar [1] to UK [2], US [3].",
+   "de-DE": "Größe [1] entspricht UK [2], US [3].",
+   "cs-CZ": "Velikost [1] odpovídá UK [2], US [3].",
+   "nl-NL": "Maat [1] is UK [2], US [3].",
+   "pt-PT": "O tamanho [1] corresponde a UK [2], US [3].",
+   "ru-RU": "Размер [1] — это UK [2], US [3]."
+  },
   "Size guide": {
    "fr-FR": "Guide des tailles",
    "es-ES": "Guía de tallas",
@@ -6062,6 +6205,17 @@
    "nl-NL": "Maattabel",
    "pt-PT": "Guia de tamanhos",
    "ru-RU": "Таблица размеров"
+  },
+  "Soak in warm soapy water, brush gently and dry with a soft cloth. Free cleaning for life.": {
+   "fr-FR": "Faites tremper dans de l'eau tiède savonneuse, brossez doucement et séchez avec un chiffon doux. Nettoyage offert à vie.",
+   "es-ES": "Sumérgelas en agua tibia con jabón, cepilla suavemente y sécalas con un paño suave. Limpieza gratis de por vida.",
+   "it-IT": "Immergi in acqua tiepida e sapone, spazzola delicatamente e asciuga con un panno morbido. Pulizia gratuita a vita.",
+   "pl-PL": "Namocz w ciepłej wodzie z mydłem, delikatnie wyszczotkuj i osusz miękką ściereczką. Dożywotnie bezpłatne czyszczenie.",
+   "de-DE": "In warmem Seifenwasser einweichen, sanft bürsten und mit einem weichen Tuch trocknen. Lebenslang kostenlose Reinigung.",
+   "cs-CZ": "Namočte do teplé mýdlové vody, jemně vykartáčujte a osušte měkkým hadříkem. Doživotní čištění zdarma.",
+   "nl-NL": "Week in lauw zeepwater, borstel zacht en droog met een zachte doek. Levenslang gratis reinigen.",
+   "pt-PT": "Mergulhe em água morna com sabão, escove suavemente e seque com um pano macio. Limpeza grátis para toda a vida.",
+   "ru-RU": "Замочите в тёплой мыльной воде, аккуратно почистите щёточкой и протрите мягкой тканью. Бесплатная чистка пожизненно."
   },
   "Softer, warmer": {
    "fr-FR": "Plus souple, plus chaud",
@@ -6107,6 +6261,17 @@
    "pt-PT": "Impostos e entrega são calculados na finalização.",
    "ru-RU": "Налоги и доставка рассчитываются при оформлении."
   },
+  "The details": {
+   "fr-FR": "Les détails",
+   "es-ES": "Los detalles",
+   "it-IT": "I dettagli",
+   "pl-PL": "Szczegóły",
+   "de-DE": "Die Details",
+   "cs-CZ": "Podrobnosti",
+   "nl-NL": "De details",
+   "pt-PT": "Os detalhes",
+   "ru-RU": "Подробности"
+  },
   "The leather darkens and softens with every year of use. Light, hands and rain all leave their mark, and no two pieces age the same.": {
    "fr-FR": "Le cuir fonce et s'assouplit à chaque année d'usage. La lumière, les mains et la pluie y laissent leur trace, et aucune pièce ne vieillit de la même façon.",
    "es-ES": "La piel se oscurece y se suaviza con cada año de uso. La luz, las manos y la lluvia dejan su huella, y no hay dos piezas que envejezcan igual.",
@@ -6117,6 +6282,17 @@
    "nl-NL": "Het leer wordt elk jaar donkerder en zachter. Licht, handen en regen laten hun sporen na, en geen twee stukken verouderen hetzelfde.",
    "pt-PT": "A pele escurece e amacia a cada ano de uso. A luz, as mãos e a chuva deixam a sua marca, e não há duas peças que envelheçam da mesma forma.",
    "ru-RU": "Кожа темнеет и становится мягче с каждым годом носки. Свет, руки и дождь оставляют свой след, и никакие две вещи не стареют одинаково."
+  },
+  "The ring sizer": {
+   "fr-FR": "Le baguier",
+   "es-ES": "El medidor de anillos",
+   "it-IT": "Il misuratore di anelli",
+   "pl-PL": "Miarka pierścionków",
+   "de-DE": "Der Ringmesser",
+   "cs-CZ": "Měřič prstenů",
+   "nl-NL": "De ringmeter",
+   "pt-PT": "O medidor de anéis",
+   "ru-RU": "Измеритель колец"
   },
   "up to 3 letters": {
    "fr-FR": "jusqu'à 3 lettres",

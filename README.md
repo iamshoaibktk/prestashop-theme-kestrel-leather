@@ -18,7 +18,7 @@ Kestrel Leather is a free PrestaShop 9 theme for leather goods, bag, wallet and 
 - **A dark workshop look**: Espresso pages, brass for the main action, Instrument Serif headings and a Made of row with the leather, lining, hardware and origin.
 - **AJAX add to bag**: a side bag with the initials on each line and the free-delivery bar, and category filters that stay open in the left column.
 - **Child theme of Hummingbird** (`parent: hummingbird`). No parent templates are copied, so Hummingbird and PrestaShop updates keep working.
-- **Hummingbird Theme Kit module** (`hbkit` v1.1.0): colours, fonts, corners, header and footer style as CSS variables, a top bar, and a homepage builder (banners, categories, faq, hero, image text, products, testimonials).
+- **Hummingbird Theme Kit module** (`hbkit` v1.1.1): colours, fonts, corners, header and footer style as CSS variables, a top bar, and a homepage builder (banners, categories, faq, hero, image text, products, testimonials).
 - **Page layouts you can switch in the back office**: side cart, cart page, category pages, product page and product cards, each with several picture-chosen styles. This demo uses: side cart that slides in; ruled cart page with framed summary; filters in the left column; split category header; classic product page; details in an accordion; 3 products per row; plain product cards.
 - **One-click demo import**: 23 products with sizes/colours and features, 6 categories, brands, 8 CMS pages, main menu, footer links, reassurance blocks and 8 homepage sections.
 - **10 languages** for everything: English, French, Spanish, Italian, Polish, German, Czech, Dutch, Portuguese, Russian.
@@ -31,9 +31,9 @@ Kestrel Leather is a free PrestaShop 9 theme for leather goods, bag, wallet and 
 
 ## Installation
 
-1. Download the release files: `kestrel-leather-theme-v1.0.0.zip` and `hbkit-v1.1.0.zip`.
-2. **Modules > Module Manager > Upload a module**: upload `hbkit-v1.1.0.zip`.
-3. **Design > Theme & Logo > Add new theme**: upload `kestrel-leather-theme-v1.0.0.zip`, then click *Use this theme*.
+1. Download the release files: `kestrel-leather-theme-v1.0.1.zip` and `hbkit-v1.1.1.zip`.
+2. **Modules > Module Manager > Upload a module**: upload `hbkit-v1.1.1.zip`.
+3. **Design > Theme & Logo > Add new theme**: upload `kestrel-leather-theme-v1.0.1.zip`, then click *Use this theme*.
 4. **Design > Theme Kit > Demo import**: pick *Kestrel Leather*, type `IMPORT` and click *Import this demo*.
    On a fresh shop keep *Remove existing content first* checked. Orders and customers are never touched.
 5. Adjust colours, fonts and page layouts in **Theme Kit > Design**, and every homepage section in **Theme Kit > Homepage sections**.
@@ -84,6 +84,7 @@ Academic Free License 3.0 (AFL-3.0), see [LICENSE.md](LICENSE.md).
 - [Northline Outfitters](https://github.com/iamshoaibktk/prestashop-theme-northline-outfitters): free PrestaShop 9 theme for outdoor clothing stores
 - [Little Sprout](https://github.com/iamshoaibktk/prestashop-theme-little-sprout): free PrestaShop 9 theme for baby and kids' clothing stores
 - [Stride Atelier](https://github.com/iamshoaibktk/prestashop-theme-stride-atelier): free PrestaShop 9 theme for shoe and sneaker stores
+- [Aurelle Jewels](https://github.com/iamshoaibktk/prestashop-theme-aurelle-jewels): free PrestaShop 9 theme for jewellery and ring stores
 
 ## Author & support
 

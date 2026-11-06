@@ -58,9 +58,21 @@
         <source>Announcements</source>
         <target>Объявления</target>
       </trans-unit>
+      <trans-unit id="c4ef760679716b7a9fc9f143439a16e9">
+        <source>Approximate on some screens. Free resizing within 60 days.</source>
+        <target>На некоторых экранах приблизительно. Бесплатная подгонка размера в течение 60 дней.</target>
+      </trans-unit>
+      <trans-unit id="13882df4b84e5108cd6b7624c2c7add2">
+        <source>Arrives in our gift box, with a card written by hand.</source>
+        <target>Приходит в нашей подарочной коробке с открыткой, написанной от руки.</target>
+      </trans-unit>
       <trans-unit id="d3ab3d5184fe9b1b4428e4ffb797bdca">
         <source>Bag</source>
         <target>Сумка</target>
+      </trans-unit>
+      <trans-unit id="70b75bce5f9189fac775f3135fbb893c">
+        <source>Between two sizes, choose the larger one. We resize rings for free within 60 days.</source>
+        <target>Если сомневаетесь между двумя размерами, выбирайте больший. Мы бесплатно подгоняем кольца в течение 60 дней.</target>
       </trans-unit>
       <trans-unit id="af1b98adf7f686b84cd0b443e022b7a0">
         <source>Categories</source>
@@ -69,6 +81,10 @@
       <trans-unit id="6ff063fbc860a79759a7369ac32cee22">
         <source>Checkout</source>
         <target>Оформить заказ</target>
+      </trans-unit>
+      <trans-unit id="94747fb496f84d782401f594c40c1f0d">
+        <source>Choose sizes until the circle meets the inside of your ring.</source>
+        <target>Меняйте размер, пока круг не совпадёт с внутренней стороной кольца.</target>
       </trans-unit>
       <trans-unit id="d3d2e617335f08df83599665eef8a418">
         <source>Close</source>
@@ -94,9 +110,17 @@
         <source>Delivery and returns</source>
         <target>Доставка и возврат</target>
       </trans-unit>
+      <trans-unit id="bcfdebad821aef8b2f8b1b6ea481aea4">
+        <source>Discover %brand% at %shop%: %products% and more.</source>
+        <target>Откройте для себя %brand% в %shop%: %products% и не только.</target>
+      </trans-unit>
       <trans-unit id="fc46f6383e012278263fd788d9b198ad">
         <source>Discover more</source>
         <target>Узнать больше</target>
+      </trans-unit>
+      <trans-unit id="d7171455d4cfc8e540235e120f2977aa">
+        <source>Every piece arrives in our gift box. Add a card message at checkout.</source>
+        <target>Каждое украшение приходит в нашей подарочной коробке. Добавьте текст открытки при оформлении заказа.</target>
       </trans-unit>
       <trans-unit id="3c81b1b353b05c4084a52b728fce0d74">
         <source>Fabric and care</source>
@@ -109,6 +133,10 @@
       <trans-unit id="9f6d1fc8b2558267cfcf467b45c2f548">
         <source>Find something you love and it will wait for you here.</source>
         <target>Выберите то, что нравится, — оно будет ждать здесь.</target>
+      </trans-unit>
+      <trans-unit id="af46f4dcd6b5c1576d6489e83eb855b7">
+        <source>Find your size</source>
+        <target>Узнать размер</target>
       </trans-unit>
       <trans-unit id="aa2d6e4f578eb0cfaba23beef76c2194">
         <source>free</source>
@@ -133,6 +161,18 @@
       <trans-unit id="20979edc44dd470012f64c77bd6adddf">
         <source>Increase quantity</source>
         <target>Увеличить количество</target>
+      </trans-unit>
+      <trans-unit id="9b6d3000134648fc9f1e71094ae0847d">
+        <source>Inside</source>
+        <target>Внутри</target>
+      </trans-unit>
+      <trans-unit id="7cb6b8d0499a155edd6fa11dfff26933">
+        <source>Jewellery care</source>
+        <target>Уход за украшениями</target>
+      </trans-unit>
+      <trans-unit id="d9105ae149d9bd12dc353ce45bcc1aee">
+        <source>Lay a ring you own on the circle</source>
+        <target>Положите своё кольцо на круг</target>
       </trans-unit>
       <trans-unit id="45f44b1e4b32a1c4082291084ebae440">
         <source>Leather care</source>
@@ -194,6 +234,10 @@
         <source>Resolable in our workshop</source>
         <target>Замена подошвы в нашей мастерской</target>
       </trans-unit>
+      <trans-unit id="a7cf63f5a70315fce332f1fc0c9201f8">
+        <source>Ring size and resizing</source>
+        <target>Размер и подгонка</target>
+      </trans-unit>
       <trans-unit id="13348442cc6a27032d2b4aa28b75a5d3">
         <source>Search</source>
         <target>Поиск</target>
@@ -218,9 +262,21 @@
         <source>Sign up</source>
         <target>Подписаться</target>
       </trans-unit>
+      <trans-unit id="6f6cb72d544962fa333e2e34ce64f719">
+        <source>Size</source>
+        <target>Размер</target>
+      </trans-unit>
+      <trans-unit id="f2b35cd3492f02370ffffa4772d8045e">
+        <source>Size [1] is UK [2], US [3].</source>
+        <target>Размер [1] — это UK [2], US [3].</target>
+      </trans-unit>
       <trans-unit id="0b664ca34f7e95f1113b55be203cf68e">
         <source>Size guide</source>
         <target>Таблица размеров</target>
+      </trans-unit>
+      <trans-unit id="ded2534113552cb9acfe2d00a88e0ca4">
+        <source>Soak in warm soapy water, brush gently and dry with a soft cloth. Free cleaning for life.</source>
+        <target>Замочите в тёплой мыльной воде, аккуратно почистите щёточкой и протрите мягкой тканью. Бесплатная чистка пожизненно.</target>
       </trans-unit>
       <trans-unit id="7c725650a0f65b78e26bccb724e7abcf">
         <source>Softer, warmer</source>
@@ -238,9 +294,17 @@
         <source>Taxes and delivery are calculated at checkout.</source>
         <target>Налоги и доставка рассчитываются при оформлении.</target>
       </trans-unit>
+      <trans-unit id="dc5a33a039a1f3e9a55c079cbd5c1f4a">
+        <source>The details</source>
+        <target>Подробности</target>
+      </trans-unit>
       <trans-unit id="65fd84fc8c2bf912af46d6139be6b49e">
         <source>The leather darkens and softens with every year of use. Light, hands and rain all leave their mark, and no two pieces age the same.</source>
         <target>Кожа темнеет и становится мягче с каждым годом носки. Свет, руки и дождь оставляют свой след, и никакие две вещи не стареют одинаково.</target>
+      </trans-unit>
+      <trans-unit id="0bafcd82a93adad4f6ef38ab9bc8ffe3">
+        <source>The ring sizer</source>
+        <target>Измеритель колец</target>
       </trans-unit>
       <trans-unit id="e169e64ef1c0e40f21ae382cbd44b426">
         <source>up to 3 letters</source>
