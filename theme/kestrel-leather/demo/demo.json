@@ -1,0 +1,3958 @@
+{
+ "meta": {
+  "slug": "kestrel-leather",
+  "theme": "kestrel-leather",
+  "name": "Kestrel Leather",
+  "version": "1.0.0",
+  "description": {
+   "en": "Leather goods store with a warm story layout: bags, backpacks, travel bags, wallets, belts and small leather accessories.",
+   "fr": "Boutique de maroquinerie au style chaleureux et narratif : sacs, sacs à dos, sacs de voyage, portefeuilles, ceintures et petits accessoires en cuir.",
+   "es": "Tienda de marroquinería con un diseño cálido y narrativo: bolsos, mochilas, bolsas de viaje, carteras, cinturones y pequeños accesorios de piel.",
+   "it": "Negozio di pelletteria dallo stile caldo e narrativo: borse, zaini, borse da viaggio, portafogli, cinture e piccoli accessori in pelle.",
+   "pl": "Sklep z wyrobami skórzanymi w ciepłym, opowiadającym historię stylu: torby, plecaki, torby podróżne, portfele, paski i małe akcesoria ze skóry.",
+   "de": "Lederwaren-Shop mit warmem Story-Layout: Taschen, Rucksäcke, Reisetaschen, Geldbörsen, Gürtel und kleine Lederaccessoires.",
+   "cs": "Obchod s koženým zbožím v teplém, příběhovém stylu: kabelky, batohy, cestovní tašky, peněženky, opasky a drobné kožené doplňky.",
+   "nl": "Lederwarenwinkel met een warme, verhalende layout: tassen, rugzakken, reistassen, portemonnees, riemen en kleine leren accessoires.",
+   "pt": "Loja de marroquinaria com um layout acolhedor e narrativo: malas, mochilas, sacos de viagem, carteiras, cintos e pequenos acessórios em pele.",
+   "ru": "Магазин кожаных изделий в тёплом повествовательном стиле: сумки, рюкзаки, дорожные сумки, кошельки, ремни и небольшие кожаные аксессуары."
+  }
+ },
+ "vars": {
+  "shop": "Kestrel Leather",
+  "free_over": {
+   "en": "€100",
+   "fr": "100 €",
+   "es": "100 €",
+   "it": "100 €",
+   "pl": "100 €",
+   "de": "100 €",
+   "cs": "100 €",
+   "nl": "€ 100",
+   "pt": "100 €",
+   "ru": "100 €"
+  }
+ },
+ "shop": {
+  "name": "Kestrel Leather",
+  "email": "hello@kestrelleather.example",
+  "phone": "+39 055 123 4567",
+  "address1": "Via dei Conciatori 12",
+  "postcode": "50122",
+  "city": "Florence",
+  "country": "IT",
+  "logo": "brand/logo.png",
+  "favicon": "brand/favicon.ico",
+  "social": {
+   "instagram": "https://www.instagram.com/",
+   "pinterest": "https://www.pinterest.com/"
+  }
+ },
+ "tokens": {
+  "primary": "#c49a5c",
+  "primary_contrast": "#1e1612",
+  "accent": "#c49a5c",
+  "bg": "#1e1612",
+  "surface": "#2a201b",
+  "text": "#efe6da",
+  "muted": "#b3a594",
+  "border": "#3b2e27",
+  "sale": "#e0896a",
+  "dark": "#2a201b",
+  "dark_text": "#efe6da",
+  "field_border": "#6b5a4d",
+  "field_height": "48",
+  "font_heading": "Instrument Serif",
+  "font_body": "Hanken Grotesk",
+  "heading_weight": "400",
+  "heading_transform": "none",
+  "heading_spacing": "0",
+  "radius": "2",
+  "button_radius": "2",
+  "button_transform": "none",
+  "header_style": "classic",
+  "footer_style": "dark",
+  "card_style": "plain",
+  "cart_style": "drawer",
+  "cart_layout": "lined",
+  "listing_layout": "left",
+  "category_header": "split",
+  "grid_columns": "3",
+  "product_layout": "classic",
+  "product_thumbs": "left",
+  "product_tabs": "accordion",
+  "free_bar": "1",
+  "header_sticky": "up",
+  "search_style": "field",
+  "search_trigger": "icon",
+  "cart_word": "bag"
+ },
+ "topbar": {
+  "active": 1,
+  "text": {
+   "en": "Free delivery over €100 | Free monogram on every bag | Lifetime repairs on our leather",
+   "fr": "Livraison offerte dès 100 € | Monogramme offert sur chaque sac | Réparations à vie sur notre cuir",
+   "es": "Envío gratis desde 100 € | Monograma gratis en cada bolso | Reparaciones de por vida en nuestra piel",
+   "it": "Spedizione gratuita sopra i 100 € | Monogramma gratuito su ogni borsa | Riparazioni a vita sulla nostra pelle",
+   "pl": "Darmowa dostawa od 100 € | Darmowy monogram na każdej torbie | Dożywotnie naprawy naszej skóry",
+   "de": "Kostenloser Versand ab 100 € | Gratis-Monogramm auf jeder Tasche | Lebenslange Reparaturen an unserem Leder",
+   "cs": "Doprava zdarma nad 100 € | Monogram zdarma na každé tašce | Doživotní opravy naší kůže",
+   "nl": "Gratis verzending vanaf € 100 | Gratis monogram op elke tas | Levenslang reparaties aan ons leer",
+   "pt": "Envio grátis a partir de 100 € | Monograma grátis em cada mala | Reparações vitalícias na nossa pele",
+   "ru": "Бесплатная доставка от 100 € | Бесплатная монограмма на каждой сумке | Пожизненный ремонт наших изделий"
+  }
+ },
+ "attribute_groups": [
+  {
+   "key": "size",
+   "type": "radio",
+   "name": {
+    "en": "Size",
+    "fr": "Taille",
+    "es": "Talla",
+    "it": "Taglia",
+    "pl": "Rozmiar",
+    "de": "Größe",
+    "cs": "Velikost",
+    "nl": "Maat",
+    "pt": "Tamanho",
+    "ru": "Размер"
+   },
+   "values": [
+    {
+     "key": "85",
+     "name": "85 cm"
+    },
+    {
+     "key": "90",
+     "name": "90 cm"
+    },
+    {
+     "key": "95",
+     "name": "95 cm"
+    },
+    {
+     "key": "100",
+     "name": "100 cm"
+    },
+    {
+     "key": "105",
+     "name": "105 cm"
+    }
+   ]
+  },
+  {
+   "key": "color",
+   "type": "color",
+   "name": {
+    "en": "Colour",
+    "fr": "Couleur",
+    "es": "Color",
+    "it": "Colore",
+    "pl": "Kolor",
+    "de": "Farbe",
+    "cs": "Barva",
+    "nl": "Kleur",
+    "pt": "Cor",
+    "ru": "Цвет"
+   },
+   "values": [
+    {
+     "key": "tan",
+     "name": {
+      "en": "Tan",
+      "fr": "Fauve",
+      "es": "Tostado",
+      "it": "Cuoio",
+      "pl": "Jasnobrązowy",
+      "de": "Hellbraun",
+      "cs": "Světle hnědá",
+      "nl": "Lichtbruin",
+      "pt": "Caramelo",
+      "ru": "Светло-коричневый"
+     },
+     "color": "#B07A45"
+    },
+    {
+     "key": "cognac",
+     "name": {
+      "en": "Cognac",
+      "fr": "Cognac",
+      "es": "Coñac",
+      "it": "Cognac",
+      "pl": "Koniakowy",
+      "de": "Cognac",
+      "cs": "Koňaková",
+      "nl": "Cognac",
+      "pt": "Conhaque",
+      "ru": "Коньячный"
+     },
+     "color": "#9A4E1C"
+    },
+    {
+     "key": "chocolate",
+     "name": {
+      "en": "Chocolate",
+      "fr": "Chocolat",
+      "es": "Chocolate",
+      "it": "Cioccolato",
+      "pl": "Czekoladowy",
+      "de": "Schokolade",
+      "cs": "Čokoládová",
+      "nl": "Chocolade",
+      "pt": "Chocolate",
+      "ru": "Шоколадный"
+     },
+     "color": "#4A2E1E"
+    },
+    {
+     "key": "black",
+     "name": {
+      "en": "Black",
+      "fr": "Noir",
+      "es": "Negro",
+      "it": "Nero",
+      "pl": "Czarny",
+      "de": "Schwarz",
+      "cs": "Černá",
+      "nl": "Zwart",
+      "pt": "Preto",
+      "ru": "Чёрный"
+     },
+     "color": "#1D1B1A"
+    },
+    {
+     "key": "charcoal",
+     "name": {
+      "en": "Charcoal",
+      "fr": "Anthracite",
+      "es": "Antracita",
+      "it": "Antracite",
+      "pl": "Grafitowy",
+      "de": "Anthrazit",
+      "cs": "Antracitová",
+      "nl": "Antraciet",
+      "pt": "Antracite",
+      "ru": "Антрацитовый"
+     },
+     "color": "#3A3836"
+    },
+    {
+     "key": "olive",
+     "name": {
+      "en": "Olive",
+      "fr": "Olive",
+      "es": "Oliva",
+      "it": "Oliva",
+      "pl": "Oliwkowy",
+      "de": "Oliv",
+      "cs": "Olivová",
+      "nl": "Olijf",
+      "pt": "Azeitona",
+      "ru": "Оливковый"
+     },
+     "color": "#5E6236"
+    },
+    {
+     "key": "stone",
+     "name": {
+      "en": "Stone",
+      "fr": "Pierre",
+      "es": "Piedra",
+      "it": "Pietra",
+      "pl": "Kamienny",
+      "de": "Stein",
+      "cs": "Kamenná",
+      "nl": "Steen",
+      "pt": "Pedra",
+      "ru": "Каменный"
+     },
+     "color": "#B5A796"
+    },
+    {
+     "key": "grey",
+     "name": {
+      "en": "Grey",
+      "fr": "Gris",
+      "es": "Gris",
+      "it": "Grigio",
+      "pl": "Szary",
+      "de": "Grau",
+      "cs": "Šedá",
+      "nl": "Grijs",
+      "pt": "Cinzento",
+      "ru": "Серый"
+     },
+     "color": "#9A9A98"
+    },
+    {
+     "key": "navy",
+     "name": {
+      "en": "Navy",
+      "fr": "Marine",
+      "es": "Azul marino",
+      "it": "Blu navy",
+      "pl": "Granatowy",
+      "de": "Marine",
+      "cs": "Námořnická modrá",
+      "nl": "Marineblauw",
+      "pt": "Azul-marinho",
+      "ru": "Тёмно-синий"
+     },
+     "color": "#1F2A44"
+    },
+    {
+     "key": "burgundy",
+     "name": {
+      "en": "Burgundy",
+      "fr": "Bordeaux",
+      "es": "Burdeos",
+      "it": "Bordeaux",
+      "pl": "Bordowy",
+      "de": "Bordeaux",
+      "cs": "Vínová",
+      "nl": "Bordeaux",
+      "pt": "Bordeaux",
+      "ru": "Бордовый"
+     },
+     "color": "#6E1F2B"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "key": "material",
+   "name": {
+    "en": "Material",
+    "fr": "Matière",
+    "es": "Material",
+    "it": "Materiale",
+    "pl": "Materiał",
+    "de": "Material",
+    "cs": "Materiál",
+    "nl": "Materiaal",
+    "pt": "Material",
+    "ru": "Материал"
+   },
+   "values": [
+    {
+     "key": "veg-tan",
+     "name": {
+      "en": "Vegetable-tanned leather",
+      "fr": "Cuir tanné végétal",
+      "es": "Piel de curtido vegetal",
+      "it": "Pelle conciata al vegetale",
+      "pl": "Skóra garbowana roślinnie",
+      "de": "Pflanzlich gegerbtes Leder",
+      "cs": "Rostlinně činěná kůže",
+      "nl": "Plantaardig gelooid leer",
+      "pt": "Pele de curtimento vegetal",
+      "ru": "Кожа растительного дубления"
+     }
+    },
+    {
+     "key": "leather-full",
+     "name": {
+      "en": "Full-grain leather",
+      "fr": "Cuir pleine fleur",
+      "es": "Piel plena flor",
+      "it": "Pelle pieno fiore",
+      "pl": "Skóra licowa",
+      "de": "Vollnarbenleder",
+      "cs": "Lícová kůže",
+      "nl": "Volnerf leer",
+      "pt": "Pele flor integral",
+      "ru": "Натуральная кожа"
+     }
+    },
+    {
+     "key": "pebbled",
+     "name": {
+      "en": "Pebbled leather",
+      "fr": "Cuir grainé",
+      "es": "Piel granulada",
+      "it": "Pelle martellata",
+      "pl": "Skóra groszkowana",
+      "de": "Genarbtes Leder",
+      "cs": "Zrnitá kůže",
+      "nl": "Generfd leer",
+      "pt": "Pele granulada",
+      "ru": "Зернистая кожа"
+     }
+    },
+    {
+     "key": "waxed",
+     "name": {
+      "en": "Waxed cotton",
+      "fr": "Coton ciré",
+      "es": "Algodón encerado",
+      "it": "Cotone cerato",
+      "pl": "Woskowana bawełna",
+      "de": "Gewachste Baumwolle",
+      "cs": "Voskovaná bavlna",
+      "nl": "Gewaxt katoen",
+      "pt": "Algodão encerado",
+      "ru": "Вощёный хлопок"
+     }
+    },
+    {
+     "key": "canvas",
+     "name": {
+      "en": "Cotton canvas",
+      "fr": "Toile de coton",
+      "es": "Lona de algodón",
+      "it": "Tela di cotone",
+      "pl": "Płótno bawełniane",
+      "de": "Baumwoll-Canvas",
+      "cs": "Bavlněné plátno",
+      "nl": "Katoenen canvas",
+      "pt": "Lona de algodão",
+      "ru": "Хлопковый канвас"
+     }
+    },
+    {
+     "key": "felt",
+     "name": {
+      "en": "Wool felt with leather trim",
+      "fr": "Feutre de laine et finitions cuir",
+      "es": "Fieltro de lana con detalles de piel",
+      "it": "Feltro di lana con finiture in pelle",
+      "pl": "Filc wełniany ze skórzanymi wykończeniami",
+      "de": "Wollfilz mit Lederbesatz",
+      "cs": "Vlněná plsť s koženými detaily",
+      "nl": "Wolvilt met leren afwerking",
+      "pt": "Feltro de lã com acabamentos em pele",
+      "ru": "Шерстяной фетр с кожаной отделкой"
+     }
+    }
+   ]
+  },
+  {
+   "key": "lining",
+   "name": {
+    "en": "Lining",
+    "fr": "Doublure",
+    "es": "Forro",
+    "it": "Fodera",
+    "pl": "Podszewka",
+    "de": "Futter",
+    "cs": "Podšívka",
+    "nl": "Voering",
+    "pt": "Forro",
+    "ru": "Подкладка"
+   },
+   "values": [
+    {
+     "key": "unlined",
+     "name": {
+      "en": "Unlined, raw edges",
+      "fr": "Sans doublure, bords bruts",
+      "es": "Sin forro, cantos vivos",
+      "it": "Sfoderato, bordi grezzi",
+      "pl": "Bez podszewki, surowe krawędzie",
+      "de": "Ungefüttert, offene Kanten",
+      "cs": "Bez podšívky, surové hrany",
+      "nl": "Ongevoerd, ruwe randen",
+      "pt": "Sem forro, bordas em bruto",
+      "ru": "Без подкладки, открытый срез"
+     }
+    },
+    {
+     "key": "cotton",
+     "name": {
+      "en": "Cotton twill",
+      "fr": "Sergé de coton",
+      "es": "Sarga de algodón",
+      "it": "Saia di cotone",
+      "pl": "Bawełniany diagonal",
+      "de": "Baumwollköper",
+      "cs": "Bavlněný kepr",
+      "nl": "Katoenen keper",
+      "pt": "Sarja de algodão",
+      "ru": "Хлопковый твил"
+     }
+    },
+    {
+     "key": "suede",
+     "name": {
+      "en": "Soft suede",
+      "fr": "Daim souple",
+      "es": "Ante suave",
+      "it": "Scamosciato morbido",
+      "pl": "Miękki zamsz",
+      "de": "Weiches Veloursleder",
+      "cs": "Měkký semiš",
+      "nl": "Zacht suède",
+      "pt": "Camurça macia",
+      "ru": "Мягкая замша"
+     }
+    }
+   ]
+  },
+  {
+   "key": "hardware",
+   "name": {
+    "en": "Hardware",
+    "fr": "Accessoires métalliques",
+    "es": "Herrajes",
+    "it": "Minuteria",
+    "pl": "Okucia",
+    "de": "Beschläge",
+    "cs": "Kování",
+    "nl": "Beslag",
+    "pt": "Ferragens",
+    "ru": "Фурнитура"
+   },
+   "values": [
+    {
+     "key": "brass",
+     "name": {
+      "en": "Solid brass",
+      "fr": "Laiton massif",
+      "es": "Latón macizo",
+      "it": "Ottone massiccio",
+      "pl": "Lity mosiądz",
+      "de": "Massives Messing",
+      "cs": "Masivní mosaz",
+      "nl": "Massief messing",
+      "pt": "Latão maciço",
+      "ru": "Цельная латунь"
+     }
+    },
+    {
+     "key": "nickel",
+     "name": {
+      "en": "Brushed nickel",
+      "fr": "Nickel brossé",
+      "es": "Níquel cepillado",
+      "it": "Nichel spazzolato",
+      "pl": "Szczotkowany nikiel",
+      "de": "Gebürstetes Nickel",
+      "cs": "Kartáčovaný nikl",
+      "nl": "Geborsteld nikkel",
+      "pt": "Níquel escovado",
+      "ru": "Матовый никель"
+     }
+    },
+    {
+     "key": "none",
+     "name": {
+      "en": "No hardware",
+      "fr": "Sans métal",
+      "es": "Sin herrajes",
+      "it": "Senza minuteria",
+      "pl": "Bez okuć",
+      "de": "Ohne Beschläge",
+      "cs": "Bez kování",
+      "nl": "Zonder beslag",
+      "pt": "Sem ferragens",
+      "ru": "Без фурнитуры"
+     }
+    }
+   ]
+  },
+  {
+   "key": "origin",
+   "name": {
+    "en": "Made in",
+    "fr": "Fabriqué en",
+    "es": "Fabricado en",
+    "it": "Prodotto in",
+    "pl": "Wyprodukowano w",
+    "de": "Hergestellt in",
+    "cs": "Vyrobeno v",
+    "nl": "Gemaakt in",
+    "pt": "Fabricado em",
+    "ru": "Сделано в"
+   },
+   "values": [
+    {
+     "key": "italy",
+     "name": {
+      "en": "Italy",
+      "fr": "Italie",
+      "es": "Italia",
+      "it": "Italia",
+      "pl": "Włoszech",
+      "de": "Italien",
+      "cs": "Itálii",
+      "nl": "Italië",
+      "pt": "Itália",
+      "ru": "Италии"
+     }
+    },
+    {
+     "key": "spain",
+     "name": {
+      "en": "Spain",
+      "fr": "Espagne",
+      "es": "España",
+      "it": "Spagna",
+      "pl": "Hiszpanii",
+      "de": "Spanien",
+      "cs": "Španělsku",
+      "nl": "Spanje",
+      "pt": "Espanha",
+      "ru": "Испании"
+     }
+    },
+    {
+     "key": "portugal",
+     "name": {
+      "en": "Portugal",
+      "fr": "Portugal",
+      "es": "Portugal",
+      "it": "Portogallo",
+      "pl": "Portugalii",
+      "de": "Portugal",
+      "cs": "Portugalsku",
+      "nl": "Portugal",
+      "pt": "Portugal",
+      "ru": "Португалии"
+     }
+    },
+    {
+     "key": "turkey",
+     "name": {
+      "en": "Türkiye",
+      "fr": "Turquie",
+      "es": "Turquía",
+      "it": "Turchia",
+      "pl": "Turcji",
+      "de": "der Türkei",
+      "cs": "Turecku",
+      "nl": "Turkije",
+      "pt": "Turquia",
+      "ru": "Турции"
+     }
+    },
+    {
+     "key": "germany",
+     "name": {
+      "en": "Germany",
+      "fr": "Allemagne",
+      "es": "Alemania",
+      "it": "Germania",
+      "pl": "Niemczech",
+      "de": "Deutschland",
+      "cs": "Německu",
+      "nl": "Duitsland",
+      "pt": "Alemanha",
+      "ru": "Германии"
+     }
+    }
+   ]
+  },
+  {
+   "key": "patina",
+   "name": {
+    "en": "Patina",
+    "fr": "Patine",
+    "es": "Pátina",
+    "it": "Patina",
+    "pl": "Patyna",
+    "de": "Patina",
+    "cs": "Patina",
+    "nl": "Patina",
+    "pt": "Pátina",
+    "ru": "Патина"
+   },
+   "values": [
+    {
+     "key": "darkens",
+     "name": {
+      "en": "Darkens with use",
+      "fr": "Fonce avec l'usage",
+      "es": "Se oscurece con el uso",
+      "it": "Si scurisce con l'uso",
+      "pl": "Ciemnieje z użytkowaniem",
+      "de": "Dunkelt mit dem Gebrauch nach",
+      "cs": "Používáním tmavne",
+      "nl": "Wordt donkerder met gebruik",
+      "pt": "Escurece com o uso",
+      "ru": "Темнеет со временем"
+     }
+    }
+   ]
+  }
+ ],
+ "brands": [
+  {
+   "key": "kestrel",
+   "name": "Kestrel",
+   "logo": "brands/kestrel.png"
+  },
+  {
+   "key": "fieldmark",
+   "name": "Fieldmark",
+   "logo": "brands/fieldmark.png"
+  },
+  {
+   "key": "oro-pelle",
+   "name": "Oro Pelle",
+   "logo": "brands/oro-pelle.png"
+  },
+  {
+   "key": "nordvik",
+   "name": "Nordvik",
+   "logo": "brands/nordvik.png"
+  }
+ ],
+ "categories": [
+  {
+   "key": "bags",
+   "name": {
+    "en": "Bags",
+    "fr": "Sacs",
+    "es": "Bolsos",
+    "it": "Borse",
+    "pl": "Torby",
+    "de": "Taschen",
+    "cs": "Kabelky",
+    "nl": "Tassen",
+    "pt": "Malas",
+    "ru": "Сумки"
+   },
+   "description": {
+    "en": "Totes, messenger bags, hobos and small crossbody bags in full-grain leather.",
+    "fr": "Cabas, besaces, sacs hobo et petits sacs bandoulière en cuir pleine fleur.",
+    "es": "Bolsos shopper, bandoleras, bolsos hobo y pequeños bolsos cruzados en piel plena flor.",
+    "it": "Shopper, messenger, borse hobo e piccole tracolle in pelle pieno fiore.",
+    "pl": "Shopperki, listonoszki, torby hobo i małe torebki crossbody ze skóry licowej.",
+    "de": "Shopper, Messenger, Hobo-Taschen und kleine Umhängetaschen aus Vollnarbenleder.",
+    "cs": "Shoppery, messenger tašky, kabelky hobo a malé crossbody kabelky z lícové kůže.",
+    "nl": "Shoppers, messengers, hobotassen en kleine crossbodytassen van volnerfleer.",
+    "pt": "Malas tote, messenger, hobo e pequenas malas a tiracolo em pele plena flor.",
+    "ru": "Сумки-тоуты, мессенджеры, сумки-хобо и маленькие сумки через плечо из кожи с естественной лицевой поверхностью."
+   },
+   "image": "categories/bags.jpg"
+  },
+  {
+   "key": "backpacks",
+   "name": {
+    "en": "Backpacks",
+    "fr": "Sacs à dos",
+    "es": "Mochilas",
+    "it": "Zaini",
+    "pl": "Plecaki",
+    "de": "Rucksäcke",
+    "cs": "Batohy",
+    "nl": "Rugzakken",
+    "pt": "Mochilas",
+    "ru": "Рюкзаки"
+   },
+   "description": {
+    "en": "Leather rucksacks, waxed canvas backpacks and laptop sleeves for every day.",
+    "fr": "Sacs à dos en cuir, en toile cirée et housses d'ordinateur pour tous les jours.",
+    "es": "Mochilas de piel, mochilas de lona encerada y fundas de portátil para cada día.",
+    "it": "Zaini in pelle, zaini in tela cerata e custodie per laptop per tutti i giorni.",
+    "pl": "Skórzane plecaki, plecaki z woskowanego płótna i etui na laptopa na co dzień.",
+    "de": "Lederrucksäcke, Rucksäcke aus gewachstem Canvas und Laptophüllen für jeden Tag.",
+    "cs": "Kožené batohy, batohy z voskovaného plátna a obaly na notebook na každý den.",
+    "nl": "Leren rugzakken, rugzakken van gewaxt canvas en laptophoezen voor elke dag.",
+    "pt": "Mochilas de pele, mochilas de lona encerada e capas para portátil para todos os dias.",
+    "ru": "Кожаные рюкзаки, рюкзаки из вощёного канваса и чехлы для ноутбуков на каждый день."
+   },
+   "image": "categories/backpacks.jpg"
+  },
+  {
+   "key": "travel",
+   "name": {
+    "en": "Travel",
+    "fr": "Voyage",
+    "es": "Viaje",
+    "it": "Viaggio",
+    "pl": "Podróże",
+    "de": "Reisen",
+    "cs": "Cestování",
+    "nl": "Reizen",
+    "pt": "Viagem",
+    "ru": "Путешествия"
+   },
+   "description": {
+    "en": "Weekenders, duffels and wash bags for trips of every length.",
+    "fr": "Sacs week-end, sacs de voyage et trousses de toilette pour tous les voyages.",
+    "es": "Bolsas de fin de semana, bolsas de viaje y neceseres para viajes de cualquier duración.",
+    "it": "Borsoni da weekend, borse da viaggio e beauty case per viaggi di ogni durata.",
+    "pl": "Torby weekendowe, torby podróżne i kosmetyczki na podróże każdej długości.",
+    "de": "Weekender, Reisetaschen und Kulturbeutel für Reisen jeder Länge.",
+    "cs": "Víkendové tašky, cestovní tašky a toaletní tašky pro cesty všech délek.",
+    "nl": "Weekendtassen, reistassen en toilettassen voor reizen van elke lengte.",
+    "pt": "Sacos de fim de semana, sacos de viagem e necessaires para viagens de qualquer duração.",
+    "ru": "Сумки выходного дня, дорожные сумки и несессеры для поездок любой длины."
+   },
+   "image": "categories/travel.jpg"
+  },
+  {
+   "key": "wallets",
+   "name": {
+    "en": "Wallets",
+    "fr": "Portefeuilles",
+    "es": "Carteras",
+    "it": "Portafogli",
+    "pl": "Portfele",
+    "de": "Geldbörsen",
+    "cs": "Peněženky",
+    "nl": "Portemonnees",
+    "pt": "Carteiras",
+    "ru": "Кошельки"
+   },
+   "description": {
+    "en": "Bifold wallets, card pouches, passport covers and coin purses.",
+    "fr": "Portefeuilles, porte-cartes, protège-passeports et porte-monnaie.",
+    "es": "Billeteras, tarjeteros, fundas de pasaporte y monederos.",
+    "it": "Portafogli, porta carte, porta passaporto e portamonete.",
+    "pl": "Portfele składane, etui na karty, okładki na paszport i portmonetki.",
+    "de": "Klappbörsen, Kartenetuis, Passhüllen und Münzbörsen.",
+    "cs": "Skládací peněženky, pouzdra na karty, obaly na pas a peněženky na mince.",
+    "nl": "Billfolds, pashouders, paspoorthoesjes en muntbeurzen.",
+    "pt": "Carteiras dobráveis, porta-cartões, capas de passaporte e porta-moedas.",
+    "ru": "Складные кошельки, картхолдеры, обложки для паспорта и монетницы."
+   },
+   "image": "categories/wallets.jpg"
+  },
+  {
+   "key": "belts",
+   "name": {
+    "en": "Belts",
+    "fr": "Ceintures",
+    "es": "Cinturones",
+    "it": "Cinture",
+    "pl": "Paski",
+    "de": "Gürtel",
+    "cs": "Opasky",
+    "nl": "Riemen",
+    "pt": "Cintos",
+    "ru": "Ремни"
+   },
+   "description": {
+    "en": "Leather belts for jeans, suits and workwear, cut to five lengths.",
+    "fr": "Ceintures en cuir pour jean, costume et vêtements de travail, en cinq longueurs.",
+    "es": "Cinturones de piel para vaqueros, trajes y ropa de trabajo, en cinco largos.",
+    "it": "Cinture in pelle per jeans, abiti e abbigliamento da lavoro, in cinque lunghezze.",
+    "pl": "Skórzane paski do jeansów, garniturów i odzieży roboczej, w pięciu długościach.",
+    "de": "Ledergürtel für Jeans, Anzüge und Workwear, in fünf Längen.",
+    "cs": "Kožené opasky k džínům, oblekům a pracovnímu oblečení, v pěti délkách.",
+    "nl": "Leren riemen voor jeans, pakken en workwear, in vijf lengtes.",
+    "pt": "Cintos de pele para ganga, fatos e roupa de trabalho, em cinco comprimentos.",
+    "ru": "Кожаные ремни для джинсов, костюмов и рабочей одежды, пяти длин."
+   },
+   "image": "categories/belts.jpg"
+  },
+  {
+   "key": "accessories",
+   "name": {
+    "en": "Accessories",
+    "fr": "Accessoires",
+    "es": "Accesorios",
+    "it": "Accessori",
+    "pl": "Akcesoria",
+    "de": "Accessoires",
+    "cs": "Doplňky",
+    "nl": "Accessoires",
+    "pt": "Acessórios",
+    "ru": "Аксессуары"
+   },
+   "description": {
+    "en": "Key rings, journal covers, watch straps and leather care.",
+    "fr": "Porte-clés, carnets, bracelets de montre et soin du cuir.",
+    "es": "Llaveros, cuadernos, correas de reloj y cuidado de la piel.",
+    "it": "Portachiavi, taccuini, cinturini per orologi e cura della pelle.",
+    "pl": "Breloki, notesy, paski do zegarków i pielęgnacja skóry.",
+    "de": "Schlüsselanhänger, Notizbücher, Uhrenarmbänder und Lederpflege.",
+    "cs": "Klíčenky, zápisníky, řemínky k hodinkám a péče o kůži.",
+    "nl": "Sleutelhangers, notitieboeken, horlogebandjes en leeronderhoud.",
+    "pt": "Porta-chaves, cadernos, braceletes de relógio e cuidado da pele.",
+    "ru": "Брелоки, блокноты, ремешки для часов и уход за кожей."
+   },
+   "image": "categories/accessories.jpg"
+  }
+ ],
+ "catalog": {
+  "id_tax_rules_group": 0,
+  "also_in_home": true,
+  "details_feature_list": false,
+  "home_name": {
+   "en": "Home",
+   "fr": "Accueil",
+   "es": "Inicio",
+   "it": "Home",
+   "pl": "Strona główna",
+   "de": "Startseite",
+   "cs": "Domů",
+   "nl": "Home",
+   "pt": "Início",
+   "ru": "Главная"
+  },
+  "facets": [
+   "group:color",
+   "feature:material",
+   "feature:lining",
+   "feature:hardware",
+   "price"
+  ]
+ },
+ "products": [
+  {
+   "key": "saddle-bag",
+   "reference": "KL-102",
+   "category": "bags",
+   "brand": "kestrel",
+   "price": 219,
+   "name": {
+    "en": "Vintage Messenger Bag",
+    "fr": "Besace vintage",
+    "es": "Bandolera vintage",
+    "it": "Messenger vintage",
+    "pl": "Listonoszka vintage",
+    "de": "Vintage-Messenger",
+    "cs": "Vintage messenger taška",
+    "nl": "Vintage messenger",
+    "pt": "Mala messenger vintage",
+    "ru": "Винтажный мессенджер"
+   },
+   "short": {
+    "en": "A buckled messenger bag in waxy, distressed leather.",
+    "fr": "Une besace à boucles en cuir ciré vieilli.",
+    "es": "Una bandolera con hebillas en piel encerada envejecida.",
+    "it": "Una messenger con fibbie in pelle cerata invecchiata.",
+    "pl": "Listonoszka ze sprzączkami z woskowanej, postarzanej skóry.",
+    "de": "Eine Messenger-Tasche mit Schnallen aus gewachstem Vintage-Leder.",
+    "cs": "Messenger taška s přezkami z voskované patinované kůže.",
+    "nl": "Een messenger met gespen van gewaxt, doorleefd leer.",
+    "pt": "Uma mala messenger com fivelas em pele encerada envelhecida.",
+    "ru": "Сумка-мессенджер с пряжками из вощёной состаренной кожи."
+   },
+   "description": {
+    "en": "Two front pockets, brass buckles and an adjustable strap. The waxy leather darkens and softens with every year of use.",
+    "fr": "Deux poches avant, des boucles en laiton et une bandoulière réglable. Le cuir ciré fonce et s'assouplit d'année en année.",
+    "es": "Dos bolsillos delanteros, hebillas de latón y una correa ajustable. La piel encerada se oscurece y suaviza con cada año de uso.",
+    "it": "Due tasche frontali, fibbie in ottone e tracolla regolabile. La pelle cerata si scurisce e si ammorbidisce anno dopo anno.",
+    "pl": "Dwie przednie kieszenie, mosiężne sprzączki i regulowany pasek. Woskowana skóra ciemnieje i mięknie z każdym rokiem używania.",
+    "de": "Zwei Fronttaschen, Messingschnallen und ein verstellbarer Gurt. Das gewachste Leder wird mit jedem Jahr dunkler und weicher.",
+    "cs": "Dvě přední kapsy, mosazné přezky a nastavitelný popruh. Voskovaná kůže s každým rokem tmavne a měkne.",
+    "nl": "Twee voorvakken, messing gespen en een verstelbare band. Het gewaxte leer wordt elk jaar donkerder en zachter.",
+    "pt": "Dois bolsos frontais, fivelas de latão e alça ajustável. A pele encerada escurece e amacia a cada ano de uso.",
+    "ru": "Два передних кармана, латунные пряжки и регулируемый ремень. Вощёная кожа темнеет и становится мягче с каждым годом."
+   },
+   "features": {
+    "material": "leather-full",
+    "lining": "cotton",
+    "hardware": "brass",
+    "origin": "italy",
+    "patina": "darkens"
+   },
+   "combinations": {
+    "color": [
+     "cognac",
+     "chocolate"
+    ]
+   },
+   "images": [
+    "products/saddle-bag.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": false,
+   "related": [
+    "bifold-wallet",
+    "leather-care-balm"
+   ],
+   "text_fields": [
+    {
+     "name": {
+      "en": "Initials",
+      "fr": "Initiales",
+      "es": "Iniciales",
+      "it": "Iniziali",
+      "pl": "Inicjały",
+      "de": "Initialen",
+      "cs": "Iniciály",
+      "nl": "Initialen",
+      "pt": "Iniciais",
+      "ru": "Инициалы"
+     },
+     "required": 0
+    }
+   ]
+  },
+  {
+   "key": "market-tote",
+   "reference": "KL-101",
+   "category": "bags",
+   "brand": "kestrel",
+   "price": 245,
+   "name": {
+    "en": "Pebbled Leather Tote",
+    "fr": "Cabas en cuir grainé",
+    "es": "Bolso tote de piel granulada",
+    "it": "Tote in pelle martellata",
+    "pl": "Torba shopper ze skóry groszkowanej",
+    "de": "Tote aus genarbtem Leder",
+    "cs": "Taška tote z narbované kůže",
+    "nl": "Tote van generfd leer",
+    "pt": "Mala tote em pele granulada",
+    "ru": "Сумка-тоут из зернистой кожи"
+   },
+   "short": {
+    "en": "A roomy tote in navy pebbled leather with tan handles.",
+    "fr": "Un grand cabas en cuir grainé bleu marine, aux anses fauves.",
+    "es": "Un tote amplio de piel granulada azul marino con asas color cuero.",
+    "it": "Una tote capiente in pelle martellata blu navy con manici color cuoio.",
+    "pl": "Pojemna torba z granatowej skóry groszkowanej z jasnobrązowymi uchwytami.",
+    "de": "Eine geräumige Tote aus marineblauem, genarbtem Leder mit hellbraunen Henkeln.",
+    "cs": "Prostorná taška z tmavě modré narbované kůže se světle hnědými uchy.",
+    "nl": "Een ruime tote van marineblauw generfd leer met lichtbruine hengsels.",
+    "pt": "Uma tote espaçosa em pele granulada azul-marinho com asas cor de couro.",
+    "ru": "Вместительный тоут из тёмно-синей зернистой кожи с рыжими ручками."
+   },
+   "description": {
+    "en": "Two rolled handles, a zipped top and a pocket inside for keys and a phone. The pebbled grain hides scratches and keeps its shape for years.",
+    "fr": "Deux anses roulées, une fermeture zippée et une poche intérieure pour les clés et le téléphone. Le grain cache les rayures et garde sa forme pendant des années.",
+    "es": "Dos asas redondeadas, cierre de cremallera y un bolsillo interior para llaves y móvil. El grano disimula los arañazos y mantiene su forma durante años.",
+    "it": "Due manici arrotondati, chiusura con zip e una tasca interna per chiavi e telefono. La grana nasconde i graffi e mantiene la forma per anni.",
+    "pl": "Dwa zaokrąglone uchwyty, zamek u góry i kieszeń w środku na klucze i telefon. Groszkowana faktura ukrywa rysy i trzyma kształt przez lata.",
+    "de": "Zwei gerollte Henkel, ein Reißverschluss oben und eine Innentasche für Schlüssel und Handy. Die Narbung verbirgt Kratzer und hält über Jahre ihre Form.",
+    "cs": "Dvě zaoblená ucha, zip nahoře a vnitřní kapsa na klíče a telefon. Narbování skryje škrábance a drží tvar celé roky.",
+    "nl": "Twee gerolde hengsels, een rits bovenaan en een binnenvak voor sleutels en telefoon. De nerf verbergt krassen en houdt jarenlang zijn vorm.",
+    "pt": "Duas asas arredondadas, fecho de correr em cima e um bolso interior para chaves e telemóvel. O grão disfarça riscos e mantém a forma durante anos.",
+    "ru": "Две круглые ручки, молния сверху и внутренний карман для ключей и телефона. Зернистая фактура скрывает царапины и годами держит форму."
+   },
+   "features": {
+    "material": "pebbled",
+    "lining": "cotton",
+    "hardware": "brass",
+    "origin": "italy"
+   },
+   "combinations": {
+    "color": [
+     "navy",
+     "chocolate"
+    ]
+   },
+   "images": [
+    "products/market-tote.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": false,
+   "related": [
+    "card-holder",
+    "key-ring"
+   ],
+   "text_fields": [
+    {
+     "name": {
+      "en": "Initials",
+      "fr": "Initiales",
+      "es": "Iniciales",
+      "it": "Iniziali",
+      "pl": "Inicjały",
+      "de": "Initialen",
+      "cs": "Iniciály",
+      "nl": "Initialen",
+      "pt": "Iniciais",
+      "ru": "Инициалы"
+     },
+     "required": 0
+    }
+   ]
+  },
+  {
+   "key": "bucket-bag",
+   "reference": "KL-103",
+   "category": "bags",
+   "brand": "oro-pelle",
+   "price": 189,
+   "name": {
+    "en": "Slouchy Hobo Bag",
+    "fr": "Sac hobo souple",
+    "es": "Bolso hobo flexible",
+    "it": "Borsa hobo morbida",
+    "pl": "Miękka torba hobo",
+    "de": "Weiche Hobo-Tasche",
+    "cs": "Měkká kabelka hobo",
+    "nl": "Soepele hobotas",
+    "pt": "Mala hobo macia",
+    "ru": "Мягкая сумка-хобо"
+   },
+   "short": {
+    "en": "A soft hobo bag in pebbled leather.",
+    "fr": "Un sac hobo souple en cuir grainé.",
+    "es": "Un bolso hobo suave en piel granulada.",
+    "it": "Una borsa hobo morbida in pelle martellata.",
+    "pl": "Miękka torba hobo ze skóry groszkowanej.",
+    "de": "Eine weiche Hobo-Tasche aus genarbtem Leder.",
+    "cs": "Měkká kabelka hobo ze zrnité kůže.",
+    "nl": "Een zachte hobotas van generfd leer.",
+    "pt": "Uma mala hobo macia em pele granulada.",
+    "ru": "Мягкая сумка-хобо из зернистой кожи."
+   },
+   "description": {
+    "en": "A relaxed crescent shape, a single shoulder strap and a suede-lined interior. It sits comfortably under the arm all day.",
+    "fr": "Une forme de croissant décontractée, une seule anse d'épaule et un intérieur doublé de daim. Il se porte confortablement toute la journée.",
+    "es": "Una forma de media luna relajada, un asa de hombro y un interior forrado de ante. Se lleva cómodamente bajo el brazo todo el día.",
+    "it": "Una forma a mezzaluna rilassata, un solo manico a spalla e un interno foderato in scamosciato. Si porta comodamente tutto il giorno.",
+    "pl": "Swobodny kształt półksiężyca, jeden pasek na ramię i wnętrze podszyte zamszem. Wygodnie nosi się ją pod pachą przez cały dzień.",
+    "de": "Eine lässige Halbmondform, ein Schultergurt und ein mit Velours gefüttertes Inneres. Bequem den ganzen Tag unter dem Arm zu tragen.",
+    "cs": "Uvolněný tvar půlměsíce, jeden popruh přes rameno a vnitřek podšitý semišem. Pohodlně se nosí pod paží celý den.",
+    "nl": "Een losse halvemaanvorm, één schouderband en een binnenkant met suède voering. Draagt de hele dag comfortabel onder de arm.",
+    "pt": "Uma forma de meia-lua descontraída, uma alça de ombro e interior forrado a camurça. Leva-se confortavelmente debaixo do braço todo o dia.",
+    "ru": "Свободная форма полумесяца, один плечевой ремень и подкладка из замши. Удобно носить под рукой весь день."
+   },
+   "features": {
+    "material": "pebbled",
+    "lining": "suede",
+    "hardware": "brass",
+    "origin": "spain"
+   },
+   "combinations": {
+    "color": [
+     "stone",
+     "black"
+    ]
+   },
+   "images": [
+    "products/bucket-bag.jpg"
+   ],
+   "quantity": 30,
+   "discount": 20,
+   "new": false,
+   "text_fields": [
+    {
+     "name": {
+      "en": "Initials",
+      "fr": "Initiales",
+      "es": "Iniciales",
+      "it": "Iniziali",
+      "pl": "Inicjały",
+      "de": "Initialen",
+      "cs": "Iniciály",
+      "nl": "Initialen",
+      "pt": "Iniciais",
+      "ru": "Инициалы"
+     },
+     "required": 0
+    }
+   ]
+  },
+  {
+   "key": "crossbody-pouch",
+   "reference": "KL-104",
+   "category": "bags",
+   "brand": "oro-pelle",
+   "price": 129,
+   "name": {
+    "en": "Crossbody Satchel",
+    "fr": "Besace bandoulière",
+    "es": "Bandolera cartera",
+    "it": "Cartella a tracolla",
+    "pl": "Torba listonoszka",
+    "de": "Umhängetasche Satchel",
+    "cs": "Brašna přes rameno",
+    "nl": "Crossbody satchel",
+    "pt": "Mala satchel a tiracolo",
+    "ru": "Сумка-сэтчел через плечо"
+   },
+   "short": {
+    "en": "A tan satchel with a flap and an adjustable strap.",
+    "fr": "Une besace fauve à rabat avec bandoulière réglable.",
+    "es": "Una cartera color cuero con solapa y correa ajustable.",
+    "it": "Una cartella color cuoio con patta e tracolla regolabile.",
+    "pl": "Jasnobrązowa listonoszka z klapą i regulowanym paskiem.",
+    "de": "Eine hellbraune Satchel mit Überschlag und verstellbarem Riemen.",
+    "cs": "Světle hnědá brašna s klopou a nastavitelným popruhem.",
+    "nl": "Een lichtbruine satchel met klep en verstelbare riem.",
+    "pt": "Uma satchel cor de couro com aba e alça ajustável.",
+    "ru": "Рыжая сумка-сэтчел с клапаном и регулируемым ремнём."
+   },
+   "description": {
+    "en": "A flap with a hidden magnet, a padded back pocket and a strap for crossbody or shoulder wear. Fits a tablet, a book and the day's essentials.",
+    "fr": "Un rabat à aimant caché, une poche dorsale rembourrée et une bandoulière à porter en travers ou à l'épaule. Une tablette, un livre et l'essentiel de la journée y trouvent leur place.",
+    "es": "Solapa con imán oculto, bolsillo trasero acolchado y correa para llevarla cruzada o al hombro. Caben una tableta, un libro y lo esencial del día.",
+    "it": "Patta con magnete nascosto, tasca posteriore imbottita e tracolla da portare di traverso o in spalla. Ci stanno un tablet, un libro e l'essenziale della giornata.",
+    "pl": "Klapa z ukrytym magnesem, wyściełana kieszeń z tyłu i pasek do noszenia przez ramię lub na ramieniu. Zmieści tablet, książkę i drobiazgi na cały dzień.",
+    "de": "Ein Überschlag mit verdecktem Magnet, eine gepolsterte Rückentasche und ein Riemen für quer über den Körper oder die Schulter. Passt für Tablet, Buch und alles für den Tag.",
+    "cs": "Klopa se skrytým magnetem, polstrovaná zadní kapsa a popruh přes tělo nebo na rameno. Vejde se tablet, kniha a vše potřebné na den.",
+    "nl": "Een klep met verborgen magneet, een gevoerd achtervak en een riem voor schuin over het lichaam of op de schouder. Past een tablet, een boek en alles voor de dag.",
+    "pt": "Aba com íman escondido, bolso traseiro almofadado e alça para usar a tiracolo ou ao ombro. Cabe um tablet, um livro e o essencial do dia.",
+    "ru": "Клапан со скрытым магнитом, мягкий задний карман и ремень, который можно носить через плечо или на плече. Помещаются планшет, книга и всё нужное на день."
+   },
+   "features": {
+    "material": "leather-full",
+    "lining": "cotton",
+    "hardware": "nickel",
+    "origin": "spain",
+    "patina": "darkens"
+   },
+   "combinations": {
+    "color": [
+     "tan",
+     "chocolate"
+    ]
+   },
+   "images": [
+    "products/crossbody-pouch.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": true,
+   "text_fields": [
+    {
+     "name": {
+      "en": "Initials",
+      "fr": "Initiales",
+      "es": "Iniciales",
+      "it": "Iniziali",
+      "pl": "Inicjały",
+      "de": "Initialen",
+      "cs": "Iniciály",
+      "nl": "Initialen",
+      "pt": "Iniciais",
+      "ru": "Инициалы"
+     },
+     "required": 0
+    }
+   ]
+  },
+  {
+   "key": "roll-top-backpack",
+   "reference": "KL-201",
+   "category": "backpacks",
+   "brand": "kestrel",
+   "price": 279,
+   "name": {
+    "en": "Leather Rucksack",
+    "fr": "Sac à dos en cuir",
+    "es": "Mochila de piel",
+    "it": "Zaino in pelle",
+    "pl": "Skórzany plecak",
+    "de": "Lederrucksack",
+    "cs": "Kožený batoh",
+    "nl": "Leren rugzak",
+    "pt": "Mochila de pele",
+    "ru": "Кожаный рюкзак"
+   },
+   "short": {
+    "en": "A full-grain leather rucksack with a buckled flap.",
+    "fr": "Un sac à dos en cuir pleine fleur à rabat bouclé.",
+    "es": "Una mochila de piel plena flor con solapa y hebillas.",
+    "it": "Uno zaino in pelle pieno fiore con patta e fibbie.",
+    "pl": "Plecak ze skóry licowej z klapą na sprzączki.",
+    "de": "Ein Rucksack aus Vollnarbenleder mit Schnallenklappe.",
+    "cs": "Batoh z lícové kůže s klopou na přezky.",
+    "nl": "Een rugzak van volnerfleer met gespklep.",
+    "pt": "Uma mochila em pele plena flor com aba e fivelas.",
+    "ru": "Рюкзак из натуральной кожи с клапаном на пряжках."
+   },
+   "description": {
+    "en": "A padded laptop pocket, two front pockets and adjustable straps. Built for the commute and the weekend.",
+    "fr": "Une poche rembourrée pour ordinateur, deux poches avant et des bretelles réglables. Fait pour la semaine comme pour le week-end.",
+    "es": "Un bolsillo acolchado para portátil, dos bolsillos delanteros y tirantes ajustables. Para el trabajo y para el fin de semana.",
+    "it": "Una tasca imbottita per laptop, due tasche frontali e spallacci regolabili. Per il tragitto quotidiano e per il weekend.",
+    "pl": "Wyściełana kieszeń na laptopa, dwie przednie kieszenie i regulowane szelki. Do pracy i na weekend.",
+    "de": "Ein gepolstertes Laptopfach, zwei Fronttaschen und verstellbare Riemen. Für den Arbeitsweg und das Wochenende.",
+    "cs": "Polstrovaná kapsa na notebook, dvě přední kapsy a nastavitelné popruhy. Do práce i na víkend.",
+    "nl": "Een gevoerd laptopvak, twee voorvakken en verstelbare banden. Voor woon-werkverkeer en het weekend.",
+    "pt": "Um bolso almofadado para portátil, dois bolsos frontais e alças ajustáveis. Para o dia a dia e para o fim de semana.",
+    "ru": "Мягкий карман для ноутбука, два передних кармана и регулируемые лямки. Для работы и выходных."
+   },
+   "features": {
+    "material": "leather-full",
+    "lining": "cotton",
+    "hardware": "brass",
+    "origin": "italy",
+    "patina": "darkens"
+   },
+   "combinations": {
+    "color": [
+     "chocolate",
+     "black"
+    ]
+   },
+   "images": [
+    "products/roll-top-backpack.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": true,
+   "related": [
+    "laptop-sleeve",
+    "travel-wallet"
+   ],
+   "text_fields": [
+    {
+     "name": {
+      "en": "Initials",
+      "fr": "Initiales",
+      "es": "Iniciales",
+      "it": "Iniziali",
+      "pl": "Inicjały",
+      "de": "Initialen",
+      "cs": "Iniciály",
+      "nl": "Initialen",
+      "pt": "Iniciais",
+      "ru": "Инициалы"
+     },
+     "required": 0
+    }
+   ]
+  },
+  {
+   "key": "canvas-rucksack",
+   "reference": "KL-202",
+   "category": "backpacks",
+   "brand": "fieldmark",
+   "price": 159,
+   "name": {
+    "en": "Waxed Canvas Rucksack",
+    "fr": "Sac à dos en toile cirée",
+    "es": "Mochila de lona encerada",
+    "it": "Zaino in tela cerata",
+    "pl": "Plecak z woskowanego płótna",
+    "de": "Rucksack aus gewachstem Canvas",
+    "cs": "Batoh z voskovaného plátna",
+    "nl": "Rugzak van gewaxt canvas",
+    "pt": "Mochila de lona encerada",
+    "ru": "Рюкзак из вощёного канваса"
+   },
+   "short": {
+    "en": "A weatherproof rucksack in waxed canvas with leather trim.",
+    "fr": "Un sac à dos imperméable en toile cirée et cuir.",
+    "es": "Una mochila impermeable de lona encerada con detalles de piel.",
+    "it": "Uno zaino impermeabile in tela cerata con finiture in pelle.",
+    "pl": "Wodoodporny plecak z woskowanego płótna ze skórzanymi wykończeniami.",
+    "de": "Ein wetterfester Rucksack aus Wachs-Canvas mit Lederbesatz.",
+    "cs": "Voděodolný batoh z voskovaného plátna s koženými detaily.",
+    "nl": "Een weerbestendige rugzak van gewaxt canvas met leren details.",
+    "pt": "Uma mochila impermeável de lona encerada com detalhes em pele.",
+    "ru": "Непромокаемый рюкзак из вощёного канваса с кожаной отделкой."
+   },
+   "description": {
+    "en": "Waxed cotton canvas sheds rain, leather straps and brass buckles add strength. Re-wax once a year and it will last decades.",
+    "fr": "La toile de coton cirée repousse la pluie, les sangles en cuir et les boucles en laiton apportent la solidité. Recirez-le une fois par an et il durera des décennies.",
+    "es": "La lona de algodón encerada repele la lluvia y las correas de piel con hebillas de latón aportan resistencia. Vuelve a encerarla una vez al año y durará décadas.",
+    "it": "La tela di cotone cerata respinge la pioggia, le cinghie in pelle e le fibbie in ottone danno robustezza. Ricerala una volta all'anno e durerà decenni.",
+    "pl": "Woskowane bawełniane płótno odpycha deszcz, a skórzane paski i mosiężne sprzączki dodają wytrzymałości. Woskuj go raz w roku, a posłuży dziesięciolecia.",
+    "de": "Gewachstes Baumwoll-Canvas lässt Regen abperlen, Lederriemen und Messingschnallen sorgen für Stabilität. Einmal im Jahr nachwachsen, und er hält Jahrzehnte.",
+    "cs": "Voskované bavlněné plátno odpuzuje déšť, kožené popruhy a mosazné přezky dodávají pevnost. Jednou ročně ho navoskujte a vydrží desítky let.",
+    "nl": "Gewaxt katoenen canvas weert regen af, leren banden en messing gespen geven stevigheid. Eén keer per jaar opnieuw waxen en hij gaat tientallen jaren mee.",
+    "pt": "A lona de algodão encerada repele a chuva e as correias de pele com fivelas de latão dão resistência. Volte a encerá-la uma vez por ano e dura décadas.",
+    "ru": "Вощёный хлопковый канвас отталкивает дождь, кожаные ремни и латунные пряжки добавляют прочности. Обновляйте пропитку раз в год, и он прослужит десятилетия."
+   },
+   "features": {
+    "material": "waxed",
+    "lining": "cotton",
+    "hardware": "brass",
+    "origin": "portugal"
+   },
+   "combinations": {
+    "color": [
+     "charcoal",
+     "olive"
+    ]
+   },
+   "images": [
+    "products/canvas-rucksack.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": false
+  },
+  {
+   "key": "city-backpack",
+   "reference": "KL-203",
+   "category": "backpacks",
+   "brand": "fieldmark",
+   "price": 189,
+   "name": {
+    "en": "City Backpack",
+    "fr": "Sac à dos urbain",
+    "es": "Mochila urbana",
+    "it": "Zaino da città",
+    "pl": "Plecak miejski",
+    "de": "City-Rucksack",
+    "cs": "Městský batoh",
+    "nl": "Stadsrugzak",
+    "pt": "Mochila urbana",
+    "ru": "Городской рюкзак"
+   },
+   "short": {
+    "en": "A canvas backpack with leather straps and buckles.",
+    "fr": "Un sac à dos en toile avec sangles et boucles en cuir.",
+    "es": "Una mochila de lona con correas y hebillas de piel.",
+    "it": "Uno zaino in tela con cinghie e fibbie in pelle.",
+    "pl": "Plecak z płótna ze skórzanymi paskami i klamrami.",
+    "de": "Ein Rucksack aus Canvas mit Lederriemen und Schnallen.",
+    "cs": "Plátěný batoh s koženými popruhy a přezkami.",
+    "nl": "Een canvas rugzak met leren riemen en gespen.",
+    "pt": "Uma mochila de lona com correias e fivelas em pele.",
+    "ru": "Холщовый рюкзак с кожаными ремнями и пряжками."
+   },
+   "description": {
+    "en": "A zipped main compartment, a sleeve for a 15-inch laptop and a hidden back pocket for your passport.",
+    "fr": "Un compartiment principal zippé, une poche pour ordinateur 15 pouces et une poche dorsale cachée pour votre passeport.",
+    "es": "Un compartimento principal con cremallera, una funda para portátil de 15 pulgadas y un bolsillo trasero oculto para el pasaporte.",
+    "it": "Uno scomparto principale con zip, una tasca per laptop da 15 pollici e una tasca posteriore nascosta per il passaporto.",
+    "pl": "Główna komora na zamek, przegroda na laptopa 15 cali i ukryta kieszeń na plecach na paszport.",
+    "de": "Ein Hauptfach mit Reißverschluss, ein Fach für 15-Zoll-Laptops und eine versteckte Rückentasche für den Reisepass.",
+    "cs": "Hlavní oddíl na zip, přihrádka na 15palcový notebook a skrytá zadní kapsa na pas.",
+    "nl": "Een hoofdvak met rits, een vak voor een laptop van 15 inch en een verborgen rugvak voor je paspoort.",
+    "pt": "Um compartimento principal com fecho, uma bolsa para portátil de 15 polegadas e um bolso traseiro escondido para o passaporte.",
+    "ru": "Основное отделение на молнии, отсек для ноутбука 15 дюймов и потайной карман на спинке для паспорта."
+   },
+   "features": {
+    "material": "canvas",
+    "lining": "cotton",
+    "hardware": "nickel",
+    "origin": "portugal"
+   },
+   "combinations": {
+    "color": [
+     "charcoal",
+     "black"
+    ]
+   },
+   "images": [
+    "products/city-backpack.jpg"
+   ],
+   "quantity": 30,
+   "discount": 15,
+   "new": false
+  },
+  {
+   "key": "laptop-sleeve",
+   "reference": "KL-204",
+   "category": "backpacks",
+   "brand": "kestrel",
+   "price": 99,
+   "name": {
+    "en": "Felt Laptop Sleeve",
+    "fr": "Housse d'ordinateur en feutre",
+    "es": "Funda de portátil de fieltro",
+    "it": "Custodia per laptop in feltro",
+    "pl": "Filcowe etui na laptopa",
+    "de": "Laptophülle aus Filz",
+    "cs": "Plstěný obal na notebook",
+    "nl": "Vilten laptophoes",
+    "pt": "Capa de feltro para portátil",
+    "ru": "Фетровый чехол для ноутбука"
+   },
+   "short": {
+    "en": "A wool felt laptop sleeve with a leather strap.",
+    "fr": "Une housse en feutre de laine avec sangle en cuir.",
+    "es": "Una funda de fieltro de lana con tira de piel.",
+    "it": "Una custodia in feltro di lana con cinghia in pelle.",
+    "pl": "Etui z wełnianego filcu ze skórzanym paskiem.",
+    "de": "Eine Hülle aus Wollfilz mit Lederriemen.",
+    "cs": "Obal z vlněné plsti s koženým páskem.",
+    "nl": "Een hoes van wolvilt met leren bandje.",
+    "pt": "Uma capa de feltro de lã com tira de pele.",
+    "ru": "Чехол из шерстяного фетра с кожаным ремешком."
+   },
+   "description": {
+    "en": "Thick wool felt protects your laptop, and a vegetable-tanned leather strap with a brass stud keeps it closed. Fits 13 and 14-inch laptops.",
+    "fr": "Un feutre de laine épais protège votre ordinateur et une sangle en cuir tanné végétal avec bouton en laiton la maintient fermée. Pour ordinateurs 13 et 14 pouces.",
+    "es": "Un fieltro de lana grueso protege el portátil y una tira de piel de curtido vegetal con botón de latón la mantiene cerrada. Para portátiles de 13 y 14 pulgadas.",
+    "it": "Uno spesso feltro di lana protegge il laptop e una cinghia in pelle conciata al vegetale con bottone in ottone la tiene chiusa. Per laptop da 13 e 14 pollici.",
+    "pl": "Gruby filc wełniany chroni laptopa, a pasek ze skóry garbowanej roślinnie z mosiężnym ćwiekiem trzyma etui zamknięte. Pasuje do laptopów 13 i 14 cali.",
+    "de": "Dicker Wollfilz schützt den Laptop, ein Riemen aus pflanzlich gegerbtem Leder mit Messingknopf hält die Hülle geschlossen. Für 13- und 14-Zoll-Laptops.",
+    "cs": "Silná vlněná plsť chrání notebook a pásek z rostlinně činěné kůže s mosazným knoflíkem ho drží zavřený. Pro notebooky 13 a 14 palců.",
+    "nl": "Dik wolvilt beschermt je laptop en een bandje van plantaardig gelooid leer met messing knop houdt hem dicht. Voor laptops van 13 en 14 inch.",
+    "pt": "Um feltro de lã espesso protege o portátil e uma tira de pele de curtimento vegetal com botão de latão mantém-na fechada. Para portáteis de 13 e 14 polegadas.",
+    "ru": "Плотный шерстяной фетр защищает ноутбук, а ремешок из кожи растительного дубления с латунной кнопкой держит чехол закрытым. Для ноутбуков 13 и 14 дюймов."
+   },
+   "features": {
+    "material": "felt",
+    "lining": "unlined",
+    "hardware": "nickel",
+    "origin": "italy"
+   },
+   "combinations": {
+    "color": [
+     "grey"
+    ]
+   },
+   "images": [
+    "products/laptop-sleeve.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": false
+  },
+  {
+   "key": "weekender-bag",
+   "reference": "KL-301",
+   "category": "travel",
+   "brand": "kestrel",
+   "price": 349,
+   "name": {
+    "en": "Leather Weekender",
+    "fr": "Sac week-end en cuir",
+    "es": "Bolsa de fin de semana de piel",
+    "it": "Borsone in pelle",
+    "pl": "Skórzana torba weekendowa",
+    "de": "Leder-Weekender",
+    "cs": "Kožená víkendová taška",
+    "nl": "Leren weekendtas",
+    "pt": "Saco de fim de semana em pele",
+    "ru": "Кожаная сумка выходного дня"
+   },
+   "short": {
+    "en": "A full-grain leather holdall for two-night trips.",
+    "fr": "Un sac fourre-tout en cuir pleine fleur pour deux nuits.",
+    "es": "Una bolsa de piel plena flor para escapadas de dos noches.",
+    "it": "Un borsone in pelle pieno fiore per due notti fuori.",
+    "pl": "Torba ze skóry licowej na wyjazdy na dwie noce.",
+    "de": "Eine Reisetasche aus Vollnarbenleder für zwei Nächte.",
+    "cs": "Taška z lícové kůže na výlety na dvě noci.",
+    "nl": "Een tas van volnerfleer voor twee nachten weg.",
+    "pt": "Um saco em pele plena flor para escapadinhas de duas noites.",
+    "ru": "Сумка из натуральной кожи для поездки на две ночи."
+   },
+   "description": {
+    "en": "Fits under an airline seat, opens wide and carries everything for a weekend away. Rolled handles and a padded shoulder strap.",
+    "fr": "Il tient sous un siège d'avion, s'ouvre en grand et emporte tout pour un week-end. Anses roulées et bandoulière rembourrée.",
+    "es": "Cabe bajo el asiento del avión, se abre por completo y lleva todo para un fin de semana. Asas enrolladas y correa acolchada.",
+    "it": "Sta sotto il sedile dell'aereo, si apre completamente e porta tutto per un weekend. Manici arrotolati e tracolla imbottita.",
+    "pl": "Mieści się pod siedzeniem w samolocie, szeroko się otwiera i pomieści wszystko na weekend. Zwijane uchwyty i wyściełany pasek na ramię.",
+    "de": "Passt unter den Flugzeugsitz, öffnet sich weit und fasst alles für ein Wochenende. Gerollte Henkel und gepolsterter Schultergurt.",
+    "cs": "Vejde se pod sedadlo v letadle, široce se otevírá a pobere vše na víkend. Rolovaná ucha a polstrovaný popruh přes rameno.",
+    "nl": "Past onder een vliegtuigstoel, gaat wijd open en neemt alles mee voor een weekend. Gerolde hengsels en een gevoerde schouderband.",
+    "pt": "Cabe debaixo do assento do avião, abre por completo e leva tudo para um fim de semana. Alças enroladas e alça de ombro almofadada.",
+    "ru": "Помещается под сиденье в самолёте, широко открывается и вмещает всё для выходных. Скрученные ручки и мягкий плечевой ремень."
+   },
+   "features": {
+    "material": "leather-full",
+    "lining": "cotton",
+    "hardware": "brass",
+    "origin": "italy",
+    "patina": "darkens"
+   },
+   "combinations": {
+    "color": [
+     "cognac",
+     "chocolate"
+    ]
+   },
+   "images": [
+    "products/weekender-bag.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": true,
+   "related": [
+    "travel-wallet",
+    "wash-bag"
+   ],
+   "text_fields": [
+    {
+     "name": {
+      "en": "Initials",
+      "fr": "Initiales",
+      "es": "Iniciales",
+      "it": "Iniziali",
+      "pl": "Inicjały",
+      "de": "Initialen",
+      "cs": "Iniciály",
+      "nl": "Initialen",
+      "pt": "Iniciais",
+      "ru": "Инициалы"
+     },
+     "required": 0
+    }
+   ]
+  },
+  {
+   "key": "canvas-duffel",
+   "reference": "KL-302",
+   "category": "travel",
+   "brand": "fieldmark",
+   "price": 179,
+   "name": {
+    "en": "Canvas Messenger Bag",
+    "fr": "Besace en toile",
+    "es": "Bandolera de lona",
+    "it": "Messenger in tela",
+    "pl": "Płócienna listonoszka",
+    "de": "Canvas-Messenger",
+    "cs": "Plátěná messenger taška",
+    "nl": "Canvas messenger",
+    "pt": "Mala messenger de lona",
+    "ru": "Канвасовый мессенджер"
+   },
+   "short": {
+    "en": "A canvas messenger bag with leather straps.",
+    "fr": "Une besace en toile avec sangles en cuir.",
+    "es": "Una bandolera de lona con correas de piel.",
+    "it": "Una messenger in tela con cinghie in pelle.",
+    "pl": "Listonoszka z płótna ze skórzanymi paskami.",
+    "de": "Eine Messenger-Tasche aus Canvas mit Lederriemen.",
+    "cs": "Messenger taška z plátna s koženými pásky.",
+    "nl": "Een canvas messenger met leren banden.",
+    "pt": "Uma mala messenger de lona com correias de pele.",
+    "ru": "Сумка-мессенджер из канваса с кожаными ремнями."
+   },
+   "description": {
+    "en": "Sturdy cotton canvas, two leather straps and a magnetic flap. Space for a laptop, a notebook and lunch.",
+    "fr": "Une toile de coton robuste, deux sangles en cuir et un rabat aimanté. De la place pour un ordinateur, un carnet et le déjeuner.",
+    "es": "Lona de algodón resistente, dos correas de piel y una solapa magnética. Cabe un portátil, una libreta y el almuerzo.",
+    "it": "Robusta tela di cotone, due cinghie in pelle e patta magnetica. Spazio per laptop, taccuino e pranzo.",
+    "pl": "Mocne bawełniane płótno, dwa skórzane paski i magnetyczna klapa. Zmieści laptopa, notes i lunch.",
+    "de": "Robustes Baumwoll-Canvas, zwei Lederriemen und eine Magnetklappe. Platz für Laptop, Notizbuch und Mittagessen.",
+    "cs": "Pevné bavlněné plátno, dva kožené pásky a magnetická klopa. Vejde se notebook, zápisník i oběd.",
+    "nl": "Stevig katoenen canvas, twee leren banden en een magneetklep. Ruimte voor laptop, notitieboek en lunch.",
+    "pt": "Lona de algodão resistente, duas correias de pele e aba magnética. Cabe um portátil, um caderno e o almoço.",
+    "ru": "Прочный хлопковый канвас, два кожаных ремня и магнитный клапан. Поместятся ноутбук, блокнот и обед."
+   },
+   "features": {
+    "material": "canvas",
+    "lining": "cotton",
+    "hardware": "brass",
+    "origin": "portugal"
+   },
+   "combinations": {
+    "color": [
+     "grey",
+     "chocolate"
+    ]
+   },
+   "images": [
+    "products/canvas-duffel.jpg"
+   ],
+   "quantity": 30,
+   "discount": 20,
+   "new": false
+  },
+  {
+   "key": "wash-bag",
+   "reference": "KL-303",
+   "category": "travel",
+   "brand": "kestrel",
+   "price": 79,
+   "name": {
+    "en": "Houndstooth Wash Bag",
+    "fr": "Trousse de toilette pied-de-poule",
+    "es": "Neceser de pata de gallo",
+    "it": "Beauty case pied-de-poule",
+    "pl": "Kosmetyczka w pepitkę",
+    "de": "Kulturbeutel mit Hahnentritt",
+    "cs": "Toaletní taška s kohoutí stopou",
+    "nl": "Toilettas met pied-de-poule",
+    "pt": "Necessaire pied-de-poule",
+    "ru": "Несессер в гусиную лапку"
+   },
+   "short": {
+    "en": "A zipped wash bag in woven houndstooth.",
+    "fr": "Une trousse de toilette zippée en tissu pied-de-poule.",
+    "es": "Un neceser con cremallera en tejido pata de gallo.",
+    "it": "Un beauty case con zip in tessuto pied-de-poule.",
+    "pl": "Kosmetyczka na zamek z tkaniny w pepitkę.",
+    "de": "Ein Kulturbeutel mit Reißverschluss aus Hahnentritt-Stoff.",
+    "cs": "Toaletní taška na zip z látky se vzorem kohoutí stopy.",
+    "nl": "Een toilettas met rits van pied-de-poule stof.",
+    "pt": "Uma necessaire com fecho em tecido pied-de-poule.",
+    "ru": "Несессер на молнии из ткани в гусиную лапку."
+   },
+   "description": {
+    "en": "A water-resistant lining, a wide zip opening and a leather pull. Packs flat in any suitcase.",
+    "fr": "Une doublure déperlante, une large ouverture zippée et une tirette en cuir. Elle se range à plat dans n'importe quelle valise.",
+    "es": "Un forro resistente al agua, una amplia abertura con cremallera y un tirador de piel. Se guarda plano en cualquier maleta.",
+    "it": "Una fodera idrorepellente, un'ampia apertura con zip e un tiretto in pelle. Si ripone piatto in qualsiasi valigia.",
+    "pl": "Wodoodporna podszewka, szeroki zamek i skórzany uchwyt suwaka. Płasko mieści się w każdej walizce.",
+    "de": "Ein wasserabweisendes Futter, eine weite Reißverschlussöffnung und ein Lederzipper. Liegt flach in jedem Koffer.",
+    "cs": "Voděodolná podšívka, široký zip a kožené poutko. Naplocho se vejde do každého kufru.",
+    "nl": "Een waterafstotende voering, een brede ritsopening en een leren treklipje. Ligt plat in elke koffer.",
+    "pt": "Um forro resistente à água, uma abertura larga com fecho e um puxador de pele. Arruma-se plana em qualquer mala.",
+    "ru": "Водоотталкивающая подкладка, широкая молния и кожаный бегунок. Плоско укладывается в любой чемодан."
+   },
+   "features": {
+    "material": "canvas",
+    "lining": "cotton",
+    "hardware": "brass",
+    "origin": "spain"
+   },
+   "combinations": {
+    "color": [
+     "charcoal"
+    ]
+   },
+   "images": [
+    "products/wash-bag.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": false
+  },
+  {
+   "key": "bifold-wallet",
+   "reference": "KL-401",
+   "category": "wallets",
+   "brand": "kestrel",
+   "price": 89,
+   "name": {
+    "en": "Bifold Wallet",
+    "fr": "Portefeuille à deux volets",
+    "es": "Billetera plegable",
+    "it": "Portafoglio a libro",
+    "pl": "Portfel składany",
+    "de": "Klappbörse",
+    "cs": "Skládací peněženka",
+    "nl": "Billfold portemonnee",
+    "pt": "Carteira dobrável",
+    "ru": "Складной кошелёк"
+   },
+   "short": {
+    "en": "A slim bifold wallet with six card slots.",
+    "fr": "Un portefeuille fin à six emplacements pour cartes.",
+    "es": "Una billetera fina con seis ranuras para tarjetas.",
+    "it": "Un portafoglio sottile con sei tasche per carte.",
+    "pl": "Smukły portfel z sześcioma przegrodami na karty.",
+    "de": "Eine schlanke Klappbörse mit sechs Kartenfächern.",
+    "cs": "Tenká peněženka se šesti sloty na karty.",
+    "nl": "Een slanke billfold met zes pasjesvakken.",
+    "pt": "Uma carteira fina com seis ranhuras para cartões.",
+    "ru": "Тонкий кошелёк с шестью отделениями для карт."
+   },
+   "description": {
+    "en": "Six card slots, a note pocket and two hidden pockets, all in one piece of full-grain leather.",
+    "fr": "Six emplacements pour cartes, une poche à billets et deux poches cachées, le tout dans une seule pièce de cuir pleine fleur.",
+    "es": "Seis ranuras para tarjetas, un bolsillo para billetes y dos bolsillos ocultos, todo en una sola pieza de piel plena flor.",
+    "it": "Sei tasche per carte, uno scomparto per banconote e due tasche nascoste, tutto in un unico pezzo di pelle pieno fiore.",
+    "pl": "Sześć przegród na karty, kieszeń na banknoty i dwie ukryte kieszenie, wszystko z jednego kawałka skóry licowej.",
+    "de": "Sechs Kartenfächer, ein Scheinfach und zwei versteckte Fächer, alles aus einem Stück Vollnarbenleder.",
+    "cs": "Šest slotů na karty, kapsa na bankovky a dvě skryté kapsy, vše z jednoho kusu lícové kůže.",
+    "nl": "Zes pasjesvakken, een biljettenvak en twee verborgen vakken, allemaal uit één stuk volnerfleer.",
+    "pt": "Seis ranhuras para cartões, um bolso para notas e dois bolsos escondidos, tudo numa só peça de pele plena flor.",
+    "ru": "Шесть отделений для карт, отделение для купюр и два потайных кармана, всё из цельного куска натуральной кожи."
+   },
+   "features": {
+    "material": "leather-full",
+    "lining": "unlined",
+    "hardware": "none",
+    "origin": "italy",
+    "patina": "darkens"
+   },
+   "combinations": {
+    "color": [
+     "chocolate",
+     "black"
+    ]
+   },
+   "images": [
+    "products/bifold-wallet.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": true,
+   "related": [
+    "card-holder",
+    "classic-belt"
+   ],
+   "text_fields": [
+    {
+     "name": {
+      "en": "Initials",
+      "fr": "Initiales",
+      "es": "Iniciales",
+      "it": "Iniziali",
+      "pl": "Inicjały",
+      "de": "Initialen",
+      "cs": "Iniciály",
+      "nl": "Initialen",
+      "pt": "Iniciais",
+      "ru": "Инициалы"
+     },
+     "required": 0
+    }
+   ]
+  },
+  {
+   "key": "card-holder",
+   "reference": "KL-402",
+   "category": "wallets",
+   "brand": "kestrel",
+   "price": 49,
+   "name": {
+    "en": "Leather Card Holder",
+    "fr": "Porte-cartes en cuir",
+    "es": "Tarjetero de piel",
+    "it": "Porta carte in pelle",
+    "pl": "Skórzane etui na karty",
+    "de": "Kartenetui aus Leder",
+    "cs": "Kožené pouzdro na karty",
+    "nl": "Leren pasjeshouder",
+    "pt": "Porta-cartões em pele",
+    "ru": "Кожаная визитница"
+   },
+   "short": {
+    "en": "A slim card holder in vegetable-tanned leather.",
+    "fr": "Un porte-cartes fin en cuir tanné végétal.",
+    "es": "Un tarjetero fino de piel curtida al vegetal.",
+    "it": "Un porta carte sottile in pelle conciata al vegetale.",
+    "pl": "Cienkie etui na karty ze skóry garbowanej roślinnie.",
+    "de": "Ein flaches Kartenetui aus pflanzlich gegerbtem Leder.",
+    "cs": "Tenké pouzdro na karty z rostlinně činěné kůže.",
+    "nl": "Een dunne pasjeshouder van plantaardig gelooid leer.",
+    "pt": "Um porta-cartões fino em pele de curtimento vegetal.",
+    "ru": "Тонкая визитница из кожи растительного дубления."
+   },
+   "description": {
+    "en": "Two outer pockets and a middle slot for notes. Thin enough for a shirt pocket, and the colour deepens as you carry it.",
+    "fr": "Deux poches extérieures et une fente centrale pour les billets. Assez fin pour une poche de chemise, et sa couleur fonce à l'usage.",
+    "es": "Dos bolsillos exteriores y una ranura central para billetes. Cabe en el bolsillo de la camisa y su color se oscurece con el uso.",
+    "it": "Due tasche esterne e uno scomparto centrale per le banconote. Abbastanza sottile per il taschino, e il colore si scurisce con l'uso.",
+    "pl": "Dwie kieszenie zewnętrzne i środkowa przegroda na banknoty. Zmieści się w kieszeni koszuli, a jego kolor z czasem ciemnieje.",
+    "de": "Zwei Außenfächer und ein Mittelfach für Scheine. Flach genug für die Hemdtasche, und die Farbe wird mit der Zeit dunkler.",
+    "cs": "Dvě vnější kapsy a prostřední přihrádka na bankovky. Vejde se do kapsy košile a jeho barva časem tmavne.",
+    "nl": "Twee buitenvakken en een middenvak voor briefjes. Dun genoeg voor je borstzak, en de kleur wordt donkerder met gebruik.",
+    "pt": "Dois bolsos exteriores e uma ranhura central para notas. Fino o suficiente para o bolso da camisa, e a cor escurece com o uso.",
+    "ru": "Два наружных кармана и среднее отделение для купюр. Помещается в нагрудный карман, а цвет со временем темнеет."
+   },
+   "features": {
+    "material": "veg-tan",
+    "lining": "unlined",
+    "hardware": "none",
+    "origin": "italy",
+    "patina": "darkens"
+   },
+   "combinations": {
+    "color": [
+     "chocolate",
+     "cognac",
+     "olive"
+    ]
+   },
+   "images": [
+    "products/card-holder.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": false,
+   "text_fields": [
+    {
+     "name": {
+      "en": "Initials",
+      "fr": "Initiales",
+      "es": "Iniciales",
+      "it": "Iniziali",
+      "pl": "Inicjały",
+      "de": "Initialen",
+      "cs": "Iniciály",
+      "nl": "Initialen",
+      "pt": "Iniciais",
+      "ru": "Инициалы"
+     },
+     "required": 0
+    }
+   ]
+  },
+  {
+   "key": "travel-wallet",
+   "reference": "KL-403",
+   "category": "wallets",
+   "brand": "nordvik",
+   "price": 119,
+   "name": {
+    "en": "Passport Cover",
+    "fr": "Protège-passeport",
+    "es": "Funda de pasaporte",
+    "it": "Porta passaporto",
+    "pl": "Okładka na paszport",
+    "de": "Passhülle",
+    "cs": "Obal na pas",
+    "nl": "Paspoorthoes",
+    "pt": "Capa de passaporte",
+    "ru": "Обложка для паспорта"
+   },
+   "short": {
+    "en": "A leather passport cover with card and ticket slots.",
+    "fr": "Un protège-passeport en cuir avec fentes pour cartes et billets.",
+    "es": "Una funda de pasaporte de piel con ranuras para tarjetas y billetes.",
+    "it": "Un porta passaporto in pelle con tasche per carte e biglietti.",
+    "pl": "Skórzana okładka na paszport z miejscem na karty i bilety.",
+    "de": "Eine Lederhülle für den Reisepass mit Fächern für Karten und Tickets.",
+    "cs": "Kožený obal na pas se sloty na karty a letenky.",
+    "nl": "Een leren paspoorthoes met vakjes voor pasjes en tickets.",
+    "pt": "Uma capa de passaporte em pele com ranhuras para cartões e bilhetes.",
+    "ru": "Кожаная обложка для паспорта с отделениями для карт и билетов."
+   },
+   "description": {
+    "en": "Holds a passport, boarding passes and two cards. Slim enough for a jacket pocket.",
+    "fr": "Contient un passeport, des cartes d'embarquement et deux cartes. Assez fin pour une poche de veste.",
+    "es": "Guarda el pasaporte, las tarjetas de embarque y dos tarjetas. Lo bastante fina para el bolsillo de la chaqueta.",
+    "it": "Contiene passaporto, carte d'imbarco e due carte. Abbastanza sottile per la tasca della giacca.",
+    "pl": "Mieści paszport, karty pokładowe i dwie karty. Na tyle cienka, że zmieści się w kieszeni marynarki.",
+    "de": "Fasst Reisepass, Bordkarten und zwei Karten. Schlank genug für die Jackentasche.",
+    "cs": "Pojme pas, palubní vstupenky a dvě karty. Dost tenký do kapsy saka.",
+    "nl": "Houdt paspoort, instapkaarten en twee pasjes bij elkaar. Slank genoeg voor een binnenzak.",
+    "pt": "Guarda o passaporte, cartões de embarque e dois cartões. Fina o suficiente para o bolso do casaco.",
+    "ru": "Вмещает паспорт, посадочные талоны и две карты. Достаточно тонкая для кармана пиджака."
+   },
+   "features": {
+    "material": "leather-full",
+    "lining": "cotton",
+    "hardware": "brass",
+    "origin": "turkey",
+    "patina": "darkens"
+   },
+   "combinations": {
+    "color": [
+     "black",
+     "cognac"
+    ]
+   },
+   "images": [
+    "products/travel-wallet.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": false,
+   "text_fields": [
+    {
+     "name": {
+      "en": "Initials",
+      "fr": "Initiales",
+      "es": "Iniciales",
+      "it": "Iniziali",
+      "pl": "Inicjały",
+      "de": "Initialen",
+      "cs": "Iniciály",
+      "nl": "Initialen",
+      "pt": "Iniciais",
+      "ru": "Инициалы"
+     },
+     "required": 0
+    }
+   ]
+  },
+  {
+   "key": "coin-pouch",
+   "reference": "KL-404",
+   "category": "wallets",
+   "brand": "nordvik",
+   "price": 39,
+   "name": {
+    "en": "Croc-Embossed Coin Purse",
+    "fr": "Porte-monnaie effet croco",
+    "es": "Monedero efecto cocodrilo",
+    "it": "Portamonete effetto cocco",
+    "pl": "Portmonetka w krokodyli wzór",
+    "de": "Münzbörse in Krokooptik",
+    "cs": "Peněženka na mince s krokodýlím vzorem",
+    "nl": "Muntbeurs met krokoprint",
+    "pt": "Porta-moedas efeito crocodilo",
+    "ru": "Монетница под крокодила"
+   },
+   "short": {
+    "en": "A kiss-lock coin purse in croc-embossed leather.",
+    "fr": "Un porte-monnaie à fermoir clip en cuir embossé croco.",
+    "es": "Un monedero de boquilla en piel grabada efecto cocodrilo.",
+    "it": "Un portamonete con chiusura a clic in pelle stampata cocco.",
+    "pl": "Portmonetka z zapięciem na bigiel z tłoczonej skóry.",
+    "de": "Eine Bügelbörse aus Leder mit Krokoprägung.",
+    "cs": "Peněženka s rámečkovým zapínáním z ražené kůže.",
+    "nl": "Een knipbeurs van leer met krokodillenreliëf.",
+    "pt": "Um porta-moedas com fecho de beijo em pele gravada.",
+    "ru": "Монетница с фермуаром из кожи с тиснением под крокодила."
+   },
+   "description": {
+    "en": "A classic kiss-lock frame opens wide so coins are easy to find.",
+    "fr": "Un fermoir clip classique qui s'ouvre en grand pour trouver facilement vos pièces.",
+    "es": "Una boquilla clásica que se abre por completo para encontrar las monedas fácilmente.",
+    "it": "Una classica chiusura a clic che si apre completamente per trovare subito le monete.",
+    "pl": "Klasyczne zapięcie na bigiel otwiera się szeroko, więc monety łatwo znaleźć.",
+    "de": "Ein klassischer Kussbügel, der sich weit öffnet, damit Münzen schnell zu finden sind.",
+    "cs": "Klasický rámeček se široce otevírá, takže mince snadno najdete.",
+    "nl": "Een klassieke knipsluiting die wijd opengaat, zodat je munten snel vindt.",
+    "pt": "Um fecho de beijo clássico que abre por completo para encontrar as moedas com facilidade.",
+    "ru": "Классический фермуар широко открывается, поэтому монеты легко найти."
+   },
+   "features": {
+    "material": "leather-full",
+    "lining": "unlined",
+    "hardware": "brass",
+    "origin": "turkey",
+    "patina": "darkens"
+   },
+   "combinations": {
+    "color": [
+     "black",
+     "burgundy"
+    ]
+   },
+   "images": [
+    "products/coin-pouch.jpg"
+   ],
+   "quantity": 30,
+   "discount": 25,
+   "new": false,
+   "text_fields": [
+    {
+     "name": {
+      "en": "Initials",
+      "fr": "Initiales",
+      "es": "Iniciales",
+      "it": "Iniziali",
+      "pl": "Inicjały",
+      "de": "Initialen",
+      "cs": "Iniciály",
+      "nl": "Initialen",
+      "pt": "Iniciais",
+      "ru": "Инициалы"
+     },
+     "required": 0
+    }
+   ]
+  },
+  {
+   "key": "classic-belt",
+   "reference": "KL-501",
+   "category": "belts",
+   "brand": "kestrel",
+   "price": 69,
+   "name": {
+    "en": "Classic Jeans Belt",
+    "fr": "Ceinture jean classique",
+    "es": "Cinturón vaquero clásico",
+    "it": "Cintura classica da jeans",
+    "pl": "Klasyczny pasek do jeansów",
+    "de": "Klassischer Jeansgürtel",
+    "cs": "Klasický opasek k džínům",
+    "nl": "Klassieke jeansriem",
+    "pt": "Cinto clássico para ganga",
+    "ru": "Классический ремень под джинсы"
+   },
+   "short": {
+    "en": "A 38 mm leather belt for jeans and chinos.",
+    "fr": "Une ceinture en cuir de 38 mm pour jean et chino.",
+    "es": "Un cinturón de piel de 38 mm para vaqueros y chinos.",
+    "it": "Una cintura in pelle da 38 mm per jeans e chino.",
+    "pl": "Skórzany pasek 38 mm do jeansów i chinosów.",
+    "de": "Ein 38 mm breiter Ledergürtel für Jeans und Chinos.",
+    "cs": "Kožený opasek šíře 38 mm k džínům a chinos.",
+    "nl": "Een leren riem van 38 mm voor jeans en chino's.",
+    "pt": "Um cinto de pele de 38 mm para ganga e chinos.",
+    "ru": "Кожаный ремень шириной 38 мм для джинсов и чинос."
+   },
+   "description": {
+    "en": "One strip of thick leather with a solid buckle. It breaks in and shapes to you over time.",
+    "fr": "Une seule bande de cuir épais avec une boucle massive. Elle se fait à vous avec le temps.",
+    "es": "Una sola tira de piel gruesa con una hebilla maciza. Se adapta a ti con el tiempo.",
+    "it": "Un'unica striscia di pelle spessa con una fibbia massiccia. Con il tempo prende la tua forma.",
+    "pl": "Jeden pas grubej skóry z masywną sprzączką. Z czasem dopasowuje się do ciebie.",
+    "de": "Ein Streifen dickes Leder mit massiver Schnalle. Er passt sich mit der Zeit an Sie an.",
+    "cs": "Jeden pruh silné kůže s masivní přezkou. Časem se vám přizpůsobí.",
+    "nl": "Eén strook dik leer met een massieve gesp. Na verloop van tijd vormt hij zich naar jou.",
+    "pt": "Uma só tira de pele espessa com uma fivela maciça. Molda-se a si com o tempo.",
+    "ru": "Одна полоса толстой кожи с массивной пряжкой. Со временем принимает вашу форму."
+   },
+   "features": {
+    "material": "veg-tan",
+    "lining": "unlined",
+    "hardware": "brass",
+    "origin": "italy",
+    "patina": "darkens"
+   },
+   "combinations": {
+    "size": [
+     "85",
+     "90",
+     "95",
+     "100",
+     "105"
+    ],
+    "color": [
+     "charcoal",
+     "black",
+     "chocolate"
+    ]
+   },
+   "images": [
+    "products/classic-belt.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": false,
+   "text_fields": [
+    {
+     "name": {
+      "en": "Initials",
+      "fr": "Initiales",
+      "es": "Iniciales",
+      "it": "Iniziali",
+      "pl": "Inicjały",
+      "de": "Initialen",
+      "cs": "Iniciály",
+      "nl": "Initialen",
+      "pt": "Iniciais",
+      "ru": "Инициалы"
+     },
+     "required": 0
+    }
+   ]
+  },
+  {
+   "key": "dress-belt",
+   "reference": "KL-502",
+   "category": "belts",
+   "brand": "kestrel",
+   "price": 79,
+   "name": {
+    "en": "Dress Belt",
+    "fr": "Ceinture de costume",
+    "es": "Cinturón de vestir",
+    "it": "Cintura elegante",
+    "pl": "Pasek elegancki",
+    "de": "Anzuggürtel",
+    "cs": "Společenský opasek",
+    "nl": "Nette riem",
+    "pt": "Cinto clássico",
+    "ru": "Классический ремень"
+   },
+   "short": {
+    "en": "A slim 30 mm belt for suits and tailoring.",
+    "fr": "Une ceinture fine de 30 mm pour costumes.",
+    "es": "Un cinturón fino de 30 mm para trajes.",
+    "it": "Una cintura sottile da 30 mm per abiti.",
+    "pl": "Wąski pasek 30 mm do garniturów.",
+    "de": "Ein schmaler 30-mm-Gürtel für Anzüge.",
+    "cs": "Úzký opasek šíře 30 mm k oblekům.",
+    "nl": "Een smalle riem van 30 mm voor pakken.",
+    "pt": "Um cinto fino de 30 mm para fatos.",
+    "ru": "Узкий ремень 30 мм для костюмов."
+   },
+   "description": {
+    "en": "Polished leather, painted edges and a brushed nickel buckle. The finishing touch for a suit.",
+    "fr": "Cuir poli, tranches peintes et boucle en nickel brossé. La touche finale d'un costume.",
+    "es": "Piel pulida, cantos pintados y hebilla de níquel cepillado. El toque final de un traje.",
+    "it": "Pelle lucida, bordi tinti e fibbia in nichel spazzolato. Il tocco finale per un abito.",
+    "pl": "Polerowana skóra, malowane krawędzie i sprzączka ze szczotkowanego niklu. Wykończenie każdego garnituru.",
+    "de": "Poliertes Leder, gefärbte Kanten und eine Schnalle aus gebürstetem Nickel. Der letzte Schliff für jeden Anzug.",
+    "cs": "Leštěná kůže, barvené hrany a přezka z kartáčovaného niklu. Dokončení každého obleku.",
+    "nl": "Gepolijst leer, geverfde randen en een gesp van geborsteld nikkel. De finishing touch van elk pak.",
+    "pt": "Pele polida, bordas pintadas e fivela de níquel escovado. O toque final de qualquer fato.",
+    "ru": "Полированная кожа, окрашенные края и пряжка из матового никеля. Завершающий штрих любого костюма."
+   },
+   "features": {
+    "material": "leather-full",
+    "lining": "unlined",
+    "hardware": "nickel",
+    "origin": "italy",
+    "patina": "darkens"
+   },
+   "combinations": {
+    "size": [
+     "85",
+     "90",
+     "95",
+     "100",
+     "105"
+    ],
+    "color": [
+     "black",
+     "chocolate"
+    ]
+   },
+   "images": [
+    "products/dress-belt.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": false,
+   "text_fields": [
+    {
+     "name": {
+      "en": "Initials",
+      "fr": "Initiales",
+      "es": "Iniciales",
+      "it": "Iniziali",
+      "pl": "Inicjały",
+      "de": "Initialen",
+      "cs": "Iniciály",
+      "nl": "Initialen",
+      "pt": "Iniciais",
+      "ru": "Инициалы"
+     },
+     "required": 0
+    }
+   ]
+  },
+  {
+   "key": "braided-belt",
+   "reference": "KL-503",
+   "category": "belts",
+   "brand": "oro-pelle",
+   "price": 59,
+   "name": {
+    "en": "Braided Leather Belt",
+    "fr": "Ceinture en cuir tressé",
+    "es": "Cinturón de piel trenzada",
+    "it": "Cintura in pelle intrecciata",
+    "pl": "Pleciony pasek skórzany",
+    "de": "Geflochtener Ledergürtel",
+    "cs": "Pletený kožený opasek",
+    "nl": "Gevlochten leren riem",
+    "pt": "Cinto de pele entrançada",
+    "ru": "Плетёный кожаный ремень"
+   },
+   "short": {
+    "en": "A hand-braided leather belt that fits every hole.",
+    "fr": "Une ceinture tressée à la main qui s'ajuste partout.",
+    "es": "Un cinturón trenzado a mano que se ajusta en cualquier punto.",
+    "it": "Una cintura intrecciata a mano che si regola ovunque.",
+    "pl": "Ręcznie pleciony pasek, który zapniesz w dowolnym miejscu.",
+    "de": "Ein handgeflochtener Gürtel, der überall passt.",
+    "cs": "Ručně pletený opasek, který zapnete kdekoli.",
+    "nl": "Een handgevlochten riem die overal past.",
+    "pt": "Um cinto entrançado à mão que aperta em qualquer ponto.",
+    "ru": "Ремень ручного плетения, который застёгивается в любом месте."
+   },
+   "description": {
+    "en": "Hand-braided strips of soft leather. The buckle tongue goes through the braid, so the fit is always exact.",
+    "fr": "Des lanières de cuir souple tressées à la main. L'ardillon passe dans la tresse, l'ajustement est toujours parfait.",
+    "es": "Tiras de piel suave trenzadas a mano. El pasador entra en la trenza, así que el ajuste siempre es exacto.",
+    "it": "Strisce di pelle morbida intrecciate a mano. L'ardiglione passa nell'intreccio, così la vestibilità è sempre perfetta.",
+    "pl": "Ręcznie plecione paski miękkiej skóry. Kolec sprzączki przechodzi przez splot, więc dopasowanie jest zawsze idealne.",
+    "de": "Handgeflochtene Streifen aus weichem Leder. Der Dorn geht durch das Geflecht, so sitzt der Gürtel immer genau.",
+    "cs": "Ručně pletené proužky měkké kůže. Trn přezky prochází výpletem, takže opasek vždy sedí přesně.",
+    "nl": "Handgevlochten repen zacht leer. De pin gaat door het vlechtwerk, dus de pasvorm is altijd precies goed.",
+    "pt": "Tiras de pele macia entrançadas à mão. O fuzilhão passa pela trança, por isso o ajuste é sempre perfeito.",
+    "ru": "Полоски мягкой кожи, сплетённые вручную. Язычок пряжки проходит сквозь плетение, поэтому посадка всегда точная."
+   },
+   "features": {
+    "material": "leather-full",
+    "lining": "unlined",
+    "hardware": "brass",
+    "origin": "spain",
+    "patina": "darkens"
+   },
+   "combinations": {
+    "size": [
+     "85",
+     "90",
+     "95",
+     "100",
+     "105"
+    ],
+    "color": [
+     "tan",
+     "cognac"
+    ]
+   },
+   "images": [
+    "products/braided-belt.jpg"
+   ],
+   "quantity": 30,
+   "discount": 20,
+   "new": false,
+   "text_fields": [
+    {
+     "name": {
+      "en": "Initials",
+      "fr": "Initiales",
+      "es": "Iniciales",
+      "it": "Iniziali",
+      "pl": "Inicjały",
+      "de": "Initialen",
+      "cs": "Iniciály",
+      "nl": "Initialen",
+      "pt": "Iniciais",
+      "ru": "Инициалы"
+     },
+     "required": 0
+    }
+   ]
+  },
+  {
+   "key": "work-belt",
+   "reference": "KL-504",
+   "category": "belts",
+   "brand": "nordvik",
+   "price": 89,
+   "name": {
+    "en": "Workwear Belt",
+    "fr": "Ceinture workwear",
+    "es": "Cinturón workwear",
+    "it": "Cintura workwear",
+    "pl": "Pasek workwear",
+    "de": "Workwear-Gürtel",
+    "cs": "Pracovní opasek",
+    "nl": "Workwear riem",
+    "pt": "Cinto workwear",
+    "ru": "Рабочий ремень"
+   },
+   "short": {
+    "en": "A heavy 40 mm belt for workwear and denim.",
+    "fr": "Une ceinture épaisse de 40 mm pour le workwear et le denim.",
+    "es": "Un cinturón grueso de 40 mm para ropa de trabajo y denim.",
+    "it": "Una cintura robusta da 40 mm per workwear e denim.",
+    "pl": "Mocny pasek 40 mm do odzieży roboczej i denimu.",
+    "de": "Ein kräftiger 40-mm-Gürtel für Workwear und Denim.",
+    "cs": "Pevný opasek šíře 40 mm k pracovnímu oblečení a denimu.",
+    "nl": "Een stevige riem van 40 mm voor workwear en denim.",
+    "pt": "Um cinto robusto de 40 mm para roupa de trabalho e ganga.",
+    "ru": "Прочный ремень 40 мм для рабочей одежды и денима."
+   },
+   "description": {
+    "en": "Extra-thick leather and a solid brass buckle, made for heavy denim and long days.",
+    "fr": "Un cuir extra-épais et une boucle en laiton massif, faits pour le denim épais et les longues journées.",
+    "es": "Piel extragruesa y hebilla de latón macizo, para denim pesado y jornadas largas.",
+    "it": "Pelle extra spessa e fibbia in ottone massiccio, per denim pesante e giornate lunghe.",
+    "pl": "Bardzo gruba skóra i sprzączka z litego mosiądzu, do ciężkiego denimu i długich dni.",
+    "de": "Extra dickes Leder und eine Schnalle aus massivem Messing, gemacht für schweren Denim und lange Tage.",
+    "cs": "Extra silná kůže a přezka z masivní mosazi, pro těžký denim a dlouhé dny.",
+    "nl": "Extra dik leer en een gesp van massief messing, gemaakt voor zware denim en lange dagen.",
+    "pt": "Pele extra-espessa e fivela de latão maciço, feito para ganga pesada e dias longos.",
+    "ru": "Сверхтолстая кожа и пряжка из цельной латуни для тяжёлого денима и долгих дней."
+   },
+   "features": {
+    "material": "veg-tan",
+    "lining": "unlined",
+    "hardware": "brass",
+    "origin": "turkey",
+    "patina": "darkens"
+   },
+   "combinations": {
+    "size": [
+     "85",
+     "90",
+     "95",
+     "100",
+     "105"
+    ],
+    "color": [
+     "chocolate"
+    ]
+   },
+   "images": [
+    "products/work-belt.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": false,
+   "text_fields": [
+    {
+     "name": {
+      "en": "Initials",
+      "fr": "Initiales",
+      "es": "Iniciales",
+      "it": "Iniziali",
+      "pl": "Inicjały",
+      "de": "Initialen",
+      "cs": "Iniciály",
+      "nl": "Initialen",
+      "pt": "Iniciais",
+      "ru": "Инициалы"
+     },
+     "required": 0
+    }
+   ]
+  },
+  {
+   "key": "key-ring",
+   "reference": "KL-601",
+   "category": "accessories",
+   "brand": "kestrel",
+   "price": 25,
+   "name": {
+    "en": "Leather Key Ring",
+    "fr": "Porte-clés en cuir",
+    "es": "Llavero de piel",
+    "it": "Portachiavi in pelle",
+    "pl": "Skórzany brelok",
+    "de": "Leder-Schlüsselanhänger",
+    "cs": "Kožená klíčenka",
+    "nl": "Leren sleutelhanger",
+    "pt": "Porta-chaves de pele",
+    "ru": "Кожаный брелок"
+   },
+   "short": {
+    "en": "A leather key fob with a brass split ring.",
+    "fr": "Un porte-clés en cuir avec anneau en laiton.",
+    "es": "Un llavero de piel con anilla de latón.",
+    "it": "Un portachiavi in pelle con anello in ottone.",
+    "pl": "Skórzany brelok z mosiężnym kółkiem.",
+    "de": "Ein Schlüsselanhänger aus Leder mit Messingring.",
+    "cs": "Kožená klíčenka s mosazným kroužkem.",
+    "nl": "Een leren sleutelhanger met messing ring.",
+    "pt": "Um porta-chaves de pele com argola de latão.",
+    "ru": "Кожаный брелок с латунным кольцом."
+   },
+   "description": {
+    "en": "A small loop of vegetable-tanned leather that softens and darkens in your pocket.",
+    "fr": "Une petite boucle de cuir tanné végétal qui s'assouplit et fonce dans votre poche.",
+    "es": "Un pequeño lazo de piel de curtido vegetal que se suaviza y oscurece en tu bolsillo.",
+    "it": "Un piccolo anello di pelle conciata al vegetale che si ammorbidisce e si scurisce in tasca.",
+    "pl": "Mała pętla ze skóry garbowanej roślinnie, która mięknie i ciemnieje w kieszeni.",
+    "de": "Eine kleine Schlaufe aus pflanzlich gegerbtem Leder, die in der Tasche weicher und dunkler wird.",
+    "cs": "Malé poutko z rostlinně činěné kůže, které v kapse měkne a tmavne.",
+    "nl": "Een kleine lus van plantaardig gelooid leer die in je zak zachter en donkerder wordt.",
+    "pt": "Uma pequena presilha de pele de curtimento vegetal que amacia e escurece no bolso.",
+    "ru": "Небольшая петля из кожи растительного дубления, которая в кармане становится мягче и темнее."
+   },
+   "features": {
+    "material": "veg-tan",
+    "lining": "unlined",
+    "hardware": "brass",
+    "origin": "italy",
+    "patina": "darkens"
+   },
+   "combinations": {
+    "color": [
+     "tan",
+     "chocolate"
+    ]
+   },
+   "images": [
+    "products/key-ring.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": false,
+   "text_fields": [
+    {
+     "name": {
+      "en": "Initials",
+      "fr": "Initiales",
+      "es": "Iniciales",
+      "it": "Iniziali",
+      "pl": "Inicjały",
+      "de": "Initialen",
+      "cs": "Iniciály",
+      "nl": "Initialen",
+      "pt": "Iniciais",
+      "ru": "Инициалы"
+     },
+     "required": 0
+    }
+   ]
+  },
+  {
+   "key": "notebook-cover",
+   "reference": "KL-602",
+   "category": "accessories",
+   "brand": "kestrel",
+   "price": 59,
+   "name": {
+    "en": "Leather Journal",
+    "fr": "Carnet en cuir",
+    "es": "Cuaderno de piel",
+    "it": "Taccuino in pelle",
+    "pl": "Skórzany notes",
+    "de": "Leder-Notizbuch",
+    "cs": "Kožený zápisník",
+    "nl": "Leren notitieboek",
+    "pt": "Caderno de pele",
+    "ru": "Кожаный блокнот"
+   },
+   "short": {
+    "en": "A wrap-around leather journal with refillable paper.",
+    "fr": "Un carnet à lien enveloppant en cuir, rechargeable.",
+    "es": "Un cuaderno de piel con cordón envolvente y recambios.",
+    "it": "Un taccuino in pelle con laccio avvolgente e ricariche.",
+    "pl": "Skórzany notes z owijanym rzemieniem i wkładami.",
+    "de": "Ein Wickel-Notizbuch aus Leder mit Nachfüllpapier.",
+    "cs": "Kožený zápisník s ovinovací šňůrkou a náplněmi.",
+    "nl": "Een leren notitieboek met wikkelkoord en navullingen.",
+    "pt": "Um caderno de pele com fita envolvente e recargas.",
+    "ru": "Кожаный блокнот с обмоточным шнуром и сменными блоками."
+   },
+   "description": {
+    "en": "A soft leather cover with a long wrap tie, filled with 192 pages of cream paper. Refills are available.",
+    "fr": "Une couverture en cuir souple avec un long lien, garnie de 192 pages de papier crème. Recharges disponibles.",
+    "es": "Una cubierta de piel suave con un largo cordón, con 192 páginas de papel crema. Hay recambios disponibles.",
+    "it": "Una copertina in pelle morbida con un lungo laccio, con 192 pagine di carta color crema. Ricariche disponibili.",
+    "pl": "Miękka skórzana okładka z długim rzemieniem i 192 stronami kremowego papieru. Dostępne są wkłady.",
+    "de": "Ein weicher Ledereinband mit langem Wickelband und 192 Seiten cremefarbenem Papier. Nachfüllungen erhältlich.",
+    "cs": "Měkký kožený obal s dlouhou šňůrkou a 192 stranami krémového papíru. Náplně jsou k dispozici.",
+    "nl": "Een zachte leren omslag met een lang wikkelkoord en 192 pagina's crèmekleurig papier. Navullingen verkrijgbaar.",
+    "pt": "Uma capa de pele macia com uma fita longa e 192 páginas de papel creme. Recargas disponíveis.",
+    "ru": "Мягкая кожаная обложка с длинным шнуром и 192 страницами кремовой бумаги. Сменные блоки в продаже."
+   },
+   "features": {
+    "material": "veg-tan",
+    "lining": "unlined",
+    "hardware": "none",
+    "origin": "italy",
+    "patina": "darkens"
+   },
+   "combinations": {
+    "color": [
+     "tan",
+     "cognac"
+    ]
+   },
+   "images": [
+    "products/notebook-cover.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": false,
+   "text_fields": [
+    {
+     "name": {
+      "en": "Initials",
+      "fr": "Initiales",
+      "es": "Iniciales",
+      "it": "Iniziali",
+      "pl": "Inicjały",
+      "de": "Initialen",
+      "cs": "Iniciály",
+      "nl": "Initialen",
+      "pt": "Iniciais",
+      "ru": "Инициалы"
+     },
+     "required": 0
+    }
+   ]
+  },
+  {
+   "key": "watch-strap",
+   "reference": "KL-603",
+   "category": "accessories",
+   "brand": "nordvik",
+   "price": 45,
+   "name": {
+    "en": "Leather Watch Strap",
+    "fr": "Bracelet de montre en cuir",
+    "es": "Correa de reloj de piel",
+    "it": "Cinturino per orologio in pelle",
+    "pl": "Skórzany pasek do zegarka",
+    "de": "Leder-Uhrenarmband",
+    "cs": "Kožený řemínek k hodinkám",
+    "nl": "Leren horlogebandje",
+    "pt": "Bracelete de relógio em pele",
+    "ru": "Кожаный ремешок для часов"
+   },
+   "short": {
+    "en": "A 20 mm leather watch strap with quick-release pins.",
+    "fr": "Un bracelet de montre en cuir de 20 mm à barrettes rapides.",
+    "es": "Una correa de reloj de piel de 20 mm con pasadores rápidos.",
+    "it": "Un cinturino in pelle da 20 mm con barrette a sgancio rapido.",
+    "pl": "Skórzany pasek 20 mm z szybkozłączkami.",
+    "de": "Ein 20-mm-Lederarmband mit Schnellwechsel-Stegen.",
+    "cs": "Kožený řemínek 20 mm s rychloupínacími trny.",
+    "nl": "Een leren horlogebandje van 20 mm met snelwisselpinnen.",
+    "pt": "Uma bracelete de pele de 20 mm com pinos de troca rápida.",
+    "ru": "Кожаный ремешок 20 мм с быстросъёмными шпильками."
+   },
+   "description": {
+    "en": "Change your watch strap in seconds without tools. Padded leather with a brushed nickel buckle.",
+    "fr": "Changez de bracelet en quelques secondes, sans outil. Cuir rembourré et boucle en nickel brossé.",
+    "es": "Cambia la correa en segundos y sin herramientas. Piel acolchada y hebilla de níquel cepillado.",
+    "it": "Cambia cinturino in pochi secondi senza attrezzi. Pelle imbottita e fibbia in nichel spazzolato.",
+    "pl": "Wymień pasek w kilka sekund bez narzędzi. Wyściełana skóra i sprzączka ze szczotkowanego niklu.",
+    "de": "Wechseln Sie das Armband in Sekunden ohne Werkzeug. Gepolstertes Leder und Schnalle aus gebürstetem Nickel.",
+    "cs": "Vyměňte řemínek za pár vteřin bez nářadí. Polstrovaná kůže a přezka z kartáčovaného niklu.",
+    "nl": "Wissel in seconden van bandje, zonder gereedschap. Gevoerd leer en een gesp van geborsteld nikkel.",
+    "pt": "Troque de bracelete em segundos, sem ferramentas. Pele almofadada e fivela de níquel escovado.",
+    "ru": "Меняйте ремешок за секунды без инструментов. Мягкая кожа и пряжка из матового никеля."
+   },
+   "features": {
+    "material": "leather-full",
+    "lining": "unlined",
+    "hardware": "nickel",
+    "origin": "turkey",
+    "patina": "darkens"
+   },
+   "combinations": {
+    "color": [
+     "chocolate",
+     "black",
+     "tan"
+    ]
+   },
+   "images": [
+    "products/watch-strap.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": false
+  },
+  {
+   "key": "leather-care-balm",
+   "reference": "KL-604",
+   "category": "accessories",
+   "brand": "kestrel",
+   "price": 19,
+   "name": {
+    "en": "Leather Care Balm",
+    "fr": "Baume d'entretien du cuir",
+    "es": "Bálsamo para piel",
+    "it": "Balsamo per la pelle",
+    "pl": "Balsam do skóry",
+    "de": "Lederpflege-Balsam",
+    "cs": "Balzám na kůži",
+    "nl": "Leerbalsem",
+    "pt": "Bálsamo para pele",
+    "ru": "Бальзам для кожи"
+   },
+   "short": {
+    "en": "A beeswax balm to feed and protect leather.",
+    "fr": "Un baume à la cire d'abeille pour nourrir et protéger le cuir.",
+    "es": "Un bálsamo de cera de abeja para nutrir y proteger la piel.",
+    "it": "Un balsamo alla cera d'api per nutrire e proteggere la pelle.",
+    "pl": "Balsam z wosku pszczelego, który odżywia i chroni skórę.",
+    "de": "Ein Bienenwachsbalsam, der Leder nährt und schützt.",
+    "cs": "Balzám se včelím voskem, který vyživuje a chrání kůži.",
+    "nl": "Een balsem met bijenwas die leer voedt en beschermt.",
+    "pt": "Um bálsamo de cera de abelha para nutrir e proteger a pele.",
+    "ru": "Бальзам с пчелиным воском, который питает и защищает кожу."
+   },
+   "description": {
+    "en": "Beeswax and natural oils in a tin, with a horsehair brush. Use it twice a year to keep leather supple.",
+    "fr": "Cire d'abeille et huiles naturelles en boîte, avec une brosse en crin de cheval. À utiliser deux fois par an pour garder le cuir souple.",
+    "es": "Cera de abeja y aceites naturales en lata, con un cepillo de crin de caballo. Úsalo dos veces al año para mantener la piel flexible.",
+    "it": "Cera d'api e oli naturali in latta, con una spazzola in crine di cavallo. Usalo due volte l'anno per mantenere la pelle morbida.",
+    "pl": "Wosk pszczeli i naturalne oleje w puszce, ze szczotką z końskiego włosia. Stosuj dwa razy w roku, aby skóra pozostała elastyczna.",
+    "de": "Bienenwachs und natürliche Öle in der Dose, mit einer Rosshaarbürste. Zweimal im Jahr anwenden, damit das Leder geschmeidig bleibt.",
+    "cs": "Včelí vosk a přírodní oleje v plechovce, s kartáčem z koňských žíní. Používejte dvakrát ročně, aby kůže zůstala vláčná.",
+    "nl": "Bijenwas en natuurlijke oliën in een blik, met een paardenharen borstel. Gebruik hem twee keer per jaar om leer soepel te houden.",
+    "pt": "Cera de abelha e óleos naturais numa lata, com uma escova de crina de cavalo. Use duas vezes por ano para manter a pele flexível.",
+    "ru": "Пчелиный воск и натуральные масла в банке, со щёткой из конского волоса. Используйте дважды в год, чтобы кожа оставалась эластичной."
+   },
+   "features": {
+    "origin": "germany"
+   },
+   "combinations": {},
+   "images": [
+    "products/leather-care-balm.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": false
+  }
+ ],
+ "cms": [
+  {
+   "key": "about",
+   "title": {
+    "en": "About us",
+    "fr": "À propos",
+    "es": "Sobre nosotros",
+    "it": "Chi siamo",
+    "pl": "O nas",
+    "de": "Über uns",
+    "cs": "O nás",
+    "nl": "Over ons",
+    "pt": "Sobre nós",
+    "ru": "О нас"
+   },
+   "meta_description": {
+    "en": "Kestrel Leather makes bags, wallets and belts by hand in Florence.",
+    "fr": "Kestrel Leather fabrique à la main des sacs, portefeuilles et ceintures à Florence.",
+    "es": "Kestrel Leather fabrica a mano bolsos, carteras y cinturones en Florencia.",
+    "it": "Kestrel Leather realizza a mano borse, portafogli e cinture a Firenze.",
+    "pl": "Kestrel Leather ręcznie wytwarza torby, portfele i paski we Florencji.",
+    "de": "Kestrel Leather fertigt Taschen, Geldbörsen und Gürtel in Handarbeit in Florenz.",
+    "cs": "Kestrel Leather ručně vyrábí kabelky, peněženky a opasky ve Florencii.",
+    "nl": "Kestrel Leather maakt tassen, portemonnees en riemen met de hand in Florence.",
+    "pt": "A Kestrel Leather faz malas, carteiras e cintos à mão em Florença.",
+    "ru": "Kestrel Leather вручную делает сумки, кошельки и ремни во Флоренции."
+   },
+   "content": {
+    "en": "<h2>Leather that tells a story</h2><p>Kestrel Leather began in 1987 as a two-person workshop near Santa Croce in Florence. We still cut, stitch and finish every piece by hand.</p><h3>The hides</h3><p>We buy vegetable-tanned and full-grain hides from family tanneries, chosen one by one for thickness and grain.</p><h3>The workshop</h3><p>Every edge is burnished, every seam stitched with waxed linen thread. A bag takes up to eight hours to make.</p><h3>Made to be repaired</h3><p>We repair what we make, for life.</p><p><em>This is demo content for the Kestrel Leather theme.</em></p>",
+    "fr": "<h2>Un cuir qui raconte une histoire</h2><p>Kestrel Leather est né en 1987 dans un atelier de deux personnes près de Santa Croce, à Florence. Nous coupons, cousons et finissons toujours chaque pièce à la main.</p><h3>Les peaux</h3><p>Nous achetons des peaux tannées végétal et pleine fleur auprès de tanneries familiales, choisies une à une pour leur épaisseur et leur grain.</p><h3>L'atelier</h3><p>Chaque tranche est lissée, chaque couture piquée au fil de lin ciré. Un sac demande jusqu'à huit heures de travail.</p><h3>Fait pour être réparé</h3><p>Nous réparons ce que nous fabriquons, à vie.</p><p><em>Ceci est un contenu de démonstration du thème Kestrel Leather.</em></p>",
+    "es": "<h2>Piel que cuenta una historia</h2><p>Kestrel Leather nació en 1987 como un taller de dos personas cerca de Santa Croce, en Florencia. Seguimos cortando, cosiendo y acabando cada pieza a mano.</p><h3>Las pieles</h3><p>Compramos pieles de curtido vegetal y plena flor a curtidurías familiares, elegidas una a una por su grosor y su grano.</p><h3>El taller</h3><p>Cada canto se bruñe y cada costura se cose con hilo de lino encerado. Un bolso lleva hasta ocho horas de trabajo.</p><h3>Hecho para repararse</h3><p>Reparamos lo que fabricamos, de por vida.</p><p><em>Este es contenido de demostración del tema Kestrel Leather.</em></p>",
+    "it": "<h2>Una pelle che racconta una storia</h2><p>Kestrel Leather nasce nel 1987 come laboratorio di due persone vicino a Santa Croce, a Firenze. Ancora oggi tagliamo, cuciamo e rifiniamo ogni pezzo a mano.</p><h3>Le pelli</h3><p>Acquistiamo pelli conciate al vegetale e pieno fiore da concerie di famiglia, scelte una per una per spessore e grana.</p><h3>Il laboratorio</h3><p>Ogni bordo è lucidato e ogni cucitura fatta con filo di lino cerato. Una borsa richiede fino a otto ore di lavoro.</p><h3>Fatto per essere riparato</h3><p>Ripariamo ciò che realizziamo, a vita.</p><p><em>Questo è contenuto dimostrativo del tema Kestrel Leather.</em></p>",
+    "pl": "<h2>Skóra, która opowiada historię</h2><p>Kestrel Leather powstał w 1987 roku jako dwuosobowa pracownia w pobliżu Santa Croce we Florencji. Wciąż ręcznie tniemy, szyjemy i wykańczamy każdy wyrób.</p><h3>Skóry</h3><p>Kupujemy skóry garbowane roślinnie i licowe w rodzinnych garbarniach, wybierając każdą osobno pod względem grubości i lica.</p><h3>Pracownia</h3><p>Każda krawędź jest polerowana, każdy szew szyty woskowaną nicią lnianą. Uszycie torby trwa do ośmiu godzin.</p><h3>Stworzone do naprawy</h3><p>Naprawiamy to, co robimy, dożywotnio.</p><p><em>To jest treść demonstracyjna motywu Kestrel Leather.</em></p>",
+    "de": "<h2>Leder, das Geschichten erzählt</h2><p>Kestrel Leather begann 1987 als Zwei-Personen-Werkstatt nahe Santa Croce in Florenz. Bis heute schneiden, nähen und veredeln wir jedes Stück von Hand.</p><h3>Die Häute</h3><p>Wir kaufen pflanzlich gegerbte und vollnarbige Häute bei Familiengerbereien und wählen jede einzeln nach Stärke und Narbung aus.</p><h3>Die Werkstatt</h3><p>Jede Kante wird poliert, jede Naht mit gewachstem Leinengarn genäht. Eine Tasche braucht bis zu acht Stunden.</p><h3>Gemacht, um repariert zu werden</h3><p>Wir reparieren, was wir herstellen, ein Leben lang.</p><p><em>Dies ist Demo-Inhalt für das Theme Kestrel Leather.</em></p>",
+    "cs": "<h2>Kůže, která vypráví příběh</h2><p>Kestrel Leather vznikl v roce 1987 jako dílna dvou lidí poblíž Santa Croce ve Florencii. Každý kus stále ručně stříháme, šijeme a dokončujeme.</p><h3>Kůže</h3><p>Nakupujeme rostlinně činěné a lícové kůže v rodinných koželužnách a každou vybíráme zvlášť podle tloušťky a lícu.</p><h3>Dílna</h3><p>Každá hrana je leštěná, každý šev šitý voskovanou lněnou nití. Výroba tašky trvá až osm hodin.</p><h3>Vyrobeno k opravě</h3><p>Opravujeme to, co vyrábíme, doživotně.</p><p><em>Toto je ukázkový obsah šablony Kestrel Leather.</em></p>",
+    "nl": "<h2>Leer dat een verhaal vertelt</h2><p>Kestrel Leather begon in 1987 als werkplaats van twee mensen bij Santa Croce in Florence. We snijden, naaien en werken nog altijd elk stuk met de hand af.</p><h3>De huiden</h3><p>We kopen plantaardig gelooide en volnerf huiden bij familieleerlooierijen, één voor één gekozen op dikte en nerf.</p><h3>De werkplaats</h3><p>Elke rand wordt gepolijst, elke naad genaaid met gewaxt linnen garen. Een tas kost tot acht uur werk.</p><h3>Gemaakt om te repareren</h3><p>We repareren wat we maken, levenslang.</p><p><em>Dit is demo-inhoud voor het thema Kestrel Leather.</em></p>",
+    "pt": "<h2>Pele que conta uma história</h2><p>A Kestrel Leather nasceu em 1987 como uma oficina de duas pessoas perto de Santa Croce, em Florença. Ainda cortamos, cosemos e acabamos cada peça à mão.</p><h3>As peles</h3><p>Compramos peles de curtimento vegetal e plena flor a curtumes familiares, escolhidas uma a uma pela espessura e pelo grão.</p><h3>A oficina</h3><p>Cada borda é polida e cada costura cosida com linha de linho encerada. Uma mala leva até oito horas a fazer.</p><h3>Feito para ser reparado</h3><p>Reparamos o que fazemos, para toda a vida.</p><p><em>Este é conteúdo de demonstração do tema Kestrel Leather.</em></p>",
+    "ru": "<h2>Кожа, которая рассказывает историю</h2><p>Kestrel Leather появилась в 1987 году как мастерская двух человек рядом с Санта-Кроче во Флоренции. Мы по-прежнему вручную кроим, шьём и отделываем каждое изделие.</p><h3>Кожа</h3><p>Мы покупаем кожу растительного дубления и с естественной лицевой поверхностью у семейных кожевен и выбираем каждую по толщине и фактуре.</p><h3>Мастерская</h3><p>Каждый край полируется, каждый шов прошивается вощёной льняной нитью. На одну сумку уходит до восьми часов.</p><h3>Сделано для ремонта</h3><p>Мы ремонтируем то, что делаем, пожизненно.</p><p><em>Это демонстрационный контент темы Kestrel Leather.</em></p>"
+   }
+  },
+  {
+   "key": "leather-care",
+   "title": {
+    "en": "Leather care",
+    "fr": "Entretien du cuir",
+    "es": "Cuidado de la piel",
+    "it": "Cura della pelle",
+    "pl": "Pielęgnacja skóry",
+    "de": "Lederpflege",
+    "cs": "Péče o kůži",
+    "nl": "Leeronderhoud",
+    "pt": "Cuidados com a pele",
+    "ru": "Уход за кожей"
+   },
+   "meta_description": {
+    "en": "How to clean, feed and store your leather goods so they last for decades.",
+    "fr": "Comment nettoyer, nourrir et ranger vos articles en cuir pour qu'ils durent des décennies.",
+    "es": "Cómo limpiar, nutrir y guardar tus artículos de piel para que duren décadas.",
+    "it": "Come pulire, nutrire e conservare i tuoi articoli in pelle perché durino decenni.",
+    "pl": "Jak czyścić, odżywiać i przechowywać wyroby skórzane, aby służyły przez dziesięciolecia.",
+    "de": "So reinigen, pflegen und lagern Sie Ihre Lederwaren, damit sie Jahrzehnte halten.",
+    "cs": "Jak čistit, vyživovat a skladovat kožené zboží, aby vydrželo desítky let.",
+    "nl": "Zo reinig, voed en bewaar je je lederwaren zodat ze tientallen jaren meegaan.",
+    "pt": "Como limpar, nutrir e guardar os seus artigos de pele para que durem décadas.",
+    "ru": "Как чистить, питать и хранить кожаные изделия, чтобы они служили десятилетиями."
+   },
+   "content": {
+    "en": "<h2>Leather care</h2><p>Good leather gets better with age. A little care keeps it supple and strong.</p><ul><li><strong>Clean:</strong> wipe with a soft, dry cloth. Remove marks with a slightly damp cloth.</li><li><strong>Feed:</strong> apply a thin layer of balm twice a year and buff with a horsehair brush.</li><li><strong>Dry:</strong> if leather gets wet, let it dry slowly, away from heaters.</li><li><strong>Store:</strong> keep bags stuffed with paper in their dust bag.</li></ul><h3>Lifetime repairs</h3><p>Broken strap or worn stitching? Send it back and our workshop will repair it.</p><p><em>This is demo content. Replace it with your own care guide.</em></p>",
+    "fr": "<h2>Entretien du cuir</h2><p>Un bon cuir se bonifie avec l'âge. Un peu de soin le garde souple et solide.</p><ul><li><strong>Nettoyer :</strong> essuyez avec un chiffon doux et sec. Retirez les traces avec un chiffon légèrement humide.</li><li><strong>Nourrir :</strong> appliquez une fine couche de baume deux fois par an et lustrez avec une brosse en crin.</li><li><strong>Sécher :</strong> si le cuir est mouillé, laissez-le sécher lentement, loin des radiateurs.</li><li><strong>Ranger :</strong> gardez les sacs rembourrés de papier dans leur housse.</li></ul><h3>Réparations à vie</h3><p>Une anse cassée ou une couture usée ? Renvoyez-le et notre atelier le réparera.</p><p><em>Ceci est un contenu de démonstration. Remplacez-le par votre propre guide d'entretien.</em></p>",
+    "es": "<h2>Cuidado de la piel</h2><p>La buena piel mejora con los años. Un poco de cuidado la mantiene flexible y resistente.</p><ul><li><strong>Limpiar:</strong> pasa un paño suave y seco. Quita las marcas con un paño ligeramente húmedo.</li><li><strong>Nutrir:</strong> aplica una fina capa de bálsamo dos veces al año y abrillanta con un cepillo de crin.</li><li><strong>Secar:</strong> si la piel se moja, deja que se seque despacio, lejos de los radiadores.</li><li><strong>Guardar:</strong> guarda los bolsos rellenos de papel en su funda.</li></ul><h3>Reparaciones de por vida</h3><p>¿Un asa rota o una costura gastada? Envíanoslo y nuestro taller lo reparará.</p><p><em>Este es contenido de demostración. Sustitúyelo por tu propia guía de cuidados.</em></p>",
+    "it": "<h2>Cura della pelle</h2><p>La buona pelle migliora con gli anni. Un po' di cura la mantiene morbida e resistente.</p><ul><li><strong>Pulire:</strong> passa un panno morbido e asciutto. Togli i segni con un panno leggermente umido.</li><li><strong>Nutrire:</strong> applica un velo di balsamo due volte l'anno e lucida con una spazzola di crine.</li><li><strong>Asciugare:</strong> se la pelle si bagna, lasciala asciugare lentamente, lontano dai termosifoni.</li><li><strong>Conservare:</strong> riponi le borse imbottite di carta nella loro sacca.</li></ul><h3>Riparazioni a vita</h3><p>Un manico rotto o una cucitura consumata? Rimandacela e il nostro laboratorio la riparerà.</p><p><em>Questo è contenuto dimostrativo. Sostituiscilo con la tua guida alla cura.</em></p>",
+    "pl": "<h2>Pielęgnacja skóry</h2><p>Dobra skóra z wiekiem staje się coraz piękniejsza. Odrobina troski utrzyma ją elastyczną i mocną.</p><ul><li><strong>Czyszczenie:</strong> przetrzyj miękką, suchą ściereczką. Ślady usuń lekko wilgotną ściereczką.</li><li><strong>Odżywianie:</strong> dwa razy w roku nałóż cienką warstwę balsamu i wypoleruj szczotką z włosia.</li><li><strong>Suszenie:</strong> jeśli skóra zmoknie, pozwól jej wyschnąć powoli, z dala od kaloryferów.</li><li><strong>Przechowywanie:</strong> trzymaj torby wypchane papierem w pokrowcu.</li></ul><h3>Dożywotnie naprawy</h3><p>Zerwany pasek albo przetarty szew? Odeślij go, a nasza pracownia go naprawi.</p><p><em>To jest treść demonstracyjna. Zastąp ją własnym poradnikiem pielęgnacji.</em></p>",
+    "de": "<h2>Lederpflege</h2><p>Gutes Leder wird mit dem Alter schöner. Ein wenig Pflege hält es geschmeidig und stark.</p><ul><li><strong>Reinigen:</strong> mit einem weichen, trockenen Tuch abwischen. Flecken mit einem leicht feuchten Tuch entfernen.</li><li><strong>Pflegen:</strong> zweimal im Jahr dünn Balsam auftragen und mit einer Rosshaarbürste polieren.</li><li><strong>Trocknen:</strong> nasses Leder langsam und fern von Heizkörpern trocknen lassen.</li><li><strong>Lagern:</strong> Taschen mit Papier ausgestopft im Staubbeutel aufbewahren.</li></ul><h3>Lebenslange Reparaturen</h3><p>Gerissener Riemen oder abgenutzte Naht? Schicken Sie das Stück zurück, unsere Werkstatt repariert es.</p><p><em>Dies ist Demo-Inhalt. Ersetzen Sie ihn durch Ihre eigene Pflegeanleitung.</em></p>",
+    "cs": "<h2>Péče o kůži</h2><p>Dobrá kůže je s věkem krásnější. Trocha péče ji udrží vláčnou a pevnou.</p><ul><li><strong>Čištění:</strong> otřete měkkým suchým hadříkem. Skvrny odstraňte mírně vlhkým hadříkem.</li><li><strong>Výživa:</strong> dvakrát ročně naneste tenkou vrstvu balzámu a vyleštěte kartáčem z žíní.</li><li><strong>Sušení:</strong> mokrou kůži nechte schnout pomalu, daleko od topení.</li><li><strong>Skladování:</strong> tašky uchovávejte vycpané papírem v obalu.</li></ul><h3>Doživotní opravy</h3><p>Utržený popruh nebo prodřený šev? Pošlete nám ho a naše dílna ho opraví.</p><p><em>Toto je ukázkový obsah. Nahraďte ho vlastním návodem k péči.</em></p>",
+    "nl": "<h2>Leeronderhoud</h2><p>Goed leer wordt mooier met de jaren. Een beetje zorg houdt het soepel en sterk.</p><ul><li><strong>Reinigen:</strong> afnemen met een zachte, droge doek. Vlekken verwijderen met een licht vochtige doek.</li><li><strong>Voeden:</strong> twee keer per jaar een dun laagje balsem aanbrengen en uitpoetsen met een paardenharen borstel.</li><li><strong>Drogen:</strong> laat nat leer langzaam drogen, uit de buurt van de verwarming.</li><li><strong>Bewaren:</strong> bewaar tassen opgevuld met papier in hun stofzak.</li></ul><h3>Levenslang reparaties</h3><p>Een gebroken band of versleten naad? Stuur hem terug en onze werkplaats repareert hem.</p><p><em>Dit is demo-inhoud. Vervang het door je eigen onderhoudsgids.</em></p>",
+    "pt": "<h2>Cuidados com a pele</h2><p>A boa pele melhora com a idade. Um pouco de cuidado mantém-na flexível e forte.</p><ul><li><strong>Limpar:</strong> passe um pano macio e seco. Retire as marcas com um pano ligeiramente húmido.</li><li><strong>Nutrir:</strong> aplique uma camada fina de bálsamo duas vezes por ano e dê brilho com uma escova de crina.</li><li><strong>Secar:</strong> se a pele se molhar, deixe-a secar devagar, longe dos aquecedores.</li><li><strong>Guardar:</strong> guarde as malas recheadas de papel no saco de proteção.</li></ul><h3>Reparações vitalícias</h3><p>Uma alça partida ou uma costura gasta? Envie-a de volta e a nossa oficina repara-a.</p><p><em>Este é conteúdo de demonstração. Substitua-o pelo seu próprio guia de cuidados.</em></p>",
+    "ru": "<h2>Уход за кожей</h2><p>Хорошая кожа с возрастом становится только лучше. Немного ухода сохранит её мягкой и прочной.</p><ul><li><strong>Чистка:</strong> протирайте мягкой сухой тканью. Пятна удаляйте слегка влажной тканью.</li><li><strong>Питание:</strong> дважды в год наносите тонкий слой бальзама и полируйте щёткой из конского волоса.</li><li><strong>Сушка:</strong> если кожа намокла, дайте ей медленно высохнуть вдали от батарей.</li><li><strong>Хранение:</strong> храните сумки набитыми бумагой в пыльнике.</li></ul><h3>Пожизненный ремонт</h3><p>Порвался ремень или протёрся шов? Отправьте изделие нам, и наша мастерская его отремонтирует.</p><p><em>Это демонстрационный контент. Замените его собственным руководством по уходу.</em></p>"
+   }
+  },
+  {
+   "key": "monogram",
+   "title": {
+    "en": "Monogram service",
+    "fr": "Service monogramme",
+    "es": "Servicio de monograma",
+    "it": "Servizio monogramma",
+    "pl": "Usługa monogramu",
+    "de": "Monogramm-Service",
+    "cs": "Služba monogramu",
+    "nl": "Monogramservice",
+    "pt": "Serviço de monograma",
+    "ru": "Услуга монограммы"
+   },
+   "meta_description": {
+    "en": "Add your initials to any bag, wallet or belt, free of charge.",
+    "fr": "Ajoutez vos initiales sur n'importe quel sac, portefeuille ou ceinture, gratuitement.",
+    "es": "Añade tus iniciales a cualquier bolso, cartera o cinturón, gratis.",
+    "it": "Aggiungi le tue iniziali a qualsiasi borsa, portafoglio o cintura, gratuitamente.",
+    "pl": "Dodaj swoje inicjały do dowolnej torby, portfela lub paska, bezpłatnie.",
+    "de": "Ihre Initialen auf jeder Tasche, Geldbörse oder jedem Gürtel, kostenlos.",
+    "cs": "Přidejte své iniciály na libovolnou tašku, peněženku nebo opasek, zdarma.",
+    "nl": "Zet gratis je initialen op elke tas, portemonnee of riem.",
+    "pt": "Acrescente as suas iniciais a qualquer mala, carteira ou cinto, gratuitamente.",
+    "ru": "Бесплатно нанесём ваши инициалы на любую сумку, кошелёк или ремень."
+   },
+   "content": {
+    "en": "<h2>Monogram service</h2><p>Make it yours. We heat-emboss up to three initials on any bag, wallet, belt or accessory, free of charge.</p><ul><li><strong>Styles:</strong> blind emboss or gold foil</li><li><strong>Letters:</strong> up to three, A–Z</li><li><strong>Time:</strong> adds two working days to delivery</li></ul><p>Type your initials in the field on the product page. You see a preview before you add the piece to your bag.</p><p><em>This is demo content. Replace it with your own service details.</em></p>",
+    "fr": "<h2>Service monogramme</h2><p>Personnalisez-le. Nous embossons à chaud jusqu'à trois initiales sur n'importe quel sac, portefeuille, ceinture ou accessoire, gratuitement.</p><ul><li><strong>Styles :</strong> à sec ou à la feuille d'or</li><li><strong>Lettres :</strong> jusqu'à trois, de A à Z</li><li><strong>Délai :</strong> deux jours ouvrés de plus à la livraison</li></ul><p>Saisissez vos initiales dans le champ de la fiche produit. Vous voyez un aperçu avant d'ajouter la pièce à votre panier.</p><p><em>Ceci est un contenu de démonstration. Remplacez-le par les détails de votre propre service.</em></p>",
+    "es": "<h2>Servicio de monograma</h2><p>Hazlo tuyo. Grabamos en caliente hasta tres iniciales en cualquier bolso, cartera, cinturón o accesorio, sin coste.</p><ul><li><strong>Estilos:</strong> grabado en seco o lámina dorada</li><li><strong>Letras:</strong> hasta tres, de la A a la Z</li><li><strong>Plazo:</strong> añade dos días laborables a la entrega</li></ul><p>Escribe tus iniciales en el campo de la página del producto. Verás una vista previa antes de añadir la pieza a tu cesta.</p><p><em>Este es contenido de demostración. Sustitúyelo por los detalles de tu propio servicio.</em></p>",
+    "it": "<h2>Servizio monogramma</h2><p>Rendilo tuo. Imprimiamo a caldo fino a tre iniziali su qualsiasi borsa, portafoglio, cintura o accessorio, senza costi.</p><ul><li><strong>Stili:</strong> a secco o in lamina oro</li><li><strong>Lettere:</strong> fino a tre, dalla A alla Z</li><li><strong>Tempi:</strong> due giorni lavorativi in più per la consegna</li></ul><p>Scrivi le tue iniziali nel campo della pagina prodotto. Vedi un'anteprima prima di aggiungere il pezzo al carrello.</p><p><em>Questo è contenuto dimostrativo. Sostituiscilo con i dettagli del tuo servizio.</em></p>",
+    "pl": "<h2>Usługa monogramu</h2><p>Spraw, by był naprawdę twój. Na gorąco tłoczymy do trzech inicjałów na dowolnej torbie, portfelu, pasku lub akcesorium, bez opłat.</p><ul><li><strong>Style:</strong> tłoczenie na sucho lub złotą folią</li><li><strong>Litery:</strong> do trzech, od A do Z</li><li><strong>Czas:</strong> dostawa wydłuża się o dwa dni robocze</li></ul><p>Wpisz swoje inicjały w polu na stronie produktu. Zobaczysz podgląd, zanim dodasz produkt do koszyka.</p><p><em>To jest treść demonstracyjna. Zastąp ją szczegółami własnej usługi.</em></p>",
+    "de": "<h2>Monogramm-Service</h2><p>Machen Sie es zu Ihrem. Wir prägen bis zu drei Initialen heiß auf jede Tasche, Geldbörse, jeden Gürtel oder jedes Accessoire, kostenlos.</p><ul><li><strong>Stile:</strong> Blindprägung oder Goldfolie</li><li><strong>Buchstaben:</strong> bis zu drei, A–Z</li><li><strong>Dauer:</strong> zwei Werktage zusätzlich zur Lieferzeit</li></ul><p>Geben Sie Ihre Initialen im Feld auf der Produktseite ein. Sie sehen eine Vorschau, bevor Sie das Stück in den Warenkorb legen.</p><p><em>Dies ist Demo-Inhalt. Ersetzen Sie ihn durch die Details Ihres eigenen Service.</em></p>",
+    "cs": "<h2>Služba monogramu</h2><p>Udělejte ho svým. Za tepla vyrazíme až tři iniciály na libovolnou tašku, peněženku, opasek nebo doplněk, zdarma.</p><ul><li><strong>Styly:</strong> slepotisk nebo zlatá fólie</li><li><strong>Písmena:</strong> až tři, A–Z</li><li><strong>Doba:</strong> doručení se prodlouží o dva pracovní dny</li></ul><p>Napište své iniciály do pole na stránce produktu. Před přidáním do košíku uvidíte náhled.</p><p><em>Toto je ukázkový obsah. Nahraďte ho podrobnostmi vlastní služby.</em></p>",
+    "nl": "<h2>Monogramservice</h2><p>Maak het van jou. We brengen gratis tot drie initialen met warmte aan op elke tas, portemonnee, riem of elk accessoire.</p><ul><li><strong>Stijlen:</strong> blinddruk of goudfolie</li><li><strong>Letters:</strong> maximaal drie, A–Z</li><li><strong>Tijd:</strong> twee werkdagen extra levertijd</li></ul><p>Typ je initialen in het veld op de productpagina. Je ziet een voorbeeld voordat je het stuk aan je winkelmand toevoegt.</p><p><em>Dit is demo-inhoud. Vervang het door de details van je eigen service.</em></p>",
+    "pt": "<h2>Serviço de monograma</h2><p>Torne-a sua. Gravamos a quente até três iniciais em qualquer mala, carteira, cinto ou acessório, sem custos.</p><ul><li><strong>Estilos:</strong> gravação a seco ou folha de ouro</li><li><strong>Letras:</strong> até três, de A a Z</li><li><strong>Prazo:</strong> acrescenta dois dias úteis à entrega</li></ul><p>Escreva as suas iniciais no campo da página do produto. Vê uma pré-visualização antes de adicionar a peça ao carrinho.</p><p><em>Este é conteúdo de demonstração. Substitua-o pelos detalhes do seu próprio serviço.</em></p>",
+    "ru": "<h2>Услуга монограммы</h2><p>Сделайте вещь своей. Мы бесплатно выполняем горячее тиснение до трёх инициалов на любой сумке, кошельке, ремне или аксессуаре.</p><ul><li><strong>Стили:</strong> блинтовое тиснение или золотая фольга</li><li><strong>Буквы:</strong> до трёх, A–Z</li><li><strong>Срок:</strong> плюс два рабочих дня к доставке</li></ul><p>Введите инициалы в поле на странице товара. Перед добавлением в корзину вы увидите, как они будут выглядеть.</p><p><em>Это демонстрационный контент. Замените его описанием собственной услуги.</em></p>"
+   }
+  },
+  {
+   "key": "delivery",
+   "title": {
+    "en": "Delivery",
+    "fr": "Livraison",
+    "es": "Envíos",
+    "it": "Spedizioni",
+    "pl": "Dostawa",
+    "de": "Versand",
+    "cs": "Doprava",
+    "nl": "Verzending",
+    "pt": "Entregas",
+    "ru": "Доставка"
+   },
+   "meta_description": {
+    "en": "Delivery times and costs for Kestrel Leather orders.",
+    "fr": "Délais et frais de livraison des commandes Kestrel Leather.",
+    "es": "Plazos y costes de envío de los pedidos de Kestrel Leather.",
+    "it": "Tempi e costi di spedizione degli ordini Kestrel Leather.",
+    "pl": "Czas i koszt dostawy zamówień Kestrel Leather.",
+    "de": "Lieferzeiten und Versandkosten für Bestellungen bei Kestrel Leather.",
+    "cs": "Dodací lhůty a ceny dopravy objednávek Kestrel Leather.",
+    "nl": "Levertijden en verzendkosten van bestellingen bij Kestrel Leather.",
+    "pt": "Prazos e custos de entrega das encomendas Kestrel Leather.",
+    "ru": "Сроки и стоимость доставки заказов Kestrel Leather."
+   },
+   "content": {
+    "en": "<h2>Delivery</h2><p>Orders placed before 2 pm on a working day are shipped the same day.</p><ul><li><strong>Standard:</strong> 2 to 4 working days, free over €100.</li><li><strong>Express:</strong> next working day in most of Europe.</li><li><strong>Click &amp; collect:</strong> free, ready within 24 hours.</li></ul><p>Every parcel is tracked, and you receive the tracking link by email as soon as it leaves our warehouse.</p><p><em>This is demo content. Replace it with your own delivery terms.</em></p>",
+    "fr": "<h2>Livraison</h2><p>Les commandes passées avant 14 h un jour ouvré sont expédiées le jour même.</p><ul><li><strong>Standard :</strong> 2 à 4 jours ouvrés, offerte dès 100 €.</li><li><strong>Express :</strong> jour ouvré suivant dans la plupart des pays d'Europe.</li><li><strong>Retrait en magasin :</strong> gratuit, prêt sous 24 heures.</li></ul><p>Chaque colis est suivi : vous recevez le lien de suivi par e-mail dès qu'il quitte notre entrepôt.</p><p><em>Contenu de démonstration. Remplacez-le par vos propres conditions de livraison.</em></p>",
+    "es": "<h2>Envíos</h2><p>Los pedidos realizados antes de las 14:00 en día laborable se envían el mismo día.</p><ul><li><strong>Estándar:</strong> de 2 a 4 días laborables, gratis a partir de 100 €.</li><li><strong>Exprés:</strong> siguiente día laborable en la mayor parte de Europa.</li><li><strong>Recogida en tienda:</strong> gratis, listo en 24 horas.</li></ul><p>Todos los paquetes llevan seguimiento y recibirás el enlace por correo en cuanto salga de nuestro almacén.</p><p><em>Contenido de demostración. Sustitúyelo por tus propias condiciones de envío.</em></p>",
+    "it": "<h2>Spedizioni</h2><p>Gli ordini effettuati entro le 14:00 di un giorno lavorativo vengono spediti in giornata.</p><ul><li><strong>Standard:</strong> 2–4 giorni lavorativi, gratuita oltre 100 €.</li><li><strong>Express:</strong> giorno lavorativo successivo in gran parte d'Europa.</li><li><strong>Ritiro in negozio:</strong> gratuito, pronto entro 24 ore.</li></ul><p>Ogni pacco è tracciato: ricevi il link via email appena lascia il nostro magazzino.</p><p><em>Contenuto dimostrativo. Sostituiscilo con le tue condizioni di spedizione.</em></p>",
+    "pl": "<h2>Dostawa</h2><p>Zamówienia złożone w dzień roboczy przed 14:00 wysyłamy tego samego dnia.</p><ul><li><strong>Standard:</strong> 2–4 dni robocze, gratis od 100 €.</li><li><strong>Ekspres:</strong> następny dzień roboczy w większości krajów Europy.</li><li><strong>Odbiór osobisty:</strong> bezpłatnie, gotowe w 24 godziny.</li></ul><p>Każda paczka ma numer śledzenia – link otrzymasz e-mailem, gdy tylko opuści nasz magazyn.</p><p><em>Treść demonstracyjna. Zastąp ją własnymi warunkami dostawy.</em></p>",
+    "de": "<h2>Versand</h2><p>Bestellungen, die an Werktagen vor 14 Uhr eingehen, werden am selben Tag verschickt.</p><ul><li><strong>Standard:</strong> 2–4 Werktage, kostenlos ab 100 €.</li><li><strong>Express:</strong> nächster Werktag in den meisten Ländern Europas.</li><li><strong>Click &amp; Collect:</strong> kostenlos, innerhalb von 24 Stunden abholbereit.</li></ul><p>Jedes Paket ist verfolgbar; den Link erhalten Sie per E-Mail, sobald es unser Lager verlässt.</p><p><em>Demo-Inhalt. Ersetzen Sie ihn durch Ihre eigenen Versandbedingungen.</em></p>",
+    "cs": "<h2>Doprava</h2><p>Objednávky přijaté v pracovní den do 14:00 odesíláme ještě týž den.</p><ul><li><strong>Standard:</strong> 2–4 pracovní dny, zdarma od 100 €.</li><li><strong>Expres:</strong> následující pracovní den ve většině Evropy.</li><li><strong>Osobní odběr:</strong> zdarma, připraveno do 24 hodin.</li></ul><p>Každý balík je sledovaný; odkaz vám pošleme e-mailem, jakmile opustí náš sklad.</p><p><em>Ukázkový obsah. Nahraďte jej vlastními dodacími podmínkami.</em></p>",
+    "nl": "<h2>Verzending</h2><p>Bestellingen die op een werkdag vóór 14.00 uur worden geplaatst, versturen we dezelfde dag.</p><ul><li><strong>Standaard:</strong> 2–4 werkdagen, gratis vanaf € 100.</li><li><strong>Express:</strong> volgende werkdag in het grootste deel van Europa.</li><li><strong>Afhalen:</strong> gratis, binnen 24 uur klaar.</li></ul><p>Elk pakket is te volgen; je ontvangt de link per e-mail zodra het ons magazijn verlaat.</p><p><em>Democontent. Vervang dit door je eigen verzendvoorwaarden.</em></p>",
+    "pt": "<h2>Entregas</h2><p>As encomendas feitas antes das 14h num dia útil são enviadas no mesmo dia.</p><ul><li><strong>Normal:</strong> 2 a 4 dias úteis, grátis a partir de 100 €.</li><li><strong>Expresso:</strong> dia útil seguinte na maior parte da Europa.</li><li><strong>Levantamento em loja:</strong> grátis, pronto em 24 horas.</li></ul><p>Todas as encomendas têm seguimento e recebe a ligação por e-mail assim que saem do nosso armazém.</p><p><em>Conteúdo de demonstração. Substitua-o pelas suas condições de entrega.</em></p>",
+    "ru": "<h2>Доставка</h2><p>Заказы, оформленные в рабочий день до 14:00, отправляются в тот же день.</p><ul><li><strong>Стандартная:</strong> 2–4 рабочих дня, бесплатно от 100 €.</li><li><strong>Экспресс:</strong> следующий рабочий день в большинстве стран Европы.</li><li><strong>Самовывоз:</strong> бесплатно, готово в течение 24 часов.</li></ul><p>Каждая посылка отслеживается — ссылку вы получите по e-mail, как только она покинет наш склад.</p><p><em>Демонстрационный контент. Замените его своими условиями доставки.</em></p>"
+   }
+  },
+  {
+   "key": "returns",
+   "title": {
+    "en": "Returns & exchanges",
+    "fr": "Retours & échanges",
+    "es": "Devoluciones y cambios",
+    "it": "Resi e cambi",
+    "pl": "Zwroty i wymiany",
+    "de": "Rücksendung & Umtausch",
+    "cs": "Vrácení a výměna",
+    "nl": "Retourneren & ruilen",
+    "pt": "Devoluções e trocas",
+    "ru": "Возврат и обмен"
+   },
+   "meta_description": {
+    "en": "Free returns within 30 days on Kestrel Leather orders.",
+    "fr": "Retours gratuits sous 30 jours sur les commandes Kestrel Leather.",
+    "es": "Devoluciones gratuitas en 30 días en los pedidos de Kestrel Leather.",
+    "it": "Reso gratuito entro 30 giorni sugli ordini Kestrel Leather.",
+    "pl": "Bezpłatne zwroty w ciągu 30 dni dla zamówień Kestrel Leather.",
+    "de": "Kostenlose Rücksendung innerhalb von 30 Tagen bei Kestrel Leather.",
+    "cs": "Vrácení zdarma do 30 dní u objednávek Kestrel Leather.",
+    "nl": "Gratis retourneren binnen 30 dagen bij Kestrel Leather.",
+    "pt": "Devoluções gratuitas em 30 dias nas encomendas Kestrel Leather.",
+    "ru": "Бесплатный возврат в течение 30 дней для заказов Kestrel Leather."
+   },
+   "content": {
+    "en": "<h2>Returns &amp; exchanges</h2><p>You have 30 days from delivery to return any unworn item with its labels attached. Returns are free within the European Union.</p><ol><li>Sign in to your account and open the order.</li><li>Choose the items to return and print the prepaid label.</li><li>Drop the parcel at any post office or collection point.</li></ol><p>Refunds are made to the original payment method within 5 working days of receiving your parcel. For an exchange, simply return the item and place a new order.</p><p><em>This is demo content. Replace it with your own return policy.</em></p>",
+    "fr": "<h2>Retours &amp; échanges</h2><p>Vous disposez de 30 jours après la livraison pour retourner tout article non porté avec ses étiquettes. Les retours sont gratuits dans l'Union européenne.</p><ol><li>Connectez-vous à votre compte et ouvrez la commande.</li><li>Choisissez les articles à retourner et imprimez l'étiquette prépayée.</li><li>Déposez le colis dans un bureau de poste ou un point relais.</li></ol><p>Le remboursement est effectué sur le moyen de paiement d'origine sous 5 jours ouvrés après réception du colis. Pour un échange, retournez simplement l'article et passez une nouvelle commande.</p><p><em>Contenu de démonstration. Remplacez-le par votre propre politique de retour.</em></p>",
+    "es": "<h2>Devoluciones y cambios</h2><p>Dispones de 30 días desde la entrega para devolver cualquier artículo sin usar y con sus etiquetas. Las devoluciones son gratuitas dentro de la Unión Europea.</p><ol><li>Inicia sesión en tu cuenta y abre el pedido.</li><li>Elige los artículos que quieres devolver e imprime la etiqueta prepagada.</li><li>Entrega el paquete en cualquier oficina de correos o punto de recogida.</li></ol><p>El reembolso se realiza al método de pago original en un plazo de 5 días laborables tras recibir el paquete. Para un cambio, devuelve el artículo y realiza un nuevo pedido.</p><p><em>Contenido de demostración. Sustitúyelo por tu propia política de devoluciones.</em></p>",
+    "it": "<h2>Resi e cambi</h2><p>Hai 30 giorni dalla consegna per restituire qualsiasi articolo non indossato e con le etichette. Il reso è gratuito nell'Unione europea.</p><ol><li>Accedi al tuo account e apri l'ordine.</li><li>Scegli gli articoli da restituire e stampa l'etichetta prepagata.</li><li>Consegna il pacco in un ufficio postale o punto di ritiro.</li></ol><p>Il rimborso avviene sul metodo di pagamento originale entro 5 giorni lavorativi dalla ricezione del pacco. Per un cambio, restituisci l'articolo ed effettua un nuovo ordine.</p><p><em>Contenuto dimostrativo. Sostituiscilo con la tua politica di reso.</em></p>",
+    "pl": "<h2>Zwroty i wymiany</h2><p>Masz 30 dni od dostawy na zwrot nienoszonego produktu z metkami. Zwroty w Unii Europejskiej są bezpłatne.</p><ol><li>Zaloguj się na swoje konto i otwórz zamówienie.</li><li>Wybierz produkty do zwrotu i wydrukuj opłaconą etykietę.</li><li>Nadaj paczkę na poczcie lub w punkcie odbioru.</li></ol><p>Zwrot pieniędzy następuje na pierwotną metodę płatności w ciągu 5 dni roboczych od otrzymania paczki. Aby wymienić produkt, zwróć go i złóż nowe zamówienie.</p><p><em>Treść demonstracyjna. Zastąp ją własną polityką zwrotów.</em></p>",
+    "de": "<h2>Rücksendung &amp; Umtausch</h2><p>Sie haben ab Lieferung 30 Tage Zeit, ungetragene Artikel mit Etikett zurückzusenden. Rücksendungen innerhalb der EU sind kostenlos.</p><ol><li>Melden Sie sich in Ihrem Konto an und öffnen Sie die Bestellung.</li><li>Wählen Sie die Artikel aus und drucken Sie das vorfrankierte Etikett.</li><li>Geben Sie das Paket bei einer Post- oder Paketstelle ab.</li></ol><p>Die Erstattung erfolgt innerhalb von 5 Werktagen nach Eingang auf das ursprüngliche Zahlungsmittel. Für einen Umtausch senden Sie den Artikel zurück und bestellen neu.</p><p><em>Demo-Inhalt. Ersetzen Sie ihn durch Ihre eigenen Rückgabebedingungen.</em></p>",
+    "cs": "<h2>Vrácení a výměna</h2><p>Na vrácení nenošeného zboží s visačkami máte 30 dní od doručení. Vrácení v rámci Evropské unie je zdarma.</p><ol><li>Přihlaste se ke svému účtu a otevřete objednávku.</li><li>Vyberte zboží k vrácení a vytiskněte předplacený štítek.</li><li>Balík odevzdejte na poště nebo ve výdejním místě.</li></ol><p>Peníze vracíme původní platební metodou do 5 pracovních dnů od přijetí balíku. Pro výměnu zboží vraťte a vytvořte novou objednávku.</p><p><em>Ukázkový obsah. Nahraďte jej vlastními podmínkami vrácení.</em></p>",
+    "nl": "<h2>Retourneren &amp; ruilen</h2><p>Je hebt 30 dagen na levering om ongedragen artikelen met label terug te sturen. Retourneren binnen de Europese Unie is gratis.</p><ol><li>Log in op je account en open de bestelling.</li><li>Kies de artikelen en print het gefrankeerde label.</li><li>Lever het pakket af bij een postkantoor of afhaalpunt.</li></ol><p>We betalen terug via de oorspronkelijke betaalmethode binnen 5 werkdagen na ontvangst. Om te ruilen stuur je het artikel terug en plaats je een nieuwe bestelling.</p><p><em>Democontent. Vervang dit door je eigen retourbeleid.</em></p>",
+    "pt": "<h2>Devoluções e trocas</h2><p>Tem 30 dias após a entrega para devolver qualquer artigo não usado e com etiquetas. As devoluções são gratuitas na União Europeia.</p><ol><li>Inicie sessão na sua conta e abra a encomenda.</li><li>Escolha os artigos a devolver e imprima a etiqueta pré-paga.</li><li>Entregue a encomenda numa estação de correios ou ponto de recolha.</li></ol><p>O reembolso é feito no método de pagamento original no prazo de 5 dias úteis após receção. Para uma troca, devolva o artigo e faça uma nova encomenda.</p><p><em>Conteúdo de demonstração. Substitua-o pela sua política de devoluções.</em></p>",
+    "ru": "<h2>Возврат и обмен</h2><p>У вас есть 30 дней с момента доставки, чтобы вернуть неношеный товар с ярлыками. Возврат в пределах Европейского союза бесплатный.</p><ol><li>Войдите в свой аккаунт и откройте заказ.</li><li>Выберите товары для возврата и распечатайте оплаченную этикетку.</li><li>Сдайте посылку в почтовое отделение или пункт приёма.</li></ol><p>Деньги возвращаются на исходный способ оплаты в течение 5 рабочих дней после получения посылки. Для обмена верните товар и оформите новый заказ.</p><p><em>Демонстрационный контент. Замените его своей политикой возврата.</em></p>"
+   }
+  },
+  {
+   "key": "terms",
+   "title": {
+    "en": "Terms and conditions",
+    "fr": "Conditions générales de vente",
+    "es": "Condiciones generales",
+    "it": "Condizioni di vendita",
+    "pl": "Regulamin",
+    "de": "AGB",
+    "cs": "Obchodní podmínky",
+    "nl": "Algemene voorwaarden",
+    "pt": "Termos e condições",
+    "ru": "Условия продажи"
+   },
+   "meta_description": {
+    "en": "Terms and conditions of sale.",
+    "fr": "Conditions générales de vente.",
+    "es": "Condiciones generales de venta.",
+    "it": "Condizioni generali di vendita.",
+    "pl": "Regulamin sprzedaży.",
+    "de": "Allgemeine Geschäftsbedingungen.",
+    "cs": "Všeobecné obchodní podmínky.",
+    "nl": "Algemene verkoopvoorwaarden.",
+    "pt": "Condições gerais de venda.",
+    "ru": "Общие условия продажи."
+   },
+   "content": {
+    "en": "<h2>Terms and conditions of sale</h2><p>These terms apply to all orders placed on this website. By placing an order you accept them in full.</p><h3>Prices</h3><p>Prices are shown in euros, including VAT. Delivery costs are shown before you confirm your order.</p><h3>Payment</h3><p>Payment is taken when your order is confirmed.</p><h3>Right of withdrawal</h3><p>You may withdraw from your purchase within 30 days of delivery, as described on our returns page.</p><p><em>This is demo content. Replace it with terms reviewed by a legal professional for your country.</em></p>",
+    "fr": "<h2>Conditions générales de vente</h2><p>Ces conditions s'appliquent à toutes les commandes passées sur ce site. En passant commande, vous les acceptez dans leur intégralité.</p><h3>Prix</h3><p>Les prix sont indiqués en euros, TVA comprise. Les frais de livraison sont affichés avant la validation de la commande.</p><h3>Paiement</h3><p>Le paiement est prélevé à la confirmation de la commande.</p><h3>Droit de rétractation</h3><p>Vous pouvez vous rétracter dans les 30 jours suivant la livraison, comme indiqué sur notre page des retours.</p><p><em>Contenu de démonstration. Remplacez-le par des conditions validées par un juriste pour votre pays.</em></p>",
+    "es": "<h2>Condiciones generales de venta</h2><p>Estas condiciones se aplican a todos los pedidos realizados en este sitio web. Al realizar un pedido, las aceptas íntegramente.</p><h3>Precios</h3><p>Los precios se muestran en euros, IVA incluido. Los gastos de envío se indican antes de confirmar el pedido.</p><h3>Pago</h3><p>El pago se cobra al confirmar el pedido.</p><h3>Derecho de desistimiento</h3><p>Puedes desistir de tu compra en los 30 días siguientes a la entrega, tal como se describe en nuestra página de devoluciones.</p><p><em>Contenido de demostración. Sustitúyelo por condiciones revisadas por un profesional jurídico de tu país.</em></p>",
+    "it": "<h2>Condizioni generali di vendita</h2><p>Queste condizioni si applicano a tutti gli ordini effettuati su questo sito. Effettuando un ordine le accetti integralmente.</p><h3>Prezzi</h3><p>I prezzi sono indicati in euro, IVA inclusa. Le spese di spedizione sono indicate prima della conferma dell'ordine.</p><h3>Pagamento</h3><p>Il pagamento viene addebitato alla conferma dell'ordine.</p><h3>Diritto di recesso</h3><p>Puoi recedere dall'acquisto entro 30 giorni dalla consegna, come descritto nella pagina dei resi.</p><p><em>Contenuto dimostrativo. Sostituiscilo con condizioni verificate da un legale del tuo Paese.</em></p>",
+    "pl": "<h2>Regulamin sprzedaży</h2><p>Niniejszy regulamin dotyczy wszystkich zamówień składanych w tym sklepie. Składając zamówienie, akceptujesz go w całości.</p><h3>Ceny</h3><p>Ceny podane są w euro i zawierają VAT. Koszty dostawy wyświetlamy przed potwierdzeniem zamówienia.</p><h3>Płatność</h3><p>Płatność pobierana jest w momencie potwierdzenia zamówienia.</p><h3>Prawo odstąpienia</h3><p>Możesz odstąpić od umowy w ciągu 30 dni od dostawy, jak opisano na stronie zwrotów.</p><p><em>Treść demonstracyjna. Zastąp ją regulaminem sprawdzonym przez prawnika w Twoim kraju.</em></p>",
+    "de": "<h2>Allgemeine Geschäftsbedingungen</h2><p>Diese Bedingungen gelten für alle Bestellungen auf dieser Website. Mit Ihrer Bestellung erkennen Sie sie vollständig an.</p><h3>Preise</h3><p>Alle Preise in Euro inklusive Mehrwertsteuer. Versandkosten werden vor der Bestellbestätigung angezeigt.</p><h3>Zahlung</h3><p>Die Zahlung wird mit der Bestellbestätigung fällig.</p><h3>Widerrufsrecht</h3><p>Sie können innerhalb von 30 Tagen nach Lieferung widerrufen, wie auf unserer Rückgabeseite beschrieben.</p><p><em>Demo-Inhalt. Ersetzen Sie ihn durch rechtlich geprüfte Bedingungen für Ihr Land.</em></p>",
+    "cs": "<h2>Všeobecné obchodní podmínky</h2><p>Tyto podmínky platí pro všechny objednávky na tomto webu. Odesláním objednávky je přijímáte v plném rozsahu.</p><h3>Ceny</h3><p>Ceny jsou uvedeny v eurech včetně DPH. Cena dopravy se zobrazí před potvrzením objednávky.</p><h3>Platba</h3><p>Platba je stržena při potvrzení objednávky.</p><h3>Odstoupení od smlouvy</h3><p>Od nákupu můžete odstoupit do 30 dnů od doručení, jak je popsáno na stránce vrácení.</p><p><em>Ukázkový obsah. Nahraďte jej podmínkami schválenými právníkem pro vaši zemi.</em></p>",
+    "nl": "<h2>Algemene verkoopvoorwaarden</h2><p>Deze voorwaarden gelden voor alle bestellingen op deze website. Door te bestellen ga je er volledig mee akkoord.</p><h3>Prijzen</h3><p>Prijzen zijn in euro's, inclusief btw. Verzendkosten zie je voordat je je bestelling bevestigt.</p><h3>Betaling</h3><p>De betaling wordt afgeschreven bij bevestiging van de bestelling.</p><h3>Herroepingsrecht</h3><p>Je kunt je aankoop binnen 30 dagen na levering herroepen, zoals beschreven op onze retourpagina.</p><p><em>Democontent. Vervang dit door voorwaarden die door een jurist voor jouw land zijn gecontroleerd.</em></p>",
+    "pt": "<h2>Condições gerais de venda</h2><p>Estas condições aplicam-se a todas as encomendas feitas neste site. Ao encomendar, aceita-as na íntegra.</p><h3>Preços</h3><p>Os preços são apresentados em euros, com IVA incluído. Os portes são indicados antes de confirmar a encomenda.</p><h3>Pagamento</h3><p>O pagamento é cobrado na confirmação da encomenda.</p><h3>Direito de livre resolução</h3><p>Pode desistir da compra no prazo de 30 dias após a entrega, conforme descrito na página de devoluções.</p><p><em>Conteúdo de demonstração. Substitua-o por condições revistas por um jurista do seu país.</em></p>",
+    "ru": "<h2>Общие условия продажи</h2><p>Эти условия распространяются на все заказы на этом сайте. Оформляя заказ, вы принимаете их полностью.</p><h3>Цены</h3><p>Цены указаны в евро с учётом НДС. Стоимость доставки отображается до подтверждения заказа.</p><h3>Оплата</h3><p>Оплата списывается при подтверждении заказа.</p><h3>Право на отказ</h3><p>Вы можете отказаться от покупки в течение 30 дней после доставки, как описано на странице возврата.</p><p><em>Демонстрационный контент. Замените его условиями, проверенными юристом вашей страны.</em></p>"
+   },
+   "role": "conditions"
+  },
+  {
+   "key": "privacy",
+   "title": {
+    "en": "Privacy policy",
+    "fr": "Politique de confidentialité",
+    "es": "Política de privacidad",
+    "it": "Informativa sulla privacy",
+    "pl": "Polityka prywatności",
+    "de": "Datenschutzerklärung",
+    "cs": "Ochrana osobních údajů",
+    "nl": "Privacybeleid",
+    "pt": "Política de privacidade",
+    "ru": "Политика конфиденциальности"
+   },
+   "meta_description": {
+    "en": "How we collect and use your personal data.",
+    "fr": "Comment nous collectons et utilisons vos données personnelles.",
+    "es": "Cómo recogemos y utilizamos tus datos personales.",
+    "it": "Come raccogliamo e utilizziamo i tuoi dati personali.",
+    "pl": "Jak zbieramy i wykorzystujemy Twoje dane osobowe.",
+    "de": "Wie wir Ihre personenbezogenen Daten erheben und nutzen.",
+    "cs": "Jak shromažďujeme a používáme vaše osobní údaje.",
+    "nl": "Hoe we je persoonsgegevens verzamelen en gebruiken.",
+    "pt": "Como recolhemos e utilizamos os seus dados pessoais.",
+    "ru": "Как мы собираем и используем ваши персональные данные."
+   },
+   "content": {
+    "en": "<h2>Privacy policy</h2><p>We only collect the personal data we need to process your orders, answer your questions and, if you agree, send you our newsletter.</p><h3>Your rights</h3><p>You can access, correct or delete your data at any time from your account or by contacting us.</p><h3>Cookies</h3><p>We use the cookies needed for the shop to work, and others only with your consent.</p><p><em>This is demo content. Replace it with a privacy policy reviewed by a legal professional.</em></p>",
+    "fr": "<h2>Politique de confidentialité</h2><p>Nous ne collectons que les données personnelles nécessaires pour traiter vos commandes, répondre à vos questions et, si vous l'acceptez, vous envoyer notre newsletter.</p><h3>Vos droits</h3><p>Vous pouvez à tout moment accéder à vos données, les corriger ou les supprimer depuis votre compte ou en nous contactant.</p><h3>Cookies</h3><p>Nous utilisons les cookies nécessaires au fonctionnement de la boutique, et les autres uniquement avec votre consentement.</p><p><em>Contenu de démonstration. Remplacez-le par une politique validée par un juriste.</em></p>",
+    "es": "<h2>Política de privacidad</h2><p>Solo recogemos los datos personales necesarios para tramitar tus pedidos, responder a tus preguntas y, si lo aceptas, enviarte nuestro boletín.</p><h3>Tus derechos</h3><p>Puedes acceder, corregir o eliminar tus datos en cualquier momento desde tu cuenta o contactándonos.</p><h3>Cookies</h3><p>Usamos las cookies necesarias para el funcionamiento de la tienda y las demás solo con tu consentimiento.</p><p><em>Contenido de demostración. Sustitúyelo por una política revisada por un profesional jurídico.</em></p>",
+    "it": "<h2>Informativa sulla privacy</h2><p>Raccogliamo solo i dati personali necessari per gestire i tuoi ordini, rispondere alle tue domande e, se acconsenti, inviarti la nostra newsletter.</p><h3>I tuoi diritti</h3><p>Puoi accedere, correggere o cancellare i tuoi dati in qualsiasi momento dal tuo account o contattandoci.</p><h3>Cookie</h3><p>Usiamo i cookie necessari al funzionamento del negozio e gli altri solo con il tuo consenso.</p><p><em>Contenuto dimostrativo. Sostituiscilo con un'informativa verificata da un legale.</em></p>",
+    "pl": "<h2>Polityka prywatności</h2><p>Zbieramy wyłącznie dane osobowe potrzebne do realizacji zamówień, odpowiedzi na pytania i – za Twoją zgodą – wysyłki newslettera.</p><h3>Twoje prawa</h3><p>W każdej chwili możesz uzyskać dostęp do swoich danych, poprawić je lub usunąć w swoim koncie albo kontaktując się z nami.</p><h3>Pliki cookie</h3><p>Używamy plików cookie niezbędnych do działania sklepu, a pozostałych wyłącznie za Twoją zgodą.</p><p><em>Treść demonstracyjna. Zastąp ją polityką sprawdzoną przez prawnika.</em></p>",
+    "de": "<h2>Datenschutzerklärung</h2><p>Wir erheben nur die personenbezogenen Daten, die wir zur Abwicklung Ihrer Bestellungen, zur Beantwortung Ihrer Fragen und – mit Ihrer Zustimmung – für unseren Newsletter benötigen.</p><h3>Ihre Rechte</h3><p>Sie können Ihre Daten jederzeit in Ihrem Konto oder über unseren Kontakt einsehen, berichtigen oder löschen.</p><h3>Cookies</h3><p>Wir verwenden die für den Shop notwendigen Cookies, andere nur mit Ihrer Einwilligung.</p><p><em>Demo-Inhalt. Ersetzen Sie ihn durch eine rechtlich geprüfte Datenschutzerklärung.</em></p>",
+    "cs": "<h2>Ochrana osobních údajů</h2><p>Shromažďujeme pouze osobní údaje nutné k vyřízení objednávek, zodpovězení dotazů a – s vaším souhlasem – k zasílání newsletteru.</p><h3>Vaše práva</h3><p>Své údaje můžete kdykoli zobrazit, opravit nebo smazat ve svém účtu nebo nás kontaktovat.</p><h3>Cookies</h3><p>Používáme cookies nezbytné pro chod obchodu, ostatní pouze s vaším souhlasem.</p><p><em>Ukázkový obsah. Nahraďte jej zásadami schválenými právníkem.</em></p>",
+    "nl": "<h2>Privacybeleid</h2><p>We verzamelen alleen de persoonsgegevens die nodig zijn om je bestellingen te verwerken, je vragen te beantwoorden en, als je dat wilt, onze nieuwsbrief te sturen.</p><h3>Je rechten</h3><p>Je kunt je gegevens op elk moment inzien, corrigeren of verwijderen via je account of door contact met ons op te nemen.</p><h3>Cookies</h3><p>We gebruiken de cookies die nodig zijn voor de werking van de winkel, en andere alleen met jouw toestemming.</p><p><em>Democontent. Vervang dit door een privacybeleid dat door een jurist is gecontroleerd.</em></p>",
+    "pt": "<h2>Política de privacidade</h2><p>Recolhemos apenas os dados pessoais necessários para processar as suas encomendas, responder às suas perguntas e, se concordar, enviar a nossa newsletter.</p><h3>Os seus direitos</h3><p>Pode aceder, corrigir ou apagar os seus dados a qualquer momento na sua conta ou contactando-nos.</p><h3>Cookies</h3><p>Usamos os cookies necessários ao funcionamento da loja e os restantes apenas com o seu consentimento.</p><p><em>Conteúdo de demonstração. Substitua-o por uma política revista por um jurista.</em></p>",
+    "ru": "<h2>Политика конфиденциальности</h2><p>Мы собираем только те персональные данные, которые нужны для обработки заказов, ответов на ваши вопросы и — с вашего согласия — отправки рассылки.</p><h3>Ваши права</h3><p>Вы можете в любой момент просмотреть, исправить или удалить свои данные в аккаунте или связавшись с нами.</p><h3>Файлы cookie</h3><p>Мы используем cookie, необходимые для работы магазина, а остальные — только с вашего согласия.</p><p><em>Демонстрационный контент. Замените его политикой, проверенной юристом.</em></p>"
+   }
+  },
+  {
+   "key": "legal",
+   "title": {
+    "en": "Legal notice",
+    "fr": "Mentions légales",
+    "es": "Aviso legal",
+    "it": "Note legali",
+    "pl": "Nota prawna",
+    "de": "Impressum",
+    "cs": "Právní informace",
+    "nl": "Juridische informatie",
+    "pt": "Aviso legal",
+    "ru": "Правовая информация"
+   },
+   "meta_description": {
+    "en": "Legal notice and company information.",
+    "fr": "Mentions légales et informations sur la société.",
+    "es": "Aviso legal e información de la empresa.",
+    "it": "Note legali e informazioni sulla società.",
+    "pl": "Nota prawna i dane firmy.",
+    "de": "Impressum und Unternehmensangaben.",
+    "cs": "Právní informace a údaje o společnosti.",
+    "nl": "Juridische informatie en bedrijfsgegevens.",
+    "pt": "Aviso legal e informações da empresa.",
+    "ru": "Правовая информация и сведения о компании."
+   },
+   "content": {
+    "en": "<h2>Legal notice</h2><p>Kestrel Leather is a fictional brand created for this demo store.</p><p>Publisher: your company name, address, registration number and VAT number.</p><p>Hosting: your hosting provider's name and address.</p><p><em>This is demo content. Replace it with your own company details.</em></p>",
+    "fr": "<h2>Mentions légales</h2><p>Kestrel Leather est une marque fictive créée pour cette boutique de démonstration.</p><p>Éditeur : nom de votre société, adresse, numéro d'immatriculation et numéro de TVA.</p><p>Hébergement : nom et adresse de votre hébergeur.</p><p><em>Contenu de démonstration. Remplacez-le par les informations de votre société.</em></p>",
+    "es": "<h2>Aviso legal</h2><p>Kestrel Leather es una marca ficticia creada para esta tienda de demostración.</p><p>Titular: nombre de tu empresa, dirección, número de registro y NIF/IVA.</p><p>Alojamiento: nombre y dirección de tu proveedor de hosting.</p><p><em>Contenido de demostración. Sustitúyelo por los datos de tu empresa.</em></p>",
+    "it": "<h2>Note legali</h2><p>Kestrel Leather è un marchio di fantasia creato per questo negozio dimostrativo.</p><p>Editore: nome della tua società, indirizzo, numero di registrazione e partita IVA.</p><p>Hosting: nome e indirizzo del tuo fornitore di hosting.</p><p><em>Contenuto dimostrativo. Sostituiscilo con i dati della tua società.</em></p>",
+    "pl": "<h2>Nota prawna</h2><p>Kestrel Leather to fikcyjna marka stworzona na potrzeby tego sklepu demonstracyjnego.</p><p>Wydawca: nazwa Twojej firmy, adres, numer rejestrowy i NIP.</p><p>Hosting: nazwa i adres dostawcy hostingu.</p><p><em>Treść demonstracyjna. Zastąp ją danymi swojej firmy.</em></p>",
+    "de": "<h2>Impressum</h2><p>Kestrel Leather ist eine fiktive Marke, die für diesen Demo-Shop erstellt wurde.</p><p>Anbieter: Name Ihres Unternehmens, Anschrift, Registernummer und USt-IdNr.</p><p>Hosting: Name und Anschrift Ihres Hosting-Anbieters.</p><p><em>Demo-Inhalt. Ersetzen Sie ihn durch Ihre eigenen Unternehmensangaben.</em></p>",
+    "cs": "<h2>Právní informace</h2><p>Kestrel Leather je smyšlená značka vytvořená pro tento ukázkový obchod.</p><p>Provozovatel: název vaší společnosti, adresa, IČO a DIČ.</p><p>Hosting: název a adresa vašeho poskytovatele hostingu.</p><p><em>Ukázkový obsah. Nahraďte jej údaji vaší společnosti.</em></p>",
+    "nl": "<h2>Juridische informatie</h2><p>Kestrel Leather is een fictief merk, gemaakt voor deze demowinkel.</p><p>Uitgever: je bedrijfsnaam, adres, KvK-nummer en btw-nummer.</p><p>Hosting: naam en adres van je hostingprovider.</p><p><em>Democontent. Vervang dit door je eigen bedrijfsgegevens.</em></p>",
+    "pt": "<h2>Aviso legal</h2><p>A Kestrel Leather é uma marca fictícia criada para esta loja de demonstração.</p><p>Editor: nome da sua empresa, morada, número de registo e NIF.</p><p>Alojamento: nome e morada do seu fornecedor de alojamento.</p><p><em>Conteúdo de demonstração. Substitua-o pelos dados da sua empresa.</em></p>",
+    "ru": "<h2>Правовая информация</h2><p>Kestrel Leather — вымышленный бренд, созданный для этого демонстрационного магазина.</p><p>Владелец: название вашей компании, адрес, регистрационный номер и номер НДС.</p><p>Хостинг: название и адрес вашего хостинг-провайдера.</p><p><em>Демонстрационный контент. Замените его данными вашей компании.</em></p>"
+   }
+  }
+ ],
+ "menu": [
+  "category:bags",
+  "category:backpacks",
+  "category:travel",
+  "category:wallets",
+  "category:belts",
+  "category:accessories",
+  "cms:about"
+ ],
+ "link_blocks": [
+  {
+   "name": {
+    "en": "Shop",
+    "fr": "Boutique",
+    "es": "Tienda",
+    "it": "Negozio",
+    "pl": "Sklep",
+    "de": "Shop",
+    "cs": "Obchod",
+    "nl": "Winkel",
+    "pt": "Loja",
+    "ru": "Магазин"
+   },
+   "hook": "displayFooter",
+   "links": [
+    "page:new-products",
+    "page:prices-drop",
+    "page:best-sales"
+   ]
+  },
+  {
+   "name": {
+    "en": "Customer care",
+    "fr": "Service client",
+    "es": "Atención al cliente",
+    "it": "Assistenza clienti",
+    "pl": "Obsługa klienta",
+    "de": "Kundenservice",
+    "cs": "Zákaznický servis",
+    "nl": "Klantenservice",
+    "pt": "Apoio ao cliente",
+    "ru": "Покупателям"
+   },
+   "hook": "displayFooter",
+   "links": [
+    "cms:delivery",
+    "cms:returns",
+    "cms:leather-care",
+    "cms:monogram",
+    "page:contact"
+   ]
+  },
+  {
+   "name": {
+    "en": "Kestrel Leather",
+    "fr": "Kestrel Leather",
+    "es": "Kestrel Leather",
+    "it": "Kestrel Leather",
+    "pl": "Kestrel Leather",
+    "de": "Kestrel Leather",
+    "cs": "Kestrel Leather",
+    "nl": "Kestrel Leather",
+    "pt": "Kestrel Leather",
+    "ru": "Kestrel Leather"
+   },
+   "hook": "displayFooter",
+   "links": [
+    "cms:about",
+    "cms:terms",
+    "cms:privacy",
+    "cms:legal",
+    "page:sitemap"
+   ]
+  }
+ ],
+ "reassurance": [
+  {
+   "icon": "pack2/carrier.svg",
+   "title": {
+    "en": "Free delivery over €100",
+    "fr": "Livraison offerte dès 100 €",
+    "es": "Envío gratis a partir de 100 €",
+    "it": "Spedizione gratuita oltre 100 €",
+    "pl": "Darmowa dostawa od 100 €",
+    "de": "Kostenloser Versand ab 100 €",
+    "cs": "Doprava zdarma od 100 €",
+    "nl": "Gratis verzending vanaf € 100",
+    "pt": "Entrega grátis a partir de 100 €",
+    "ru": "Бесплатная доставка от 100 €"
+   },
+   "text": {
+    "en": "Tracked shipping across Europe",
+    "fr": "Envoi suivi dans toute l'Europe",
+    "es": "Envío con seguimiento en toda Europa",
+    "it": "Spedizione tracciata in tutta Europa",
+    "pl": "Przesyłki ze śledzeniem w całej Europie",
+    "de": "Sendungsverfolgung in ganz Europa",
+    "cs": "Sledované zásilky po celé Evropě",
+    "nl": "Track & trace in heel Europa",
+    "pt": "Envio com seguimento em toda a Europa",
+    "ru": "Отслеживаемая доставка по всей Европе"
+   },
+   "cms": "delivery"
+  },
+  {
+   "icon": "pack2/return.svg",
+   "title": {
+    "en": "Free 30-day returns",
+    "fr": "Retours gratuits sous 30 jours",
+    "es": "Devoluciones gratis en 30 días",
+    "it": "Reso gratuito entro 30 giorni",
+    "pl": "Bezpłatny zwrot w 30 dni",
+    "de": "30 Tage kostenlose Rücksendung",
+    "cs": "Vrácení zdarma do 30 dní",
+    "nl": "30 dagen gratis retour",
+    "pt": "Devoluções grátis em 30 dias",
+    "ru": "Бесплатный возврат за 30 дней"
+   },
+   "text": {
+    "en": "Easy returns, no questions asked",
+    "fr": "Retours simples, sans justification",
+    "es": "Devoluciones fáciles, sin preguntas",
+    "it": "Resi semplici, senza domande",
+    "pl": "Proste zwroty bez pytań",
+    "de": "Einfache Rückgabe ohne Fragen",
+    "cs": "Snadné vrácení bez otázek",
+    "nl": "Makkelijk retourneren, zonder vragen",
+    "pt": "Devoluções fáceis, sem perguntas",
+    "ru": "Простой возврат без лишних вопросов"
+   },
+   "cms": "returns"
+  },
+  {
+   "icon": "pack2/security.svg",
+   "title": {
+    "en": "Secure payment",
+    "fr": "Paiement sécurisé",
+    "es": "Pago seguro",
+    "it": "Pagamento sicuro",
+    "pl": "Bezpieczna płatność",
+    "de": "Sichere Zahlung",
+    "cs": "Bezpečná platba",
+    "nl": "Veilig betalen",
+    "pt": "Pagamento seguro",
+    "ru": "Безопасная оплата"
+   },
+   "text": {
+    "en": "Card, PayPal and bank transfer",
+    "fr": "Carte, PayPal et virement",
+    "es": "Tarjeta, PayPal y transferencia",
+    "it": "Carta, PayPal e bonifico",
+    "pl": "Karta, PayPal i przelew",
+    "de": "Karte, PayPal und Überweisung",
+    "cs": "Karta, PayPal a převod",
+    "nl": "Kaart, PayPal en overschrijving",
+    "pt": "Cartão, PayPal e transferência",
+    "ru": "Карта, PayPal и банковский перевод"
+   }
+  }
+ ],
+ "config": {
+  "HOME_FEATURED_CAT": "category:home",
+  "PS_NB_DAYS_NEW_PRODUCT": 30,
+  "PS_PRODUCTS_PER_PAGE": 12,
+  "PS_SHOP_DETAILS": "",
+  "BLOCKSOCIAL_TWITTER": "",
+  "PS_JPEG_QUALITY": 82,
+  "PS_SHIPPING_FREE_PRICE": 100,
+  "PS_DISPLAY_BEST_SELLERS": 1,
+  "PS_GIFT_WRAPPING": 0,
+  "HBKIT_CARD_FEATURE": "feature:material,feature:hardware",
+  "HBKIT_PRODUCT_FEATURES": "",
+  "HBKIT_STAMP_FEATURE": "feature:patina",
+  "HBKIT_NEXT_CATEGORY": 1,
+  "HBKIT_TXT_NEWS_TITLE": {
+   "en": "Stories, new pieces and care tips",
+   "fr": "Histoires, nouvelles pièces et conseils d'entretien",
+   "es": "Historias, nuevas piezas y consejos de cuidado",
+   "it": "Storie, nuovi pezzi e consigli per la cura",
+   "pl": "Historie, nowe wyroby i porady pielęgnacyjne",
+   "de": "Geschichten, neue Stücke und Pflegetipps",
+   "cs": "Příběhy, nové kusy a tipy na péči",
+   "nl": "Verhalen, nieuwe stukken en onderhoudstips",
+   "pt": "Histórias, novas peças e dicas de cuidado",
+   "ru": "Истории, новые изделия и советы по уходу"
+  },
+  "HBKIT_TXT_NEWS_TEXT": {
+   "en": "<p>One letter a month from our Florence workshop. Get 10% off your first order.</p>",
+   "fr": "<p>Une lettre par mois depuis notre atelier de Florence. Profitez de 10 % de réduction sur votre première commande.</p>",
+   "es": "<p>Una carta al mes desde nuestro taller de Florencia. Consigue un 10 % de descuento en tu primer pedido.</p>",
+   "it": "<p>Una lettera al mese dal nostro laboratorio di Firenze. Ricevi il 10% di sconto sul primo ordine.</p>",
+   "pl": "<p>Jeden list w miesiącu z naszej pracowni we Florencji. Otrzymaj 10% rabatu na pierwsze zamówienie.</p>",
+   "de": "<p>Ein Brief im Monat aus unserer Werkstatt in Florenz. Sichern Sie sich 10 % Rabatt auf Ihre erste Bestellung.</p>",
+   "cs": "<p>Jeden dopis měsíčně z naší dílny ve Florencii. Získejte slevu 10 % na první objednávku.</p>",
+   "nl": "<p>Eén brief per maand uit onze werkplaats in Florence. Krijg 10% korting op je eerste bestelling.</p>",
+   "pt": "<p>Uma carta por mês da nossa oficina em Florença. Receba 10% de desconto na primeira encomenda.</p>",
+   "ru": "<p>Одно письмо в месяц из нашей мастерской во Флоренции. Скидка 10% на первый заказ.</p>"
+  },
+  "HBKIT_TXT_PRODUCT_NOTE": {
+   "en": "Free monogram, stamped by hand in our workshop|Lifetime repairs on stitching, buckles and straps|Free delivery over €100 and returns within 30 days",
+   "fr": "Monogramme offert, marqué à la main dans notre atelier|Réparations à vie des coutures, boucles et sangles|Livraison offerte dès 100 € et retours sous 30 jours",
+   "es": "Monograma gratis, estampado a mano en nuestro taller|Reparaciones de por vida en costuras, hebillas y correas|Envío gratis desde 100 € y devoluciones en 30 días",
+   "it": "Monogramma gratuito, impresso a mano nel nostro laboratorio|Riparazioni a vita di cuciture, fibbie e cinghie|Spedizione gratuita sopra i 100 € e resi entro 30 giorni",
+   "pl": "Darmowy monogram, tłoczony ręcznie w naszym warsztacie|Dożywotnie naprawy szwów, klamer i pasków|Darmowa dostawa od 100 € i zwroty w ciągu 30 dni",
+   "de": "Kostenloses Monogramm, von Hand geprägt in unserer Werkstatt|Lebenslange Reparaturen an Nähten, Schnallen und Riemen|Kostenloser Versand ab 100 € und 30 Tage Rückgabe",
+   "cs": "Monogram zdarma, ručně ražený v naší dílně|Doživotní opravy švů, přezek a popruhů|Doprava zdarma nad 100 € a vrácení do 30 dnů",
+   "nl": "Gratis monogram, met de hand geslagen in onze werkplaats|Levenslang reparaties aan naden, gespen en riemen|Gratis verzending vanaf € 100 en 30 dagen retour",
+   "pt": "Monograma grátis, gravado à mão na nossa oficina|Reparações vitalícias em costuras, fivelas e correias|Envio grátis a partir de 100 € e devoluções em 30 dias",
+   "ru": "Бесплатная монограмма, тиснение вручную в нашей мастерской|Пожизненный ремонт швов, пряжек и ремней|Бесплатная доставка от 100 € и возврат в течение 30 дней"
+  },
+  "HBKIT_TXT_SEARCH_PLACEHOLDER": {
+   "en": "Search the workshop",
+   "fr": "Rechercher dans l'atelier",
+   "es": "Buscar en el taller",
+   "it": "Cerca nel laboratorio",
+   "pl": "Szukaj w warsztacie",
+   "de": "In der Werkstatt suchen",
+   "cs": "Hledat v dílně",
+   "nl": "Zoek in de werkplaats",
+   "pt": "Pesquisar na oficina",
+   "ru": "Поиск по мастерской"
+  }
+ },
+ "home": [
+  {
+   "type": "hero",
+   "subtitle": {
+    "en": "Try a monogram",
+    "fr": "Essayer un monogramme",
+    "es": "Prueba un monograma",
+    "it": "Prova un monogramma",
+    "pl": "Wypróbuj monogram",
+    "de": "Monogramm ausprobieren",
+    "cs": "Vyzkoušet monogram",
+    "nl": "Probeer een monogram",
+    "pt": "Experimente um monograma",
+    "ru": "Попробовать монограмму"
+   },
+   "settings": {
+    "variant": "split",
+    "height": "m",
+    "autoplay": 0,
+    "overlay": 0,
+    "width": "container",
+    "spacing": "none",
+    "css": "kl-hero"
+   },
+   "items": [
+    {
+     "data": {
+      "image": "home/hero-1.jpg",
+      "link": "category:bags",
+      "align": "left",
+      "tone": "dark"
+     },
+     "subtitle": {
+      "en": "Handmade in Florence since 1987",
+      "fr": "Fait main à Florence depuis 1987",
+      "es": "Hecho a mano en Florencia desde 1987",
+      "it": "Fatto a mano a Firenze dal 1987",
+      "pl": "Ręcznie robione we Florencji od 1987 roku",
+      "de": "Handgemacht in Florenz seit 1987",
+      "cs": "Ručně vyráběno ve Florencii od roku 1987",
+      "nl": "Handgemaakt in Florence sinds 1987",
+      "pt": "Feito à mão em Florença desde 1987",
+      "ru": "Ручная работа во Флоренции с 1987 года"
+     },
+     "title": {
+      "en": "Leather that gets better with time",
+      "fr": "Un cuir qui se bonifie avec le temps",
+      "es": "Piel que mejora con el tiempo",
+      "it": "Pelle che migliora con il tempo",
+      "pl": "Skóra, która zyskuje z czasem",
+      "de": "Leder, das mit der Zeit schöner wird",
+      "cs": "Kůže, která s časem krásní",
+      "nl": "Leer dat mooier wordt met de tijd",
+      "pt": "Pele que melhora com o tempo",
+      "ru": "Кожа, которая с годами только лучше"
+     },
+     "text": {
+      "en": "<p>Bags, wallets and belts cut and stitched by hand. Every piece comes with a free monogram and a lifetime of repairs.</p>",
+      "fr": "<p>Sacs, portefeuilles et ceintures coupés et cousus à la main. Chaque pièce est livrée avec un monogramme offert et des réparations à vie.</p>",
+      "es": "<p>Bolsos, carteras y cinturones cortados y cosidos a mano. Cada pieza incluye un monograma gratis y reparaciones de por vida.</p>",
+      "it": "<p>Borse, portafogli e cinture tagliati e cuciti a mano. Ogni pezzo ha un monogramma gratuito e riparazioni a vita.</p>",
+      "pl": "<p>Torby, portfele i paski krojone i szyte ręcznie. Każdy produkt ma darmowy monogram i dożywotnie naprawy.</p>",
+      "de": "<p>Taschen, Geldbörsen und Gürtel, von Hand zugeschnitten und genäht. Jedes Stück mit kostenlosem Monogramm und lebenslangen Reparaturen.</p>",
+      "cs": "<p>Tašky, peněženky a opasky ručně stříhané a šité. Ke každému kusu monogram zdarma a doživotní opravy.</p>",
+      "nl": "<p>Tassen, portemonnees en riemen, met de hand gesneden en gestikt. Elk stuk krijgt een gratis monogram en levenslang reparaties.</p>",
+      "pt": "<p>Malas, carteiras e cintos cortados e cosidos à mão. Cada peça tem monograma grátis e reparações vitalícias.</p>",
+      "ru": "<p>Сумки, кошельки и ремни, раскроенные и сшитые вручную. К каждой вещи — бесплатная монограмма и пожизненный ремонт.</p>"
+     },
+     "button": {
+      "en": "Shop bags",
+      "fr": "Voir les sacs",
+      "es": "Ver bolsos",
+      "it": "Scopri le borse",
+      "pl": "Zobacz torby",
+      "de": "Taschen ansehen",
+      "cs": "Prohlédnout kabelky",
+      "nl": "Bekijk tassen",
+      "pt": "Ver malas",
+      "ru": "Смотреть сумки"
+     }
+    }
+   ]
+  },
+  {
+   "type": "banners",
+   "title": {
+    "en": "How it ages",
+    "fr": "Comment il vieillit",
+    "es": "Cómo envejece",
+    "it": "Come invecchia",
+    "pl": "Jak się starzeje",
+    "de": "So altert es",
+    "cs": "Jak stárne",
+    "nl": "Zo veroudert het",
+    "pt": "Como envelhece",
+    "ru": "Как стареет кожа"
+   },
+   "content": {
+    "en": "<p>Our leather is tanned for weeks with tree bark. It is firm at first, then softens and darkens into a rich patina. Scratches fade with time and a little balm.</p>",
+    "fr": "<p>Notre cuir est tanné pendant des semaines avec des écorces. Ferme au début, il s'assouplit puis fonce en une belle patine. Les rayures s'estompent avec le temps et un peu de baume.</p>",
+    "es": "<p>Nuestra piel se curte durante semanas con corteza de árbol. Al principio es firme, luego se suaviza y se oscurece con una rica pátina. Los arañazos se difuminan con el tiempo y un poco de bálsamo.</p>",
+    "it": "<p>La nostra pelle viene conciata per settimane con cortecce d'albero. All'inizio è soda, poi si ammorbidisce e si scurisce in una ricca patina. I graffi svaniscono con il tempo e un po' di balsamo.</p>",
+    "pl": "<p>Nasza skóra jest garbowana tygodniami korą drzew. Na początku jest twarda, potem mięknie i ciemnieje, nabierając pięknej patyny. Rysy znikają z czasem i odrobiną balsamu.</p>",
+    "de": "<p>Unser Leder wird wochenlang mit Baumrinde gegerbt. Anfangs ist es fest, dann wird es weicher und dunkelt zu einer satten Patina nach. Kratzer verblassen mit der Zeit und etwas Balsam.</p>",
+    "cs": "<p>Naše kůže se týdny činí stromovou kůrou. Zpočátku je pevná, pak změkne a ztmavne do bohaté patiny. Škrábance časem a s trochou balzámu zmizí.</p>",
+    "nl": "<p>Ons leer wordt wekenlang gelooid met boomschors. Eerst is het stevig, daarna wordt het zachter en donkerder tot een rijk patina. Krassen vervagen met de tijd en een beetje balsem.</p>",
+    "pt": "<p>A nossa pele é curtida durante semanas com casca de árvore. Ao início é firme, depois amacia e escurece numa pátina rica. Os riscos desvanecem com o tempo e um pouco de bálsamo.</p>",
+    "ru": "<p>Нашу кожу неделями дубят корой деревьев. Сначала она плотная, затем смягчается и темнеет, приобретая глубокую патину. Царапины исчезают со временем и с каплей бальзама.</p>"
+   },
+   "settings": {
+    "layout": "3",
+    "style": "below",
+    "height": "s",
+    "spacing": "l",
+    "background": "surface",
+    "heading_align": "left",
+    "css": "kl-ages"
+   },
+   "items": [
+    {
+     "data": {
+      "image": "home/newsletter.jpg",
+      "link": "cms:leather-care"
+     },
+     "title": {
+      "en": "New",
+      "fr": "Neuf",
+      "es": "Nueva",
+      "it": "Nuova",
+      "pl": "Nowa",
+      "de": "Neu",
+      "cs": "Nová",
+      "nl": "Nieuw",
+      "pt": "Nova",
+      "ru": "Новая"
+     },
+     "text": {
+      "en": "Light and firm",
+      "fr": "Clair et ferme",
+      "es": "Clara y firme",
+      "it": "Chiara e soda",
+      "pl": "Jasna i twarda",
+      "de": "Hell und fest",
+      "cs": "Světlá a pevná",
+      "nl": "Licht en stevig",
+      "pt": "Clara e firme",
+      "ru": "Светлая и плотная"
+     }
+    },
+    {
+     "data": {
+      "image": "home/newsletter.jpg",
+      "link": "cms:leather-care"
+     },
+     "title": {
+      "en": "After 1 year",
+      "fr": "Après 1 an",
+      "es": "Tras 1 año",
+      "it": "Dopo 1 anno",
+      "pl": "Po roku",
+      "de": "Nach 1 Jahr",
+      "cs": "Po 1 roce",
+      "nl": "Na 1 jaar",
+      "pt": "Após 1 ano",
+      "ru": "Через год"
+     },
+     "text": {
+      "en": "Softer, warmer",
+      "fr": "Plus souple, plus chaud",
+      "es": "Más suave y cálida",
+      "it": "Più morbida e calda",
+      "pl": "Miększa, cieplejsza",
+      "de": "Weicher, wärmer",
+      "cs": "Měkčí, teplejší",
+      "nl": "Zachter, warmer",
+      "pt": "Mais macia e quente",
+      "ru": "Мягче и теплее"
+     }
+    },
+    {
+     "data": {
+      "image": "home/newsletter.jpg",
+      "link": "cms:leather-care"
+     },
+     "title": {
+      "en": "After 5 years",
+      "fr": "Après 5 ans",
+      "es": "Tras 5 años",
+      "it": "Dopo 5 anni",
+      "pl": "Po 5 latach",
+      "de": "Nach 5 Jahren",
+      "cs": "Po 5 letech",
+      "nl": "Na 5 jaar",
+      "pt": "Após 5 anos",
+      "ru": "Через 5 лет"
+     },
+     "text": {
+      "en": "Deep patina",
+      "fr": "Patine profonde",
+      "es": "Pátina profunda",
+      "it": "Patina profonda",
+      "pl": "Głęboka patyna",
+      "de": "Tiefe Patina",
+      "cs": "Hluboká patina",
+      "nl": "Diep patina",
+      "pt": "Pátina profunda",
+      "ru": "Глубокая патина"
+     }
+    }
+   ]
+  },
+  {
+   "type": "categories",
+   "title": {
+    "en": "Shop by category",
+    "fr": "Acheter par catégorie",
+    "es": "Comprar por categoría",
+    "it": "Acquista per categoria",
+    "pl": "Kupuj według kategorii",
+    "de": "Nach Kategorie einkaufen",
+    "cs": "Nakupovat podle kategorie",
+    "nl": "Shop per categorie",
+    "pt": "Comprar por categoria",
+    "ru": "Покупки по категориям"
+   },
+   "subtitle": {
+    "en": "Everything",
+    "fr": "Tout voir",
+    "es": "Ver todo",
+    "it": "Vedi tutto",
+    "pl": "Wszystko",
+    "de": "Alles ansehen",
+    "cs": "Vše",
+    "nl": "Alles bekijken",
+    "pt": "Ver tudo",
+    "ru": "Смотреть всё"
+   },
+   "settings": {
+    "style": "tiles",
+    "columns": "3",
+    "spacing": "l",
+    "heading_align": "split",
+    "head_link": "category:home",
+    "css": "kl-cats"
+   },
+   "items": [
+    {
+     "data": {
+      "id_category": "bags",
+      "image": "categories/bags.jpg"
+     },
+     "subtitle": {
+      "en": "Totes, shoulder & crossbody",
+      "fr": "Cabas, épaule et bandoulière",
+      "es": "Shopper, hombro y bandolera",
+      "it": "Shopper, spalla e tracolla",
+      "pl": "Shopperki, na ramię i crossbody",
+      "de": "Shopper, Schulter & Crossbody",
+      "cs": "Shoppery, přes rameno a crossbody",
+      "nl": "Shoppers, schouder & crossbody",
+      "pt": "Tote, ombro e tiracolo",
+      "ru": "Тоуты, на плечо и через плечо"
+     }
+    },
+    {
+     "data": {
+      "id_category": "backpacks",
+      "image": "categories/backpacks.jpg"
+     },
+     "subtitle": {
+      "en": "Leather & waxed canvas",
+      "fr": "Cuir et toile cirée",
+      "es": "Piel y lona encerada",
+      "it": "Pelle e tela cerata",
+      "pl": "Skóra i woskowane płótno",
+      "de": "Leder & gewachstes Canvas",
+      "cs": "Kůže a voskované plátno",
+      "nl": "Leer & gewaxt canvas",
+      "pt": "Pele e lona encerada",
+      "ru": "Кожа и вощёный канвас"
+     }
+    },
+    {
+     "data": {
+      "id_category": "travel",
+      "image": "categories/travel.jpg"
+     },
+     "subtitle": {
+      "en": "Weekenders & wash bags",
+      "fr": "Sacs week-end et trousses",
+      "es": "Bolsas de fin de semana y neceseres",
+      "it": "Borsoni e beauty case",
+      "pl": "Torby weekendowe i kosmetyczki",
+      "de": "Weekender & Kulturbeutel",
+      "cs": "Víkendové tašky a toaletky",
+      "nl": "Weekendtassen & toilettassen",
+      "pt": "Sacos de fim de semana e necessaires",
+      "ru": "Сумки выходного дня и несессеры"
+     }
+    },
+    {
+     "data": {
+      "id_category": "wallets",
+      "image": "categories/wallets.jpg"
+     },
+     "subtitle": {
+      "en": "Bifolds, cards & coins",
+      "fr": "Portefeuilles, cartes et monnaie",
+      "es": "Billeteras, tarjetas y monedas",
+      "it": "Portafogli, carte e monete",
+      "pl": "Portfele, karty i monety",
+      "de": "Börsen, Karten & Münzen",
+      "cs": "Peněženky, karty a mince",
+      "nl": "Portemonnees, pasjes & munten",
+      "pt": "Carteiras, cartões e moedas",
+      "ru": "Кошельки, карты и монеты"
+     }
+    },
+    {
+     "data": {
+      "id_category": "belts",
+      "image": "categories/belts.jpg"
+     },
+     "subtitle": {
+      "en": "Jeans, dress & braided",
+      "fr": "Jean, costume et tressées",
+      "es": "Vaquero, vestir y trenzados",
+      "it": "Jeans, eleganti e intrecciate",
+      "pl": "Do jeansów, eleganckie i plecione",
+      "de": "Jeans, Anzug & geflochten",
+      "cs": "K džínům, společenské a pletené",
+      "nl": "Jeans, pak & gevlochten",
+      "pt": "Ganga, fato e entrançados",
+      "ru": "Под джинсы, классические и плетёные"
+     }
+    },
+    {
+     "data": {
+      "id_category": "accessories",
+      "image": "categories/accessories.jpg"
+     },
+     "subtitle": {
+      "en": "Small things, well made",
+      "fr": "De petites choses bien faites",
+      "es": "Pequeñas cosas bien hechas",
+      "it": "Piccole cose fatte bene",
+      "pl": "Małe rzeczy, dobrze zrobione",
+      "de": "Kleine Dinge, gut gemacht",
+      "cs": "Malé věci, dobře udělané",
+      "nl": "Kleine dingen, goed gemaakt",
+      "pt": "Pequenas coisas bem feitas",
+      "ru": "Мелочи, сделанные хорошо"
+     }
+    }
+   ]
+  },
+  {
+   "type": "products",
+   "title": {
+    "en": "New from the workshop",
+    "fr": "Nouveautés de l'atelier",
+    "es": "Novedades del taller",
+    "it": "Novità dal laboratorio",
+    "pl": "Nowości z warsztatu",
+    "de": "Neu aus der Werkstatt",
+    "cs": "Novinky z dílny",
+    "nl": "Nieuw uit de werkplaats",
+    "pt": "Novidades da oficina",
+    "ru": "Новое из мастерской"
+   },
+   "subtitle": {
+    "en": "See everything new",
+    "fr": "Voir toutes les nouveautés",
+    "es": "Ver todas las novedades",
+    "it": "Vedi tutte le novità",
+    "pl": "Zobacz wszystkie nowości",
+    "de": "Alle Neuheiten",
+    "cs": "Všechny novinky",
+    "nl": "Bekijk alles wat nieuw is",
+    "pt": "Ver todas as novidades",
+    "ru": "Все новинки"
+   },
+   "settings": {
+    "limit": 4,
+    "layout": "grid",
+    "columns": "4",
+    "spacing": "l",
+    "heading_align": "split",
+    "head_link": "page:new-products"
+   },
+   "items": [
+    {
+     "data": {
+      "source": "new"
+     },
+     "title": {
+      "en": "New in",
+      "fr": "Nouveautés",
+      "es": "Novedades",
+      "it": "Novità",
+      "pl": "Nowości",
+      "de": "Neuheiten",
+      "cs": "Novinky",
+      "nl": "Nieuw",
+      "pt": "Novidades",
+      "ru": "Новинки"
+     }
+    }
+   ]
+  },
+  {
+   "type": "image_text",
+   "settings": {
+    "style": "image-right",
+    "ratio": "landscape",
+    "spacing": "l",
+    "background": "surface",
+    "css": "kl-monogram"
+   },
+   "items": [
+    {
+     "data": {
+      "image": "home/newsletter.jpg",
+      "link": "cms:monogram"
+     },
+     "title": {
+      "en": "Add your initials",
+      "fr": "Ajoutez vos initiales",
+      "es": "Añade tus iniciales",
+      "it": "Aggiungi le tue iniziali",
+      "pl": "Dodaj swoje inicjały",
+      "de": "Ihre Initialen dazu",
+      "cs": "Přidejte své iniciály",
+      "nl": "Voeg je initialen toe",
+      "pt": "Acrescente as suas iniciais",
+      "ru": "Добавьте инициалы"
+     },
+     "text": {
+      "en": "<p>A free monogram on every bag, wallet and belt, heat-stamped by hand in our workshop.</p>",
+      "fr": "<p>Un monogramme offert sur chaque sac, portefeuille et ceinture, marqué à chaud à la main dans notre atelier.</p>",
+      "es": "<p>Un monograma gratis en cada bolso, cartera y cinturón, estampado a mano en caliente en nuestro taller.</p>",
+      "it": "<p>Un monogramma gratuito su ogni borsa, portafoglio e cintura, impresso a caldo a mano nel nostro laboratorio.</p>",
+      "pl": "<p>Darmowy monogram na każdej torbie, portfelu i pasku, tłoczony ręcznie na gorąco w naszym warsztacie.</p>",
+      "de": "<p>Ein kostenloses Monogramm auf jeder Tasche, Geldbörse und jedem Gürtel, von Hand heißgeprägt in unserer Werkstatt.</p>",
+      "cs": "<p>Monogram zdarma na každé tašce, peněžence a opasku, ručně ražený za tepla v naší dílně.</p>",
+      "nl": "<p>Een gratis monogram op elke tas, portemonnee en riem, met de hand heet geslagen in onze werkplaats.</p>",
+      "pt": "<p>Um monograma grátis em cada mala, carteira e cinto, gravado a quente à mão na nossa oficina.</p>",
+      "ru": "<p>Бесплатная монограмма на каждой сумке, кошельке и ремне — горячее тиснение вручную в нашей мастерской.</p>"
+     },
+     "button": {
+      "en": "How the monogram service works",
+      "fr": "Comment fonctionne le service monogramme",
+      "es": "Cómo funciona el servicio de monograma",
+      "it": "Come funziona il servizio monogramma",
+      "pl": "Jak działa usługa monogramu",
+      "de": "So funktioniert der Monogramm-Service",
+      "cs": "Jak funguje služba monogramu",
+      "nl": "Zo werkt de monogramservice",
+      "pt": "Como funciona o serviço de monograma",
+      "ru": "Как работает услуга монограммы"
+     }
+    }
+   ]
+  },
+  {
+   "type": "banners",
+   "title": {
+    "en": "From hide to heirloom",
+    "fr": "De la peau à l'héritage",
+    "es": "De la piel a la herencia",
+    "it": "Dalla pelle all'eredità",
+    "pl": "Od skóry do pamiątki rodzinnej",
+    "de": "Von der Haut zum Erbstück",
+    "cs": "Od kůže k rodinnému dědictví",
+    "nl": "Van huid tot erfstuk",
+    "pt": "Da pele à herança",
+    "ru": "От кожи до семейной реликвии"
+   },
+   "settings": {
+    "layout": "3",
+    "style": "below",
+    "height": "l",
+    "spacing": "l",
+    "heading_align": "left",
+    "css": "kl-steps"
+   },
+   "items": [
+    {
+     "data": {
+      "image": "home/craft-1.jpg",
+      "link": "cms:about"
+     },
+     "subtitle": {
+      "en": "01 · The hide",
+      "fr": "01 · La peau",
+      "es": "01 · La piel",
+      "it": "01 · La pelle",
+      "pl": "01 · Skóra",
+      "de": "01 · Die Haut",
+      "cs": "01 · Kůže",
+      "nl": "01 · De huid",
+      "pt": "01 · A pele",
+      "ru": "01 · Кожа"
+     },
+     "title": {
+      "en": "Tanned the slow way",
+      "fr": "Tannée lentement",
+      "es": "Curtida sin prisas",
+      "it": "Conciata lentamente",
+      "pl": "Garbowana bez pośpiechu",
+      "de": "Langsam gegerbt",
+      "cs": "Činěná pomalu",
+      "nl": "Langzaam gelooid",
+      "pt": "Curtida sem pressa",
+      "ru": "Медленное дубление"
+     },
+     "text": {
+      "en": "<p>Our leather is tanned for weeks with tree bark and natural tannins in family tanneries.</p>",
+      "fr": "<p>Notre cuir est tanné pendant des semaines avec des écorces et des tanins naturels dans des tanneries familiales.</p>",
+      "es": "<p>Nuestra piel se curte durante semanas con cortezas y taninos naturales en curtidurías familiares.</p>",
+      "it": "<p>La nostra pelle viene conciata per settimane con cortecce e tannini naturali in concerie di famiglia.</p>",
+      "pl": "<p>Nasza skóra jest garbowana tygodniami korą i naturalnymi garbnikami w rodzinnych garbarniach.</p>",
+      "de": "<p>Unser Leder wird wochenlang mit Baumrinde und natürlichen Gerbstoffen in Familiengerbereien gegerbt.</p>",
+      "cs": "<p>Naše kůže se týdny činí kůrou a přírodními tříslovinami v rodinných koželužnách.</p>",
+      "nl": "<p>Ons leer wordt wekenlang gelooid met boomschors en natuurlijke looistoffen in familieleerlooierijen.</p>",
+      "pt": "<p>A nossa pele é curtida durante semanas com cascas de árvore e taninos naturais em curtumes familiares.</p>",
+      "ru": "<p>Нашу кожу неделями дубят корой деревьев и натуральными танинами в семейных кожевнях.</p>"
+     }
+    },
+    {
+     "data": {
+      "image": "home/craft-2.jpg",
+      "link": "cms:about"
+     },
+     "subtitle": {
+      "en": "02 · The bench",
+      "fr": "02 · L'établi",
+      "es": "02 · El banco",
+      "it": "02 · Il banco",
+      "pl": "02 · Stół",
+      "de": "02 · Die Werkbank",
+      "cs": "02 · Ponk",
+      "nl": "02 · De werkbank",
+      "pt": "02 · A bancada",
+      "ru": "02 · Верстак"
+     },
+     "title": {
+      "en": "Cut, stamped and stitched by hand",
+      "fr": "Coupé, frappé et cousu main",
+      "es": "Cortada, estampada y cosida a mano",
+      "it": "Tagliata, impressa e cucita a mano",
+      "pl": "Krojona, tłoczona i szyta ręcznie",
+      "de": "Von Hand geschnitten, geprägt und genäht",
+      "cs": "Ručně stříhaná, ražená a šitá",
+      "nl": "Met de hand gesneden, gestempeld en genaaid",
+      "pt": "Cortada, gravada e cosida à mão",
+      "ru": "Раскроено, оттиснуто и сшито вручную"
+     },
+     "text": {
+      "en": "<p>Each piece is cut with a knife, stamped and stitched with two needles. A saddle stitch keeps holding even if one thread breaks.</p>",
+      "fr": "<p>Chaque pièce est coupée au couteau, frappée puis cousue à deux aiguilles. Le point sellier tient même si un fil casse.</p>",
+      "es": "<p>Cada pieza se corta con cuchilla, se estampa y se cose con dos agujas. El punto de guarnicionero aguanta aunque se rompa un hilo.</p>",
+      "it": "<p>Ogni pezzo viene tagliato a coltello, impresso e cucito con due aghi. Il punto sellaio tiene anche se un filo si rompe.</p>",
+      "pl": "<p>Każdy element jest krojony nożem, tłoczony i szyty dwiema igłami. Ścieg siodlarski trzyma nawet wtedy, gdy jedna nić pęknie.</p>",
+      "de": "<p>Jedes Teil wird mit dem Messer geschnitten, geprägt und mit zwei Nadeln genäht. Der Sattlerstich hält, auch wenn ein Faden reißt.</p>",
+      "cs": "<p>Každý díl je řezán nožem, ražen a šit dvěma jehlami. Sedlářský steh drží, i když jedna nit praskne.</p>",
+      "nl": "<p>Elk onderdeel wordt met een mes gesneden, gestempeld en met twee naalden genaaid. De zadelsteek houdt, zelfs als één draad breekt.</p>",
+      "pt": "<p>Cada peça é cortada à faca, gravada e cosida com duas agulhas. O ponto de seleiro aguenta mesmo que um fio se parta.</p>",
+      "ru": "<p>Каждую деталь вырезают ножом, оттискивают и сшивают двумя иглами. Седельный шов держит, даже если одна нить порвётся.</p>"
+     }
+    },
+    {
+     "data": {
+      "image": "home/craft-3.jpg",
+      "link": "cms:leather-care"
+     },
+     "subtitle": {
+      "en": "03 · The years",
+      "fr": "03 · Les années",
+      "es": "03 · Los años",
+      "it": "03 · Gli anni",
+      "pl": "03 · Lata",
+      "de": "03 · Die Jahre",
+      "cs": "03 · Roky",
+      "nl": "03 · De jaren",
+      "pt": "03 · Os anos",
+      "ru": "03 · Годы"
+     },
+     "title": {
+      "en": "Made to be repaired",
+      "fr": "Fait pour être réparé",
+      "es": "Hecho para repararse",
+      "it": "Fatto per essere riparato",
+      "pl": "Stworzone do naprawy",
+      "de": "Gemacht, um repariert zu werden",
+      "cs": "Vyrobeno k opravě",
+      "nl": "Gemaakt om te repareren",
+      "pt": "Feito para ser reparado",
+      "ru": "Сделано для ремонта"
+     },
+     "text": {
+      "en": "<p>A new strap, fresh stitching or a deep clean: our workshop repairs everything we make, for life.</p>",
+      "fr": "<p>Une nouvelle anse, des coutures refaites ou un nettoyage en profondeur : notre atelier répare tout ce que nous fabriquons, à vie.</p>",
+      "es": "<p>Un asa nueva, costuras renovadas o una limpieza a fondo: nuestro taller repara todo lo que fabricamos, de por vida.</p>",
+      "it": "<p>Un manico nuovo, cuciture rifatte o una pulizia profonda: il nostro laboratorio ripara tutto ciò che realizziamo, a vita.</p>",
+      "pl": "<p>Nowy pasek, nowe szwy albo gruntowne czyszczenie: nasza pracownia dożywotnio naprawia wszystko, co robimy.</p>",
+      "de": "<p>Ein neuer Riemen, frische Nähte oder eine gründliche Reinigung: Unsere Werkstatt repariert alles, was wir herstellen, ein Leben lang.</p>",
+      "cs": "<p>Nový popruh, nové švy nebo důkladné vyčištění: naše dílna doživotně opravuje vše, co vyrobíme.</p>",
+      "nl": "<p>Een nieuwe band, verse naden of een grondige reiniging: onze werkplaats repareert alles wat we maken, levenslang.</p>",
+      "pt": "<p>Uma alça nova, costuras refeitas ou uma limpeza profunda: a nossa oficina repara tudo o que fazemos, para toda a vida.</p>",
+      "ru": "<p>Новый ремень, свежие швы или глубокая чистка: наша мастерская пожизненно ремонтирует всё, что мы делаем.</p>"
+     }
+    }
+   ]
+  },
+  {
+   "type": "testimonials",
+   "settings": {
+    "style": "quote",
+    "spacing": "l",
+    "css": "kl-quote"
+   },
+   "items": [
+    {
+     "data": {
+      "rating": 5
+     },
+     "title": {
+      "en": "Thomas R.",
+      "fr": "Thomas R.",
+      "es": "Thomas R.",
+      "it": "Thomas R.",
+      "pl": "Thomas R.",
+      "de": "Thomas R.",
+      "cs": "Thomas R.",
+      "nl": "Thomas R.",
+      "pt": "Thomas R.",
+      "ru": "Thomas R."
+     },
+     "subtitle": {
+      "en": "Hamburg",
+      "fr": "Hambourg",
+      "es": "Hamburgo",
+      "it": "Amburgo",
+      "pl": "Hamburg",
+      "de": "Hamburg",
+      "cs": "Hamburk",
+      "nl": "Hamburg",
+      "pt": "Hamburgo",
+      "ru": "Гамбург"
+     },
+     "text": {
+      "en": "My messenger bag is nine years old. It has been on four continents and only looks better.",
+      "fr": "Ma besace a neuf ans. Elle a vu quatre continents et elle n'a jamais été aussi belle.",
+      "es": "Mi bandolera tiene nueve años. Ha estado en cuatro continentes y cada vez se ve mejor.",
+      "it": "La mia messenger ha nove anni. È stata in quattro continenti ed è sempre più bella.",
+      "pl": "Moja listonoszka ma dziewięć lat. Była na czterech kontynentach i wygląda coraz lepiej.",
+      "de": "Meine Messenger-Tasche ist neun Jahre alt. Sie war auf vier Kontinenten und sieht immer besser aus.",
+      "cs": "Mé messenger tašce je devět let. Byla na čtyřech kontinentech a vypadá čím dál lépe.",
+      "nl": "Mijn messenger is negen jaar oud. Hij is op vier continenten geweest en ziet er steeds beter uit.",
+      "pt": "A minha mala messenger tem nove anos. Esteve em quatro continentes e está cada vez mais bonita.",
+      "ru": "Моему мессенджеру девять лет. Он побывал на четырёх континентах и выглядит всё лучше."
+     }
+    }
+   ]
+  },
+  {
+   "type": "faq",
+   "title": {
+    "en": "About our leather",
+    "fr": "À propos de notre cuir",
+    "es": "Sobre nuestra piel",
+    "it": "Sulla nostra pelle",
+    "pl": "O naszej skórze",
+    "de": "Über unser Leder",
+    "cs": "O naší kůži",
+    "nl": "Over ons leer",
+    "pt": "Sobre a nossa pele",
+    "ru": "О нашей коже"
+   },
+   "settings": {
+    "spacing": "l",
+    "heading_align": "left",
+    "css": "kl-faq"
+   },
+   "items": [
+    {
+     "title": {
+      "en": "What is vegetable-tanned leather?",
+      "fr": "Qu'est-ce que le cuir tanné végétal ?",
+      "es": "¿Qué es la piel de curtido vegetal?",
+      "it": "Che cos'è la pelle conciata al vegetale?",
+      "pl": "Czym jest skóra garbowana roślinnie?",
+      "de": "Was ist pflanzlich gegerbtes Leder?",
+      "cs": "Co je rostlinně činěná kůže?",
+      "nl": "Wat is plantaardig gelooid leer?",
+      "pt": "O que é pele de curtimento vegetal?",
+      "ru": "Что такое кожа растительного дубления?"
+     },
+     "text": {
+      "en": "<p>Leather tanned with natural tannins from tree bark instead of chromium salts. It takes longer, smells of leather and develops a deep patina with age.</p>",
+      "fr": "<p>Un cuir tanné avec des tanins naturels issus d'écorces plutôt qu'avec des sels de chrome. C'est plus long, il sent le vrai cuir et développe une belle patine avec l'âge.</p>",
+      "es": "<p>Piel curtida con taninos naturales de cortezas de árbol en lugar de sales de cromo. Lleva más tiempo, huele a piel auténtica y desarrolla una pátina profunda con los años.</p>",
+      "it": "<p>Pelle conciata con tannini naturali ricavati dalla corteccia degli alberi invece che con sali di cromo. Richiede più tempo, profuma di vera pelle e sviluppa una patina profonda con gli anni.</p>",
+      "pl": "<p>To skóra garbowana naturalnymi garbnikami z kory drzew zamiast solami chromu. Trwa to dłużej, skóra pachnie prawdziwą skórą i z wiekiem nabiera głębokiej patyny.</p>",
+      "de": "<p>Leder, das mit natürlichen Gerbstoffen aus Baumrinde statt mit Chromsalzen gegerbt wird. Es dauert länger, riecht nach echtem Leder und entwickelt mit den Jahren eine tiefe Patina.</p>",
+      "cs": "<p>Kůže činěná přírodními tříslovinami ze stromové kůry místo chromových solí. Trvá to déle, voní jako pravá kůže a s věkem získává hlubokou patinu.</p>",
+      "nl": "<p>Leer dat gelooid is met natuurlijke looistoffen uit boomschors in plaats van chroomzouten. Het duurt langer, ruikt naar echt leer en krijgt met de jaren een diep patina.</p>",
+      "pt": "<p>Pele curtida com taninos naturais de cascas de árvore em vez de sais de crómio. Demora mais tempo, cheira a pele verdadeira e ganha uma pátina profunda com os anos.</p>",
+      "ru": "<p>Это кожа, выдубленная натуральными танинами из коры деревьев, а не солями хрома. Процесс дольше, кожа пахнет настоящей кожей и с годами приобретает глубокую патину.</p>"
+     }
+    },
+    {
+     "title": {
+      "en": "Will the colour change?",
+      "fr": "La couleur va-t-elle changer ?",
+      "es": "¿Cambiará el color?",
+      "it": "Il colore cambierà?",
+      "pl": "Czy kolor się zmieni?",
+      "de": "Verändert sich die Farbe?",
+      "cs": "Změní se barva?",
+      "nl": "Verandert de kleur?",
+      "pt": "A cor vai mudar?",
+      "ru": "Изменится ли цвет?"
+     },
+     "text": {
+      "en": "<p>Yes. Natural leather darkens with light and use. Scratches fade with time and a little balm.</p>",
+      "fr": "<p>Oui. Le cuir naturel fonce avec la lumière et l'usage. Les rayures s'estompent avec le temps et un peu de baume.</p>",
+      "es": "<p>Sí. La piel natural se oscurece con la luz y el uso. Los arañazos se atenúan con el tiempo y un poco de bálsamo.</p>",
+      "it": "<p>Sì. La pelle naturale si scurisce con la luce e l'uso. I graffi si attenuano con il tempo e un po' di balsamo.</p>",
+      "pl": "<p>Tak. Naturalna skóra ciemnieje pod wpływem światła i używania. Rysy z czasem i odrobiną balsamu stają się mniej widoczne.</p>",
+      "de": "<p>Ja. Naturleder dunkelt durch Licht und Gebrauch nach. Kratzer verblassen mit der Zeit und etwas Balsam.</p>",
+      "cs": "<p>Ano. Přírodní kůže světlem a používáním tmavne. Škrábance časem a s trochou balzámu vyblednou.</p>",
+      "nl": "<p>Ja. Natuurleer wordt donkerder door licht en gebruik. Krasjes vervagen met de tijd en een beetje balsem.</p>",
+      "pt": "<p>Sim. A pele natural escurece com a luz e o uso. Os riscos esbatem-se com o tempo e um pouco de bálsamo.</p>",
+      "ru": "<p>Да. Натуральная кожа темнеет от света и носки. Царапины со временем и с небольшим количеством бальзама становятся незаметнее.</p>"
+     }
+    },
+    {
+     "title": {
+      "en": "Can I get my bag repaired?",
+      "fr": "Puis-je faire réparer mon sac ?",
+      "es": "¿Puedo reparar mi bolso?",
+      "it": "Posso far riparare la mia borsa?",
+      "pl": "Czy mogę oddać torbę do naprawy?",
+      "de": "Kann ich meine Tasche reparieren lassen?",
+      "cs": "Mohu si nechat tašku opravit?",
+      "nl": "Kan ik mijn tas laten repareren?",
+      "pt": "Posso mandar reparar a minha mala?",
+      "ru": "Можно ли отремонтировать сумку?"
+     },
+     "text": {
+      "en": "<p>Yes, for life. Contact us with a photo and we will send you a free return label.</p>",
+      "fr": "<p>Oui, à vie. Contactez-nous avec une photo et nous vous enverrons une étiquette de retour gratuite.</p>",
+      "es": "<p>Sí, de por vida. Escríbenos con una foto y te enviaremos una etiqueta de devolución gratuita.</p>",
+      "it": "<p>Sì, a vita. Contattaci con una foto e ti invieremo un'etichetta di reso gratuita.</p>",
+      "pl": "<p>Tak, dożywotnio. Napisz do nas ze zdjęciem, a wyślemy ci darmową etykietę zwrotną.</p>",
+      "de": "<p>Ja, ein Leben lang. Schicken Sie uns ein Foto, und wir senden Ihnen ein kostenloses Rücksendeetikett.</p>",
+      "cs": "<p>Ano, doživotně. Napište nám s fotografií a pošleme vám bezplatný štítek pro vrácení.</p>",
+      "nl": "<p>Ja, levenslang. Stuur ons een foto en we sturen je een gratis retourlabel.</p>",
+      "pt": "<p>Sim, para toda a vida. Contacte-nos com uma fotografia e enviamos-lhe uma etiqueta de devolução gratuita.</p>",
+      "ru": "<p>Да, пожизненно. Напишите нам и приложите фото, и мы отправим вам бесплатную этикетку для возврата.</p>"
+     }
+    },
+    {
+     "title": {
+      "en": "How do I choose my belt size?",
+      "fr": "Comment choisir la taille de ma ceinture ?",
+      "es": "¿Cómo elijo la talla del cinturón?",
+      "it": "Come scelgo la misura della cintura?",
+      "pl": "Jak dobrać rozmiar paska?",
+      "de": "Wie wähle ich meine Gürtelgröße?",
+      "cs": "Jak vybrat velikost opasku?",
+      "nl": "Hoe kies ik mijn riemmaat?",
+      "pt": "Como escolho o tamanho do cinto?",
+      "ru": "Как выбрать размер ремня?"
+     },
+     "text": {
+      "en": "<p>Take your trouser waist size and add 10 cm. A 90 cm belt fits a waist of about 80 cm on the middle hole.</p>",
+      "fr": "<p>Prenez votre tour de taille de pantalon et ajoutez 10 cm. Une ceinture de 90 cm convient à une taille d'environ 80 cm sur le trou du milieu.</p>",
+      "es": "<p>Toma la talla de cintura de tu pantalón y súmale 10 cm. Un cinturón de 90 cm sirve para una cintura de unos 80 cm en el agujero central.</p>",
+      "it": "<p>Prendi la taglia in vita dei pantaloni e aggiungi 10 cm. Una cintura da 90 cm va bene per un girovita di circa 80 cm sul foro centrale.</p>",
+      "pl": "<p>Weź obwód pasa spodni i dodaj 10 cm. Pasek 90 cm pasuje do talii około 80 cm na środkowej dziurce.</p>",
+      "de": "<p>Nehmen Sie Ihre Hosenbundweite und addieren Sie 10 cm. Ein 90-cm-Gürtel passt im mittleren Loch zu etwa 80 cm Taillenumfang.</p>",
+      "cs": "<p>Vezměte obvod pasu kalhot a přičtěte 10 cm. Opasek 90 cm sedí na prostřední dírku při pasu asi 80 cm.</p>",
+      "nl": "<p>Neem je broekmaat in de taille en tel er 10 cm bij op. Een riem van 90 cm past op het middelste gaatje bij een taille van ongeveer 80 cm.</p>",
+      "pt": "<p>Pegue no tamanho de cintura das calças e some 10 cm. Um cinto de 90 cm serve numa cintura de cerca de 80 cm no furo do meio.</p>",
+      "ru": "<p>Возьмите обхват талии брюк и прибавьте 10 см. Ремень 90 см подойдёт на талию около 80 см на среднюю дырочку.</p>"
+     }
+    }
+   ]
+  }
+ ]
+}
